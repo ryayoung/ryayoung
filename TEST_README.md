@@ -1,6 +1,7 @@
 <a name="top"></a>
 **JUMP TO:** [Database](#database) | [Java Projects](#java) | [Graphic Design](#graphicdesign) <br>
-[<img src="Buttons/Back.svg" width="110" height="auto"/>](#bottom)
+[<img src="Buttons/Back.svg" height="35" width="auto"/>](#bottom)
+[<img src="Buttons/Graphic Design.svg" height="35" width="auto"/>](#graphicdesign)
 
 https://user-images.githubusercontent.com/90723578/136674224-80443d9a-8926-4356-a289-8ffd5c0fd579.mp4
 
