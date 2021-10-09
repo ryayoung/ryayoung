@@ -1,6 +1,6 @@
 <a name="top"></a>
 **JUMP TO:** [Database](#database) | [Java Projects](#java) | [Graphic Design](#graphicdesign) <br>
-[**Bottom of page**](#bottom)
+[<img src="Buttons/Back.svg" width="100" height="auto"/>](#bottom)
 
 https://user-images.githubusercontent.com/90723578/136674224-80443d9a-8926-4356-a289-8ffd5c0fd579.mp4
 
