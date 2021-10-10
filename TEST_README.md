@@ -48,8 +48,8 @@ inoremap {<Tab> {<CR>}<Esc>ko
 Firstly, I use a plugin called [Emmet](https://github.com/mattn/emmet-vim) to help edit html files. It's extremely useful.
 Additionally, here are some remaps I added to my vimrc that will execute when a .html file is opened.
 
-I'll use this command everytime I open a new html file. It sets up everything I need to get started with. <br>
-Why is it cool? Using vimscript, it will autofill today's date, using ```=strftime("%m/%d/%y```
+Here's a command I wrote to help me edit new html files faster by populating an empty page with everything I need to get started with. <br>
+Why is it cool? Using vimscript, it will autofill today's date, using ```=strftime("%m/%d/%y)```
 ```vim
 autocmd FileType html nnoremap <Leader>,, 
     \i<!-- Author:  Ryan Young --><CR><!-- Created:  <Esc>"=strftime("%m/%d/%y")<CR>Pa --><CR><!DOCTYPE html><CR>
@@ -58,7 +58,7 @@ autocmd FileType html nnoremap <Leader>,,
     \<meta charset="utf-8"><CR><title></title><Esc>jo
     \<body></body><Esc>%i<CR><Esc>O
 ```
-When the keymap is executed, it will fill the page with the following:
+When the keymap is executed in an html file, it will fill the page with the following:
 ```html
 <!-- Author:  Ryan Young -->
 <!-- Created: 10/09/21 -->
