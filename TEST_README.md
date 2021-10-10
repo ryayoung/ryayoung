@@ -1,12 +1,12 @@
 <a name="top"></a>
 
-[<img src="Buttons/graphic design.svg" height="35" width="auto"/>](#graphicdesign)
-[<img src="Buttons/sql database.svg" height="35" width="auto"/>](#database)
-[<img src="Buttons/java projects.svg" height="35" width="auto"/>](#java)
-[<img src="Buttons/python projects.svg" height="35" width="auto"/>](#python)
-[<img src="Buttons/vim.svg" height="35" width="auto"/>](#vim)
+[<img src="Buttons/SVG/graphic design.svg" height="35" width="auto"/>](#graphicdesign)
+[<img src="Buttons/SVG/sql database.svg" height="35" width="auto"/>](#database)
+[<img src="Buttons/SVG/java projects.svg" height="35" width="auto"/>](#java)
+[<img src="Buttons/SVG/python projects.svg" height="35" width="auto"/>](#python)
+[<img src="Buttons/SVG/vim.svg" height="35" width="auto"/>](#vim)
 <br><br>
-[<img src="Buttons/bottom of page.svg" height="30" width="auto"/>](#bottom)
+[<img src="Buttons/SVG/bottom of page.svg" height="30" width="auto"/>](#bottom)
 <br>
 
 https://user-images.githubusercontent.com/90723578/136674224-80443d9a-8926-4356-a289-8ffd5c0fd579.mp4
@@ -29,4 +29,4 @@ https://user-images.githubusercontent.com/90723578/136674224-80443d9a-8926-4356-
 
 <br><hr><br>
 <a name="bottom"></a>
-[<img src="Buttons/top of page.svg" height="30" width="auto"/>](#top)
+[<img src="Buttons/SVG/top of page.svg" height="30" width="auto"/>](#top)
