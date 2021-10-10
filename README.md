@@ -137,4 +137,4 @@ Sweet! That was fast.
 <br><hr><br>
 
 <a name="bottom"></a>
-[<img src="Buttons/SVG/top of page.svg" height="30" width="auto"/>](#top)
+[<img src="Buttons/SVG/top of page.svg" height="35" width="auto"/>](#top)
