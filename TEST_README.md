@@ -26,9 +26,11 @@ https://user-images.githubusercontent.com/90723578/136674224-80443d9a-8926-4356-
 <hr><br><hr><br>
 
 ## Vim Configuration & Tips <a name="vim"></a>
-[**BACK TO TOP**](#top) <br>
-[<img src="Buttons/SVG/see full vim configuration.svg" height="35" width="auto"/>](Vim/README.md)
+[**BACK TO TOP**](#top)
 <hr>
+
+[<img src="Buttons/SVG/see full vim configuration.svg" height="35" width="auto"/>](Vim/README.md)
+<br>
 
 ### My favorite remaps
 This is super fun to use. I call it "nudging". Make a selection in visual mode, and nudge it up or down 1 line using J or K.
