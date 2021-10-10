@@ -6,7 +6,6 @@
 [<img src="Buttons/SVG/python projects.svg" height="35" width="auto"/>](#python)
 [<img src="Buttons/SVG/vim.svg" height="35" width="auto"/>](#vim)
 [<img src="Buttons/SVG/graphic design.svg" height="35" width="auto"/>](#graphicdesign)
-<br><br>
 [<img src="Buttons/SVG/bottom of page.svg" height="35" width="auto"/>](#bottom)
 <br>
 
