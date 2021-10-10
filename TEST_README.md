@@ -17,12 +17,10 @@ https://user-images.githubusercontent.com/90723578/136674224-80443d9a-8926-4356-
 
 <hr><br><hr><br>
 
-## SQL Database Work <a name="database"></a>
-[BACK TO TOP](#top)
-<hr>
-
+<a name="database"></a> 
+## SQL Database Work 
 [<img src="Buttons/SVG/see more sql database work.svg" height="31" width="auto"/>](Database)
-<br>
+<hr>
 
 Coming soon...
 
@@ -30,12 +28,12 @@ Coming soon...
 
 <hr><br><hr><br>
 
-## Java Projects <a name="java"></a>
-[BACK TO TOP](#top)
+<a name="java"></a>
+## Java Projects 
+[<img src="Buttons/SVG/see more java projects.svg" height="31" width="auto"/>](JavaProjects)
 <hr>
 
-[<img src="Buttons/SVG/see more java projects.svg" height="31" width="auto"/>](JavaProjects)
-<br>
+
 
 https://user-images.githubusercontent.com/90723578/136681997-f5c74bb6-6f57-4d3c-84cc-de1064729ad6.mp4
 
@@ -46,12 +44,11 @@ https://user-images.githubusercontent.com/90723578/136681997-f5c74bb6-6f57-4d3c-
 
 <hr><br><hr><br>
 
-## Python Projects <a name="python"></a>
-[BACK TO TOP](#top)
+<a name="python"></a>
+## Python Projects 
+[<img src="Buttons/SVG/see more python projects.svg" height="31" width="auto"/>](PythonProjects)
 <hr>
 
-[<img src="Buttons/SVG/see more python projects.svg" height="31" width="auto"/>](PythonProjects)
-<br>
 
 Coming soon...
 
@@ -60,12 +57,12 @@ Coming soon...
 
 <hr><br><hr><br>
 
-## Vim Configuration & Tips <a name="vim"></a>
-[BACK TO TOP](#top)
+<a name="vim"></a>
+## Vim Configuration & Tips 
+[<img src="Buttons/SVG/see full vim configuration.svg" height="31" width="auto"/>](Vim)
 <hr>
 
-[<img src="Buttons/SVG/see full vim configuration.svg" height="31" width="auto"/>](Vim)
-<br>
+
 
 ### My favorite remaps
 This is super fun to use. I call it "nudging". Make a selection in visual mode, and nudge it up or down 1 line using J or K.
@@ -128,12 +125,11 @@ Sweet! That was fast.
 
 <hr><br><hr><br>
 
-## Graphic Design <a name="graphicdesign"></a>
-[BACK TO TOP](#top)
+<a name="graphicdesign"></a>
+## Graphic Design 
+[<img src="Buttons/SVG/see more graphic design.svg" height="31" width="auto"/>](GraphicDesign)
 <hr>
 
-[<img src="Buttons/SVG/see more graphic design.svg" height="31" width="auto"/>](GraphicDesign)
-<br>
 
 <img width="1530" alt="Infographic" src="https://user-images.githubusercontent.com/90723578/136671701-fc9b75e8-a4a1-4251-8d4a-fcc3476932b3.png">
 
