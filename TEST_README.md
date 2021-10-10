@@ -21,7 +21,7 @@ https://user-images.githubusercontent.com/90723578/136674224-80443d9a-8926-4356-
 [BACK TO TOP](#top)
 <hr>
 
-[<img src="Buttons/SVG/see more sql database work.svg" height="35" width="auto"/>](Database)
+[<img src="Buttons/SVG/see more sql database work.svg" height="31" width="auto"/>](Database)
 <br>
 
 Coming soon...
@@ -34,7 +34,7 @@ Coming soon...
 [BACK TO TOP](#top)
 <hr>
 
-[<img src="Buttons/SVG/see more java projects.svg" height="35" width="auto"/>](JavaProjects)
+[<img src="Buttons/SVG/see more java projects.svg" height="31" width="auto"/>](JavaProjects)
 <br>
 
 Coming soon...
@@ -47,7 +47,7 @@ Coming soon...
 [BACK TO TOP](#top)
 <hr>
 
-[<img src="Buttons/SVG/see more python projects.svg" height="35" width="auto"/>](PythonProjects)
+[<img src="Buttons/SVG/see more python projects.svg" height="31" width="auto"/>](PythonProjects)
 <br>
 
 Coming soon...
@@ -61,7 +61,7 @@ Coming soon...
 [BACK TO TOP](#top)
 <hr>
 
-[<img src="Buttons/SVG/see full vim configuration.svg" height="35" width="auto"/>](Vim)
+[<img src="Buttons/SVG/see full vim configuration.svg" height="31" width="auto"/>](Vim)
 <br>
 
 ### My favorite remaps
@@ -127,7 +127,11 @@ Sweet! That was fast.
 
 ## Graphic Design <a name="graphicdesign"></a>
 [BACK TO TOP](#top)
-<br><hr><br>
+<hr>
+
+[<img src="Buttons/SVG/see more graphic design.svg" height="31" width="auto"/>](GraphicDesign)
+<br>
+
 <img width="1530" alt="Infographic" src="https://user-images.githubusercontent.com/90723578/136671701-fc9b75e8-a4a1-4251-8d4a-fcc3476932b3.png">
 
 
