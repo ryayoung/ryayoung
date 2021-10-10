@@ -28,6 +28,8 @@ https://user-images.githubusercontent.com/90723578/136674224-80443d9a-8926-4356-
 <br><hr><br>
 <img width="1530" alt="Infographic" src="https://user-images.githubusercontent.com/90723578/136671701-fc9b75e8-a4a1-4251-8d4a-fcc3476932b3.png">
 
+<hr><br><hr><br>
+
 ## Vim Configuration & Tips <a name="vim"></a>
 [**BACK TO TOP**](#top)
 <hr>
