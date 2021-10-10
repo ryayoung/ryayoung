@@ -34,7 +34,7 @@ Coming soon...
 [**BACK TO TOP**](#top)
 <hr>
 
-[<img src="Buttons/SVG/see more java projects.svg" height="35" width="auto"/>](Java Projects)
+[<img src="Buttons/SVG/see more java projects.svg" height="35" width="auto"/>]("JavaProjects")
 <br>
 
 Coming soon...
