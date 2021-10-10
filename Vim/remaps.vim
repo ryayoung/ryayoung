@@ -68,8 +68,8 @@ augroup htmlmaps
     autocmd FileType html nnoremap <Leader>,, 
         \i<!-- Author:  Ryan Young --><CR><!-- Created:  <Esc>"=strftime("%m/%d/%y")<CR>Pa --><CR><!DOCTYPE html><CR>
         \<html></html><Esc>%i<CR><Esc>O<head></head><Esc>%i<CR><Esc>O
-        \<style></style><Esc>%i<CR><Esc>O<Tab><Tab><Tab>body {} h1 {} h2 {} h3 {}<Esc>jo
-        \<meta charset="utf-8"><CR><h1></h1><Esc>jo
+        \<style></style><Esc>%i<CR><Esc>O<Tab><Tab><Tab>body {} h1 {}<Esc>jo
+        \<meta charset="utf-8"><CR><title></title><Esc>jo
         \<body></body><Esc>%i<CR><Esc>O
 
     autocmd FileType html nnoremap <Leader>,d1 vf>d<Esc>
