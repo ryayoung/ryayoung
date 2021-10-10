@@ -24,7 +24,7 @@ https://user-images.githubusercontent.com/90723578/136682515-562cd1b8-dd9e-44ce-
 
 <a name="database"></a>
 <br><br>
-## SQL Database Work 
+# SQL Database Work 
 [<img src="Buttons/SVG/see more sql database work.svg" height="34" width="auto"/>](Database)
 <hr>
 
@@ -36,7 +36,7 @@ Coming soon...
 
 <a name="java"></a>
 <br><br>
-## Java Projects 
+# Java Projects 
 [<img src="Buttons/SVG/see more java projects.svg" height="34" width="auto"/>](JavaProjects)
 <hr>
 
@@ -53,7 +53,7 @@ https://user-images.githubusercontent.com/90723578/136681997-f5c74bb6-6f57-4d3c-
 
 <a name="python"></a>
 <br><br>
-## Python Projects 
+# Python Projects 
 [<img src="Buttons/SVG/see more python projects.svg" height="34" width="auto"/>](PythonProjects)
 <hr>
 
@@ -67,7 +67,7 @@ Coming soon...
 
 <a name="vim"></a>
 <br><br>
-## Vim Configuration & Tips 
+# Vim Configuration & Tips 
 [<img src="Buttons/SVG/see full vim configuration.svg" height="34" width="auto"/>](Vim)
 <hr>
 
@@ -136,7 +136,7 @@ Sweet! That was fast.
 
 <a name="graphicdesign"></a>
 <br><br>
-## Graphic Design 
+# Graphic Design 
 [<img src="Buttons/SVG/see more graphic design.svg" height="34" width="auto"/>](GraphicDesign)
 <hr>
 
