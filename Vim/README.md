@@ -4,8 +4,8 @@
 # Vim Configuration
 <hr>
 
-Your ```vimrc``` can get very long, very quickly. To keep things organized, I have my ```vimrc``` split up into **3 files**: <br>
-Note: In addition to your ```vimrc```, you can put other ```.vim``` files in your ```~/vimfiles/plugin``` directory. Keep in mind, vim will read these files AFTER your ```vimrc```. <br>
+Your ```vimrc``` can get very long, very quickly. To keep things organized, I have my ```vimrc``` split up into **3 files**. <br>
+(Note: In addition to your ```vimrc```, you can put other ```.vim``` files in your ```~/vimfiles/plugin``` directory. Keep in mind, vim will read these files AFTER your ```vimrc```.) <br>
 My configuration consists of 3 files: ```~/_vimrc```, ```~/vimfiles/plugin/remaps.vim```, and ```~/vimfiles/plugin/sets.vim```. This gets most of my sets and remaps out of the way, which makes working on my ```vimrc``` much easier. <br><br>
 
 Here are each of those 3 files, in their respective order. (Updated 10/9/2021)
