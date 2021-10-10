@@ -1,11 +1,18 @@
 <a name="top"></a>
-**JUMP TO:** [Database](#database) | [Java Projects](#java) | [Graphic Design](#graphicdesign) <br>
-[<img src="Buttons/Back.svg" height="35" width="auto"/>](#bottom)
-[<img src="Buttons/Graphic Design.svg" height="35" width="auto"/>](#graphicdesign)
+
+[<img src="Buttons/graphic design.svg" height="35" width="auto"/>](#graphicdesign)
+[<img src="Buttons/sql database.svg" height="35" width="auto"/>](#database)
+[<img src="Buttons/java projects.svg" height="35" width="auto"/>](#java)
+[<img src="Buttons/python projects.svg" height="35" width="auto"/>](#python)
+[<img src="Buttons/vim.svg" height="35" width="auto"/>](#vim) <br>
+[<img src="Buttons/bottom of page.svg" height="35" width="auto"/>](#bottom)
+<br>
+[**Bottom of Page**](#bottom)
 
 https://user-images.githubusercontent.com/90723578/136674224-80443d9a-8926-4356-a289-8ffd5c0fd579.mp4
 
 <hr><br><hr><br>
+
 ## Database Work <a name="database"></a>
 [**BACK TO TOP**](#top)
 <br><hr><br>
@@ -14,6 +21,7 @@ https://user-images.githubusercontent.com/90723578/136674224-80443d9a-8926-4356-
 
 
 <hr><br><hr><br>
+
 ## Graphic Design <a name="graphicdesign"></a>
 [**BACK TO TOP**](#top)
 <br><hr><br>
