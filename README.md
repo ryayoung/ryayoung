@@ -10,7 +10,7 @@
 <br>
 
 ## A quick UI demo
-This is a VB.NET application I made using Visual Studio to communicate with an OLTP database.
+This is a VB.NET application I made that communicates with an OLTP database.
 <br>***This video is just a UI demonstration.*** For a walkthrough of the project, see the [SQL Database](#database) section.
 
 https://user-images.githubusercontent.com/90723578/136682515-562cd1b8-dd9e-44ce-88bb-776dd553bf5a.mp4
