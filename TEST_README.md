@@ -26,7 +26,7 @@ https://user-images.githubusercontent.com/90723578/136674224-80443d9a-8926-4356-
 <hr><br><hr><br>
 
 ## Vim Configuration & Tips <a name="vim"></a>
-[**BACK TO TOP**](#top)
+[**BACK TO TOP**](#top) <br>
 [<img src="Buttons/SVG/see full vim configuration.svg" height="35" width="auto"/>](Vim/README.md)
 <hr>
 
