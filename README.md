@@ -7,7 +7,7 @@
 [<img src="Buttons/SVG/vim.svg" height="35" width="auto"/>](#vim)
 [<img src="Buttons/SVG/graphic design.svg" height="35" width="auto"/>](#graphicdesign)
 <br><br>
-[<img src="Buttons/SVG/bottom of page.svg" height="30" width="auto"/>](#bottom)
+[<img src="Buttons/SVG/bottom of page.svg" height="35" width="auto"/>](#bottom)
 <br>
 
 https://user-images.githubusercontent.com/90723578/136674224-80443d9a-8926-4356-a289-8ffd5c0fd579.mp4
