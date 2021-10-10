@@ -29,7 +29,7 @@ https://user-images.githubusercontent.com/90723578/136674224-80443d9a-8926-4356-
 [**BACK TO TOP**](#top)
 <hr>
 
-[<img src="Buttons/SVG/see full vim configuration.svg" height="35" width="auto"/>](Vim/README.md)
+[<img src="Buttons/SVG/see full vim configuration.svg" height="35" width="auto"/>](Vim)
 <br>
 
 ### My favorite remaps
