@@ -19,7 +19,8 @@ https://user-images.githubusercontent.com/90723578/136682515-562cd1b8-dd9e-44ce-
 
 <hr>
 
-<a name="database"></a> <br><br><br>
+<a name="database"></a>
+<br><br>
 ## SQL Database Work 
 [<img src="Buttons/SVG/see more sql database work.svg" height="34" width="auto"/>](Database)
 <hr>
@@ -30,7 +31,8 @@ Coming soon...
 
 <hr>
 
-<a name="java"></a> <br><br><br>
+<a name="java"></a>
+<br><br>
 ## Java Projects 
 [<img src="Buttons/SVG/see more java projects.svg" height="34" width="auto"/>](JavaProjects)
 <hr>
@@ -46,7 +48,8 @@ https://user-images.githubusercontent.com/90723578/136681997-f5c74bb6-6f57-4d3c-
 
 <hr>
 
-<a name="python"></a> <br><br><br>
+<a name="python"></a>
+<br><br>
 ## Python Projects 
 [<img src="Buttons/SVG/see more python projects.svg" height="34" width="auto"/>](PythonProjects)
 <hr>
@@ -59,7 +62,8 @@ Coming soon...
 
 <hr>
 
-<a name="vim"></a> <br><br><br>
+<a name="vim"></a>
+<br><br>
 ## Vim Configuration & Tips 
 [<img src="Buttons/SVG/see full vim configuration.svg" height="34" width="auto"/>](Vim)
 <hr>
@@ -127,7 +131,8 @@ Sweet! That was fast.
 
 <hr>
 
-<a name="graphicdesign"></a> <br><br><br>
+<a name="graphicdesign"></a>
+<br><br>
 ## Graphic Design 
 [<img src="Buttons/SVG/see more graphic design.svg" height="34" width="auto"/>](GraphicDesign)
 <hr>
