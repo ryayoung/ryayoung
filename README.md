@@ -17,9 +17,9 @@ https://user-images.githubusercontent.com/90723578/136682515-562cd1b8-dd9e-44ce-
 
 
 
-<hr><br><hr><br>
+<hr><br><hr>
 
-<a name="database"></a> 
+<a name="database"></a> <br>
 ## SQL Database Work 
 [<img src="Buttons/SVG/see more sql database work.svg" height="34" width="auto"/>](Database)
 <hr>
@@ -28,9 +28,9 @@ Coming soon...
 
 
 
-<hr><br><hr><br>
+<hr><br><hr>
 
-<a name="java"></a>
+<a name="java"></a> <br>
 ## Java Projects 
 [<img src="Buttons/SVG/see more java projects.svg" height="34" width="auto"/>](JavaProjects)
 <hr>
@@ -44,9 +44,9 @@ https://user-images.githubusercontent.com/90723578/136681997-f5c74bb6-6f57-4d3c-
 
 
 
-<hr><br><hr><br>
+<hr><br><hr>
 
-<a name="python"></a>
+<a name="python"></a> <br>
 ## Python Projects 
 [<img src="Buttons/SVG/see more python projects.svg" height="34" width="auto"/>](PythonProjects)
 <hr>
@@ -57,9 +57,9 @@ Coming soon...
 
 
 
-<hr><br><hr><br>
+<hr><br><hr>
 
-<a name="vim"></a>
+<a name="vim"></a> <br>
 ## Vim Configuration & Tips 
 [<img src="Buttons/SVG/see full vim configuration.svg" height="34" width="auto"/>](Vim)
 <hr>
@@ -125,9 +125,9 @@ The result will look like:
 ```
 Sweet! That was fast.
 
-<hr><br><hr><br>
+<hr><br><hr>
 
-<a name="graphicdesign"></a>
+<a name="graphicdesign"></a> <br>
 ## Graphic Design 
 [<img src="Buttons/SVG/see more graphic design.svg" height="34" width="auto"/>](GraphicDesign)
 <hr>
