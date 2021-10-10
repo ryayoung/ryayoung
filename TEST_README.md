@@ -4,8 +4,8 @@
 [<img src="Buttons/SVG/sql database.svg" height="35" width="auto"/>](#database)
 [<img src="Buttons/SVG/java projects.svg" height="35" width="auto"/>](#java)
 [<img src="Buttons/SVG/python projects.svg" height="35" width="auto"/>](#python)
-[<img src="Buttons/SVG/graphic design.svg" height="35" width="auto"/>](#graphicdesign)
 [<img src="Buttons/SVG/vim.svg" height="35" width="auto"/>](#vim)
+[<img src="Buttons/SVG/graphic design.svg" height="35" width="auto"/>](#graphicdesign)
 <br><br>
 [<img src="Buttons/SVG/bottom of page.svg" height="30" width="auto"/>](#bottom)
 <br>
@@ -21,12 +21,7 @@ https://user-images.githubusercontent.com/90723578/136674224-80443d9a-8926-4356-
 
 
 
-<hr><br><hr><br>
 
-## Graphic Design <a name="graphicdesign"></a>
-[**BACK TO TOP**](#top)
-<br><hr><br>
-<img width="1530" alt="Infographic" src="https://user-images.githubusercontent.com/90723578/136671701-fc9b75e8-a4a1-4251-8d4a-fcc3476932b3.png">
 
 <hr><br><hr><br>
 
@@ -78,6 +73,30 @@ When the keymap is executed in an html file, it will fill the page with the foll
 
 ```
 
+When you're using a lot of ```<i>```, ```<em>```, ```<b>```, etc., you'll find it can be very cumbersome to remove these modifiers by hand since you have two parts to delete. Here's another html remap that makes this process much faster:
+```vim
+autocmd FileType html nnoremap <Leader>,d2 i`<Esc>lvf>d<Esc>hf<vf>d<Esc>F`x
+```
+
+Use the command above while your cursor is hovering over the first angle bracket of the ```<em>``` element in the following text...
+```html
+<p>Here is some <em>emphasized</em> text in html.</p>
+```
+The result will look like:
+```html
+<p>Here is some emphasized text in html.</p>
+```
+Sweet! That was fast.
+
+<hr><br><hr><br>
+
+## Graphic Design <a name="graphicdesign"></a>
+[**BACK TO TOP**](#top)
 <br><hr><br>
+<img width="1530" alt="Infographic" src="https://user-images.githubusercontent.com/90723578/136671701-fc9b75e8-a4a1-4251-8d4a-fcc3476932b3.png">
+
+
+<br><hr><br>
+
 <a name="bottom"></a>
 [<img src="Buttons/SVG/top of page.svg" height="30" width="auto"/>](#top)
