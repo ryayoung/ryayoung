@@ -139,7 +139,7 @@ Sweet! That was fast.
 <a name="graphicdesign"></a>
 <br><br>
 # Graphic Design 
-[<img src="Buttons/SVG/see more graphic design.svg" height="34" width="auto"/>](GraphicDesign)
+[<img src="Buttons/SVG/see more graphic design.svg" height="34" width="auto"/>](GraphicDesign/README.md/#top)
 <hr>
 
 
