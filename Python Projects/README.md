@@ -2,5 +2,6 @@
 <br>
 
 # Python Projects
+<hr>
 
 ### Coming soon...
