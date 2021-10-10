@@ -1,3 +1,5 @@
+<a name="top"></a>
+
 [<img src="../Buttons/SVG/back.svg" height="35" width="auto"/>](README.md)
 
 # Fall 2018 Infographic Contest - Daniels College of Business
