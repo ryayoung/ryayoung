@@ -13,15 +13,15 @@
     <th><b>Alphanote</b></th>
   </tr>
   <tr>
-    <td><a href="YoutubeInfographic.md"><img src="../Buttons/SVG/youtube infographic.png" height="250" width="auto"/></a></td>
-    <td><a href="Alphanote.md"><img src="../Buttons/SVG/alphanote.png" height="250" width="auto"/></a></td>
+    <td><a href="YoutubeInfographic.md/#top"><img src="../Buttons/SVG/youtube infographic.png" height="250" width="auto"/></a></td>
+    <td><a href="Alphanote.md/#top"><img src="../Buttons/SVG/alphanote.png" height="250" width="auto"/></a></td>
   </tr>
   <tr>
     <th><b>Anode</b></th>
     <th><b>Efficiency Revision</b></th>
   </tr>
   <tr>
-    <td><a href="Anode.md"><img src="../Buttons/SVG/anode.png" height="250" width="auto"/></a></td>
-    <td><a href="EfficiencyRevision.md"><img src="../Buttons/SVG/efficiency revision.png" height="250" width="auto"/></a></td>
+    <td><a href="Anode.md/#top"><img src="../Buttons/SVG/anode.png" height="250" width="auto"/></a></td>
+    <td><a href="EfficiencyRevision.md/#top"><img src="../Buttons/SVG/efficiency revision.png" height="250" width="auto"/></a></td>
   </tr>
 </table>
