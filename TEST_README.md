@@ -34,13 +34,49 @@ https://user-images.githubusercontent.com/90723578/136674224-80443d9a-8926-4356-
 [**BACK TO TOP**](#top)
 <hr>
 
+### My favorite remaps
 This is super fun to use. I call it "nudging". Make a selection in visual mode, and nudge it up or down 1 line using J or K.
 ```vim
-"shift visual mode selection up or down, 1 line at a time
 vnoremap J :m '>+1<CR>gv=gv
 vnoremap K :m '<-2<CR>gv=gv
 ```
+Also, smart open braces is super useful. When you type an open curly brace and hit tab, it will autofill the close brace and put your cursor on the line between them.
+```vim
+inoremap {<Tab> {<CR>}<Esc>ko
+```
+### Remaps for editing HTML files
+Firstly, I use a plugin called [Emmet](https://github.com/mattn/emmet-vim) to help edit html files. It's extremely useful.
+Additionally, here are some remaps I added to my vimrc that will execute when a .html file is opened.
 
+I'll use this command everytime I open a new html file. It sets up everything I need to get started with. <br>
+Why is it cool? Using vimscript, it will autofill today's date, using ```=strftime("%m/%d/%y```
+```vim
+autocmd FileType html nnoremap <Leader>,, 
+    \i<!-- Author:  Ryan Young --><CR><!-- Created:  <Esc>"=strftime("%m/%d/%y")<CR>Pa --><CR><!DOCTYPE html><CR>
+    \<html></html><Esc>%i<CR><Esc>O<head></head><Esc>%i<CR><Esc>O
+    \<style></style><Esc>%i<CR><Esc>O<Tab><Tab><Tab>body {} h1 {}<Esc>jo
+    \<meta charset="utf-8"><CR><title></title><Esc>jo
+    \<body></body><Esc>%i<CR><Esc>O
+```
+When the keymap is executed, it will fill the page with the following:
+```html
+<!-- Author:  Ryan Young -->
+<!-- Created: 10/09/21 -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {} h1 {}
+    </style>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+
+  </body>
+</html>
+
+```
 
 <br><hr><br>
 <a name="bottom"></a>
