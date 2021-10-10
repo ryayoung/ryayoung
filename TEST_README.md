@@ -12,12 +12,32 @@
 
 https://user-images.githubusercontent.com/90723578/136674224-80443d9a-8926-4356-a289-8ffd5c0fd579.mp4
 
+
+
+
 <hr><br><hr><br>
 
-## Database Work <a name="database"></a>
+## SQL Database Work <a name="database"></a>
 [**BACK TO TOP**](#top)
 <hr>
 
+[<img src="Buttons/SVG/see more sql database work.svg" height="35" width="auto"/>](Database)
+<br>
+
+Coming soon...
+
+
+
+<hr><br><hr><br>
+
+## Java Projects <a name="java"></a>
+[**BACK TO TOP**](#top)
+<hr>
+
+[<img src="Buttons/SVG/see more java projects.svg" height="35" width="auto"/>](Java Projects)
+<br>
+
+Coming soon...
 
 
 
