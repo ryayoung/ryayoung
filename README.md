@@ -1,24 +1,32 @@
 <a name="top"></a>
 
+# Here is some of my work
+
 
 [<img src="Buttons/SVG/sql database.svg" height="35" width="auto"/>](#database)
 [<img src="Buttons/SVG/java projects.svg" height="35" width="auto"/>](#java)
 [<img src="Buttons/SVG/python projects.svg" height="35" width="auto"/>](#python)
 [<img src="Buttons/SVG/vim.svg" height="35" width="auto"/>](#vim)
 [<img src="Buttons/SVG/graphic design.svg" height="35" width="auto"/>](#graphicdesign)
-<br><br>
-[<img src="Buttons/SVG/bottom of page.svg" height="30" width="auto"/>](#bottom)
+[<img src="Buttons/SVG/bottom of page.svg" height="35" width="auto"/>](#bottom)
 <br>
 
-https://user-images.githubusercontent.com/90723578/136674224-80443d9a-8926-4356-a289-8ffd5c0fd579.mp4
+## A quick UI demo
+This is a VB.NET application I made that communicates with an OLTP database.
+<br>***This video is just a UI demonstration.*** For a walkthrough of the project, see the [SQL Database](#database) section.
+
+https://user-images.githubusercontent.com/90723578/136682515-562cd1b8-dd9e-44ce-88bb-776dd553bf5a.mp4
 
 
 
 
-<hr><br><hr><br>
 
-<a name="database"></a> 
-## SQL Database Work 
+
+<hr>
+
+<a name="database"></a>
+<br><br>
+# SQL Database Work 
 [<img src="Buttons/SVG/see more sql database work.svg" height="34" width="auto"/>](Database)
 <hr>
 
@@ -26,10 +34,11 @@ Coming soon...
 
 
 
-<hr><br><hr><br>
+<hr>
 
 <a name="java"></a>
-## Java Projects 
+<br><br>
+# Java Projects 
 [<img src="Buttons/SVG/see more java projects.svg" height="34" width="auto"/>](JavaProjects)
 <hr>
 
@@ -42,10 +51,11 @@ https://user-images.githubusercontent.com/90723578/136681997-f5c74bb6-6f57-4d3c-
 
 
 
-<hr><br><hr><br>
+<hr>
 
 <a name="python"></a>
-## Python Projects 
+<br><br>
+# Python Projects 
 [<img src="Buttons/SVG/see more python projects.svg" height="34" width="auto"/>](PythonProjects)
 <hr>
 
@@ -55,10 +65,11 @@ Coming soon...
 
 
 
-<hr><br><hr><br>
+<hr>
 
 <a name="vim"></a>
-## Vim Configuration & Tips 
+<br><br>
+# Vim Configuration & Tips 
 [<img src="Buttons/SVG/see full vim configuration.svg" height="34" width="auto"/>](Vim)
 <hr>
 
@@ -123,10 +134,11 @@ The result will look like:
 ```
 Sweet! That was fast.
 
-<hr><br><hr><br>
+<hr>
 
 <a name="graphicdesign"></a>
-## Graphic Design 
+<br><br>
+# Graphic Design 
 [<img src="Buttons/SVG/see more graphic design.svg" height="34" width="auto"/>](GraphicDesign)
 <hr>
 
@@ -137,4 +149,4 @@ Sweet! That was fast.
 <br><hr><br>
 
 <a name="bottom"></a>
-[<img src="Buttons/SVG/top of page.svg" height="30" width="auto"/>](#top)
+[<img src="Buttons/SVG/top of page.svg" height="35" width="auto"/>](#top)
