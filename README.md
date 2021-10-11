@@ -6,6 +6,7 @@
 [<img src="Buttons/SVG/sql database.svg" height="35" width="auto"/>](#database)
 [<img src="Buttons/SVG/java projects.svg" height="35" width="auto"/>](#java)
 [<img src="Buttons/SVG/python projects.svg" height="35" width="auto"/>](#python)
+[<img src="Buttons/SVG/vb.svg" height="35" width="auto"/>](#vb)
 [<img src="Buttons/SVG/vim.svg" height="35" width="auto"/>](#vim)
 [<img src="Buttons/SVG/graphic design.svg" height="35" width="auto"/>](#graphicdesign)
 [<img src="Buttons/SVG/bottom of page.svg" height="35" width="auto"/>](#bottom)
