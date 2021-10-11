@@ -28,7 +28,7 @@ https://user-images.githubusercontent.com/90723578/136682515-562cd1b8-dd9e-44ce-
 <a name="database"></a>
 <br><br>
 # SQL Database Work 
-[<img src="Buttons/SVG/see more sql database work.svg" height="34" width="auto"/>](Database)
+[<img src="Buttons/SVG/see the full project sql.svg" height="34" width="auto"/>](Database)
 <hr>
 
 ## Karve Ski Demos
