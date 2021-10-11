@@ -153,6 +153,15 @@ Sweet! That was fast.
 [<img src="Buttons/SVG/see more graphic design.svg" height="34" width="auto"/>](GraphicDesign/README.md/#top)
 <hr>
 
+### Fall 2018 Infographic Contest - Daniels College of Business
+#### 2nd Place Winner
+<hr>
+
+I created this infographic with the goal of grabbing attention, since the contest was based on student votes.
+
+In the real world, this type of design is quite overkill, with too much detail and color.
+
+If its purpose were to communicate information effectively (as an infographic should) it would need to be simplified and use more white space.
 
 <img width="1530" alt="Infographic" src="https://user-images.githubusercontent.com/90723578/136671701-fc9b75e8-a4a1-4251-8d4a-fcc3476932b3.png">
 
