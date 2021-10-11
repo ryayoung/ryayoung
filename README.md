@@ -74,7 +74,14 @@ https://user-images.githubusercontent.com/90723578/136681997-f5c74bb6-6f57-4d3c-
 
 Coming soon...
 
+<a name="vb"></a>
+<br><br>
+# VB.NET Application 
+[<img src="Buttons/SVG/see the full project vb.svg" height="34" width="auto"/>](VisualBasic)
+<hr>
 
+Description coming soon...
+![sc_Search](https://user-images.githubusercontent.com/90723578/136726037-5e793725-719e-4475-a341-eea0211097c1.png)
 
 
 <hr>
