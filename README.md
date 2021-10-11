@@ -12,12 +12,12 @@
 <br>
 
 ## A quick UI demo
+
 This is a VB.NET application I made that communicates with an OLTP database.
 <br>***This video is just a UI demonstration.*** For a walkthrough of the project, see the [SQL Database](#database) section.
+<br>(Unmute volume for narration)<br>
 
 https://user-images.githubusercontent.com/90723578/136682515-562cd1b8-dd9e-44ce-88bb-776dd553bf5a.mp4
-
-
 
 
 
@@ -30,7 +30,17 @@ https://user-images.githubusercontent.com/90723578/136682515-562cd1b8-dd9e-44ce-
 [<img src="Buttons/SVG/see more sql database work.svg" height="34" width="auto"/>](Database)
 <hr>
 
-Coming soon...
+## Karve Ski Demos
+
+Karve is an online ski demo subscription for enthusiasts who always want the ideal gear for current snow conditions. Members have access to hundreds of skis at the touch of a button, delivered to their doorstep, with the freedom to swap products at any time with no additional cost.
+
+To see how I populated this database with thousands of rows of realistic data by simulating normal and skewed distributions for customer measures based on gender, adding seasonality for consumer behavior, simulating ski damage patterns, and much more, see [Python Projects](PythonProjects/README.md/#top).
+
+Here is the diagram for Karve's OLTP database.
+
+![image](https://user-images.githubusercontent.com/90723578/136710522-a44f98dc-d7bf-4756-89f2-b80a134231af.png)
+
+#### For an in-depth walkthrough of this project, [see more SQL/Database work](Database/README.md/#top)
 
 
 
@@ -42,7 +52,8 @@ Coming soon...
 [<img src="Buttons/SVG/see more java projects.svg" height="34" width="auto"/>](JavaProjects)
 <hr>
 
-
+## Maze
+This program randomly generates a unique maze, then solves it. Designed to run slowly in order to visualize what's going on, the pathfinder can recognize short dead-ends and avoid them. When the maze is complete, the path corrects itself, removing all dead-ends and revealing the shortest possible path to the finish line.
 
 https://user-images.githubusercontent.com/90723578/136681997-f5c74bb6-6f57-4d3c-84cc-de1064729ad6.mp4
 
@@ -139,9 +150,18 @@ Sweet! That was fast.
 <a name="graphicdesign"></a>
 <br><br>
 # Graphic Design 
-[<img src="Buttons/SVG/see more graphic design.svg" height="34" width="auto"/>](GraphicDesign)
+[<img src="Buttons/SVG/see more graphic design.svg" height="34" width="auto"/>](GraphicDesign/README.md/#top)
 <hr>
 
+### Fall 2018 Infographic Contest - Daniels College of Business
+#### 2nd Place Winner
+<hr>
+
+I created this infographic with the goal of grabbing attention, since the contest was based on student votes.
+
+In the real world, this type of design is quite overkill, with too much detail and color.
+
+If its purpose were to communicate information effectively (as an infographic should) it would need to be simplified and use more white space.
 
 <img width="1530" alt="Infographic" src="https://user-images.githubusercontent.com/90723578/136671701-fc9b75e8-a4a1-4251-8d4a-fcc3476932b3.png">
 
