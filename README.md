@@ -41,7 +41,7 @@ Here is the diagram for Karve's OLTP database.
 
 ![image](https://user-images.githubusercontent.com/90723578/136710522-a44f98dc-d7bf-4756-89f2-b80a134231af.png)
 
-#### For an in-depth walkthrough of this project, [see more SQL/Database work](Database/README.md/#top)
+#### For an in-depth walkthrough of this project, [see more SQL/Database work](Database)
 
 
 
