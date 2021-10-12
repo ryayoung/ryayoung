@@ -9,19 +9,27 @@
 
 <table>
   <tr>
-    <th><b>YouTube Infographic</b></th>
-    <th><b>Alphanote</b></th>
+    <th><b>Infographic</b></th>
+    <th><b>App Prototype</b></th>
   </tr>
   <tr>
     <td><a href="YoutubeInfographic.md/#top"><img src="../Buttons/PNG/youtube infographic.png" height="250" width="auto"/></a></td>
     <td><a href="Alphanote.md/#top"><img src="../Buttons/PNG/alphanote.png" height="250" width="auto"/></a></td>
   </tr>
   <tr>
-    <th><b>Anode</b></th>
-    <th><b>Efficiency Revision</b></th>
+    <th><b>Brand Guide</b></th>
+    <th><b>Business Presentation</b></th>
   </tr>
   <tr>
     <td><a href="Anode.md/#top"><img src="../Buttons/PNG/anode.png" height="250" width="auto"/></a></td>
     <td><a href="EfficiencyRevision.md/#top"><img src="../Buttons/PNG/efficiency revision.png" height="250" width="auto"/></a></td>
+  </tr>
+  <tr>
+    <th><b>Logo Design</b></th>
+    <th><b></b></th>
+  </tr>
+  <tr>
+    <td><a href="LogoDesign.md/#top"><img src="../Buttons/PNG/more than a word.png" height="250" width="auto"/></a></td>
+    <td></td>
   </tr>
 </table>
