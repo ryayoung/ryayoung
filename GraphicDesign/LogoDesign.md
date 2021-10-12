@@ -2,8 +2,7 @@
 
 [<img src="../Buttons/SVG/back.svg" height="35" width="auto"/>](README.md/#top)
 
-# Logo Design Ideas
-## + Podcast Cover Photos
+# Logo Design & Podcast Cover Artwork Ideas
 ### More Than A Word Podcast - 2018
 
 <img width="2001" alt="Logo 1" src="https://user-images.githubusercontent.com/90723578/136870901-05197062-c45a-49c8-bea4-7c444d93890c.png">
