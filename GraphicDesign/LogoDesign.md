@@ -1,5 +1,5 @@
 <a name="top"></a>
-[<img src="../Buttons/SVG/back.svg" height="35" width="auto"/>](README.md/#top)
+[<img src="../Buttons/SVG/back.svg" height="35" width="auto"/>](../README.md/#graphicdesign)
 
 # Logo Design & Podcast Cover Artwork Ideas
 ### More Than A Word Podcast - 2018
