@@ -13,16 +13,16 @@
     <th><b>App Prototype</b></th>
   </tr>
   <tr>
-    <td><a href="YoutubeInfographic.md/#top"><img src="../Buttons/PNG/youtube infographic.png" height="250" width="auto"/></a></td>
-    <td><a href="Alphanote.md/#top"><img src="../Buttons/PNG/alphanote.png" height="250" width="auto"/></a></td>
+    <td><a href="Infographic.md/#top"><img src="../Buttons/PNG/youtube infographic.png" height="250" width="auto"/></a></td>
+    <td><a href="MobileApp.md/#top"><img src="../Buttons/PNG/alphanote.png" height="250" width="auto"/></a></td>
   </tr>
   <tr>
     <th><b>Brand Guide</b></th>
     <th><b>Business Presentation</b></th>
   </tr>
   <tr>
-    <td><a href="Anode.md/#top"><img src="../Buttons/PNG/anode.png" height="250" width="auto"/></a></td>
-    <td><a href="EfficiencyRevision.md/#top"><img src="../Buttons/PNG/efficiency revision.png" height="250" width="auto"/></a></td>
+    <td><a href="BrandGuide.md/#top"><img src="../Buttons/PNG/anode.png" height="250" width="auto"/></a></td>
+    <td><a href="BusinessPresentation.md/#top"><img src="../Buttons/PNG/efficiency revision.png" height="250" width="auto"/></a></td>
   </tr>
   <tr>
     <th><b>Logo Design</b></th>
