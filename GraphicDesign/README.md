@@ -26,7 +26,7 @@
   </tr>
   <tr>
     <th><b>Logo Design</b></th>
-    <th><b></b></th>
+    <th><b>Coming Soon...</b></th>
   </tr>
   <tr>
     <td><a href="LogoDesign.md/#top"><img src="../Buttons/PNG/more than a word.png" height="250" width="auto"/></a></td>

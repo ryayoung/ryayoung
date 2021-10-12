@@ -3,12 +3,12 @@
 # Here is some of my work
 
 
+[<img src="Buttons/SVG/graphic design.svg" height="35" width="auto"/>](#graphicdesign)
 [<img src="Buttons/SVG/sql database.svg" height="35" width="auto"/>](#database)
 [<img src="Buttons/SVG/java projects.svg" height="35" width="auto"/>](#java)
 [<img src="Buttons/SVG/python projects.svg" height="35" width="auto"/>](#python)
 [<img src="Buttons/SVG/vb.svg" height="35" width="auto"/>](#vb)
 [<img src="Buttons/SVG/vim.svg" height="35" width="auto"/>](#vim)
-[<img src="Buttons/SVG/graphic design.svg" height="35" width="auto"/>](#graphicdesign)
 [<img src="Buttons/SVG/bottom of page.svg" height="35" width="auto"/>](#bottom)
 <br>
 
@@ -16,11 +16,38 @@
 
 This is a VB.NET application I made that communicates with an OLTP database.
 <br>***This video is just a UI demonstration.*** For a walkthrough of the project, see the [SQL Database](#database) section.
-<br>(Unmute volume for narration)<br>
+<br>(Unmute for narration)<br>
 
 https://user-images.githubusercontent.com/90723578/136682515-562cd1b8-dd9e-44ce-88bb-776dd553bf5a.mp4
 
+<hr>
 
+<a name="graphicdesign"></a>
+<br><br>
+# Graphic Design 
+[<img src="Buttons/SVG/see more graphic design.svg" height="34" width="auto"/>](GraphicDesign/README.md/#top)
+<hr>
+
+## Select one...
+
+<table>
+  <tr>
+    <th><b>Infographic</b></th>
+    <th><b>App Prototype</b></th>
+  </tr>
+  <tr>
+    <td><a href="GraphicDesign/Infographic.md/#top"><img src="Buttons/PNG/youtube infographic.png" height="250" width="auto"/></a></td>
+    <td><a href="GraphicDesign/MobileApp.md/#top"><img src="Buttons/PNG/alphanote.png" height="250" width="auto"/></a></td>
+  </tr>
+  <tr>
+    <th><b>Brand Guide</b></th>
+    <th><b>Logo Design</b></th>
+  </tr>
+  <tr>
+    <td><a href="GraphicDesign/BrandGuide.md/#top"><img src="Buttons/PNG/anode.png" height="250" width="auto"/></a></td>
+    <td><a href="GraphicDesign/LogoDesign.md/#top"><img src="Buttons/PNG/more than a word.png" height="250" width="auto"/></a></td>
+  </tr>
+</table>
 
 
 <hr>
@@ -153,25 +180,6 @@ The result will look like:
 ```
 Sweet! That was fast.
 
-<hr>
-
-<a name="graphicdesign"></a>
-<br><br>
-# Graphic Design 
-[<img src="Buttons/SVG/see more graphic design.svg" height="34" width="auto"/>](GraphicDesign/README.md/#top)
-<hr>
-
-### Fall 2018 Infographic Contest - Daniels College of Business
-#### 2nd Place Winner
-<hr>
-
-I created this infographic with the goal of grabbing attention, since the contest was based on student votes.
-
-In the real world, this type of design is quite overkill, with too much detail and color.
-
-If its purpose were to communicate information effectively (as an infographic should) it would need to be simplified and use more white space.
-
-<img width="1530" alt="Infographic" src="https://user-images.githubusercontent.com/90723578/136671701-fc9b75e8-a4a1-4251-8d4a-fcc3476932b3.png">
 
 
 <br><hr><br>
