@@ -5,7 +5,7 @@
 # Graphic Design
 <hr>
 
-## Choose one..
+## Select one!
 
 <table>
   <tr>
