@@ -1,5 +1,5 @@
 <a name="top"></a>
-[<img src="../Buttons/SVG/back.svg" height="35" width="auto"/>](../README.md/#graphicdesign)
+[<img src="../Buttons/SVG/back.svg" height="35" width="auto"/>](GraphicDesign)
 <br>
 
 # Infographic Deck - Plastic Waste
