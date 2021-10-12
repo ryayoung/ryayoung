@@ -41,19 +41,11 @@ https://user-images.githubusercontent.com/90723578/136682515-562cd1b8-dd9e-44ce-
   </tr>
   <tr>
     <th><b>Brand Guide</b></th>
-    <th><b>Business Presentation</b></th>
+    <th><b>Logo Design</b></th>
   </tr>
   <tr>
     <td><a href="GraphicDesign/BrandGuide.md/#top"><img src="Buttons/PNG/anode.png" height="250" width="auto"/></a></td>
-    <td><a href="GraphicDesign/BusinessPresentation.md/#top"><img src="Buttons/PNG/efficiency revision.png" height="250" width="auto"/></a></td>
-  </tr>
-  <tr>
-    <th><b>Logo Design</b></th>
-    <th><b>Coming Soon...</b></th>
-  </tr>
-  <tr>
     <td><a href="GraphicDesign/LogoDesign.md/#top"><img src="Buttons/PNG/more than a word.png" height="250" width="auto"/></a></td>
-    <td></td>
   </tr>
 </table>
 
