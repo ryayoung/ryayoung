@@ -30,6 +30,6 @@
   </tr>
   <tr>
     <td><a href="LogoDesign.md/#top"><img src="../Buttons/PNG/more than a word.png" height="240" width="auto"/></a></td>
-    <td><a href="PlasticWasteDeck.md/#top"><img src="../Buttons/PNG/plastic waste.png" height="240" width="auto"/></a></td>
+    <td><a href="PlasticWasteInfographic.md/#top"><img src="../Buttons/PNG/plastic waste.png" height="240" width="auto"/></a></td>
   </tr>
 </table>
