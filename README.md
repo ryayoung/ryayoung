@@ -62,7 +62,7 @@ https://user-images.githubusercontent.com/90723578/136682515-562cd1b8-dd9e-44ce-
 
 Karve is an online ski demo subscription for enthusiasts who always want the ideal gear for current snow conditions. Members have access to hundreds of skis at the touch of a button, delivered to their doorstep, with the freedom to swap products at any time with no additional cost.
 
-To see how I populated this database with thousands of rows of realistic data by simulating normal and skewed distributions for customer measures based on gender, adding seasonality for consumer behavior, simulating ski damage patterns, and much more, see [Python Projects](PythonProjects/README.md/#top).
+To see how I populated this database with thousands of rows of realistic data by simulating normal and skewed distributions for customer measures based on gender, adding seasonality for consumer behavior, simulating ski damage patterns, and much more, see [Python Projects](#python).
 
 Here is the diagram for Karve's OLTP database.
 
@@ -98,8 +98,31 @@ https://user-images.githubusercontent.com/90723578/136681997-f5c74bb6-6f57-4d3c-
 [<img src="Buttons/SVG/see more python projects.svg" height="34" width="auto"/>](PythonProjects)
 <hr>
 
+## Generating Highly Realistic Data to Populate a Database
+Nearly all of the data in the [Karve OLTP database](#database) above was generated using a series of lengthy Python scripts, but *very few* attributes are truly randomized.
+#### The program must do the following:
 
-Coming soon...
+1. Simulate real business patters
+    * Create an order volume distribution that's bimodal, peaking in Dec. and Mar. Then, _based on time of season_, choose how the length of time customers keep skis for will be distributed. This is skewed right for most of the season, but shortens in the spring since all rentals _must_ be returned by July 7th.   
+   * Choose how often skis get damaged, which types of damage are most common, how often multiple (2-3) damages occur in one rental event, how often a ski gets totaled/broken, and which types of critical damage are most common. And, when a ski does get totaled, update records to permanently prevent it from being rented again.
+
+2. Simulate a realistic distribution for each measure and include dependencies
+    * Pick what percent of customers are male/female.
+    * Height will be normally distributed based on gender.
+    * Weight will be based on height, and also normally distributed differently based on gender.
+    * Boot size will be normally distributed based on gender.
+    * Boot sole length will be based on boot size and then randomized within 3 millimeters.
+    * Skier ability level will be slightly skewed towards advanced skiers
+    * Days Used (# of days a customer _claims_ to have actually used the ski) will roughly correlate with the # of days between order and return date.
+
+#### Here are a few histograms of the simulated data:
+
+<table>
+  <tr>
+    <td><img src="https://github.com/ryayoung/data-warehousing/blob/main/KarveAutomation/plots/customer_weights.png" height="250" width="auto"></td>
+    <td><img src="https://github.com/ryayoung/data-warehousing/blob/main/KarveAutomation/hist_days_kept.png" height="250" width="auto"></td>
+  </tr>
+</table>
 
 <a name="vb"></a>
 <br><br>
