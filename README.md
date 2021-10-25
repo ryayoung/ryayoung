@@ -144,17 +144,42 @@ Description coming soon...
 
 
 
-### My favorite remaps
+### Maps
+<hr>
+
+### Quick Marks: Quickly create and auto-toggle global garks
+This is an original idea, in which I create a map that actually re-maps itself each time it's called. Sweet!
+
+Marks, while extremely useful, are a bit cumbersome to use. Do you ever forget which marks map to which places, accidentally try to use a local mark globally, create too many marks and lose track of them, or find that the syntax is too cumbersome for quickly switching between two marks?
+
+This script streamlines the most common use case for marks, making your workflow more efficient:
+```vim
+nnoremap mm mM:echo "MARK 1 SET"<CR>
+nnoremap mM mK:echo "MARK 2 SET"<CR>
+nnoremap <Leader>m 'M:call ToggleMarkerGo()<CR>
+let g:marker_go = 1
+function! ToggleMarkerGo()
+  if g:marker_go > 0
+    nnoremap <Leader>m 'K:call ToggleMarkerGo()<CR>
+    echo "MARK 1"
+  else
+    nnoremap <Leader>m 'M:call ToggleMarkerGo()<CR>
+    echo "MARK 2"
+  endif
+  let g:marker_go = -g:marker_go
+endfunction
+```
+How do you use it? First, "mm" sets global mark 1, and "mM" sets global mark 2. This simplifies the process of creating global marks and makes it intuitive to remember which one is which: ```nnoremap mm mM:echo "MARK 1 SET"<CR>```. Now for the fun part. Once you've set the two marks, ```<Leader>m``` will toggle between them. If you have your spacebar set as your leader key, this is an extremely fast command to press. Better yet, this eliminates the need for you to remember which mark is which. You can simply move to the "other" one.
+
+
+### Quickly nudge lines up and down
 This is super fun to use. I call it "nudging". Make a selection in visual mode, and nudge it up or down 1 line using J or K.
 ```vim
 vnoremap J :m '>+1<CR>gv=gv
 vnoremap K :m '<-2<CR>gv=gv
 ```
-Also, smart open braces is super useful. When you type an open curly brace and hit tab, it will autofill the close brace and put your cursor on the line between them.
-```vim
-inoremap {<Tab> {<CR>}<Esc>ko
-```
-### Remaps for editing HTML files
+
+### Maps for editing HTML files
 Firstly, I use a plugin called [Emmet](https://github.com/mattn/emmet-vim) to help edit html files. It's extremely useful.
 Additionally, here are some remaps I added to my vimrc that will execute when a .html file is opened.
 
@@ -168,7 +193,7 @@ autocmd FileType html nnoremap <Leader>,,
     \<meta charset="utf-8"><CR><title></title><Esc>jo
     \<body></body><Esc>%i<CR><Esc>O
 ```
-When the keymap is executed in an html file, it will fill the page with the following:
+When the map is executed in an html file, it will fill the page with the following:
 ```html
 <!-- Author:  Ryan Young -->
 <!-- Created: 10/09/21 -->
@@ -188,7 +213,7 @@ When the keymap is executed in an html file, it will fill the page with the foll
 
 ```
 
-When you're using a lot of ```<i>```, ```<em>```, ```<b>```, etc., you'll find it can be very cumbersome to remove these modifiers by hand since you have two parts to delete. Here's another html remap that makes this process much faster:
+When you're using a lot of ```<i>```, ```<em>```, ```<b>```, etc., you'll find it can be very cumbersome to remove these modifiers by hand since you have two parts to delete. Here's another html map that makes this process much faster:
 ```vim
 autocmd FileType html nnoremap <Leader>,d2 i`<Esc>lvf>d<Esc>hf<vf>d<Esc>F`x
 ```
