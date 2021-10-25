@@ -154,22 +154,22 @@ Marks, while extremely useful, are a bit cumbersome to use. Do you ever forget w
 
 This script streamlines the most common use case for marks, making your workflow more efficient:
 ```vim
-nnoremap mm mM:echo "MARK 1 SET"<CR>
-nnoremap mM mK:echo "MARK 2 SET"<CR>
-nnoremap <Leader>m 'M:call ToggleMarkerGo()<CR>
-let g:marker_go = 1
-function! ToggleMarkerGo()
-  if g:marker_go > 0
-    nnoremap <Leader>m 'K:call ToggleMarkerGo()<CR>
-    echo "MARK 1"
+nnoremap mm mM:echo "GLOBAL MARK 1 SET"<CR>
+nnoremap mM mK:echo "GLOBAL MARK 2 SET"<CR>
+nnoremap <Leader>m 'M:call ToggleSmartMarkA()<CR>
+let g:smart_mark_global = 1
+function! ToggleSmartMarkA()
+  if g:smart_mark_global > 0
+    nnoremap <Leader>m 'K:call ToggleSmartMarkA()<CR>
+    echo "GLOBAL MARK 1"
   else
-    nnoremap <Leader>m 'M:call ToggleMarkerGo()<CR>
-    echo "MARK 2"
+    nnoremap <Leader>m 'M:call ToggleSmartMarkA()<CR>
+    echo "GLOBAL MARK 2"
   endif
-  let g:marker_go = -g:marker_go
+  let g:smart_mark_global = -g:smart_mark_global
 endfunction
 ```
-How do you use it? First, "mm" sets global mark 1, and "mM" sets global mark 2. This simplifies the process of creating global marks and makes it intuitive to remember which one is which: ```nnoremap mm mM:echo "MARK 1 SET"<CR>```. Now for the fun part. Once you've set the two marks, ```<Leader>m``` will toggle between them. If you have your spacebar set as your leader key, this is an extremely fast command to press. Better yet, this eliminates the need for you to remember which mark is which. You can simply move to the "other" one.
+How do you use it? First, "mm" sets global mark 1, and "mM" sets global mark 2. This simplifies the process of creating global marks and makes it intuitive to remember which one is which. Now for the fun part. Once you've set the two marks, ```<Leader>m``` will toggle between them. If you have your spacebar set as your leader key, this is an extremely fast command to press. Better yet, this eliminates the need for you to remember which mark is which. You can simply move to the "other" one.
 
 
 ### Quickly nudge lines up and down
