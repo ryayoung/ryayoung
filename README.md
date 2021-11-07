@@ -36,16 +36,16 @@ https://user-images.githubusercontent.com/90723578/136682515-562cd1b8-dd9e-44ce-
     <th><b>App Prototype</b></th>
   </tr>
   <tr>
-    <td><a href="GraphicDesign/Infographic.md/#top"><img src="Buttons/PNG/youtube infographic.png" height="240" width="auto"/></a></td>
-    <td><a href="GraphicDesign/MobileApp.md/#top"><img src="Buttons/PNG/alphanote.png" height="240" width="auto"/></a></td>
+    <td><a href="GraphicDesign/Infographic.md/#top"><img src="Buttons/PNG/youtube infographic.png" height="240"/></a></td>
+    <td><a href="GraphicDesign/MobileApp.md/#top"><img src="Buttons/PNG/alphanote.png" height="240"/></a></td>
   </tr>
   <tr>
     <th><b>Brand Guide</b></th>
     <th><b>Logo Design</b></th>
   </tr>
   <tr>
-    <td><a href="GraphicDesign/BrandGuide.md/#top"><img src="Buttons/PNG/anode.png" height="240" width="auto"/></a></td>
-    <td><a href="GraphicDesign/LogoDesign.md/#top"><img src="Buttons/PNG/more than a word.png" height="240" width="auto"/></a></td>
+    <td><a href="GraphicDesign/BrandGuide.md/#top"><img src="Buttons/PNG/anode.png" height="240"/></a></td>
+    <td><a href="GraphicDesign/LogoDesign.md/#top"><img src="Buttons/PNG/more than a word.png" height="240"/></a></td>
   </tr>
 </table>
 
