@@ -157,8 +157,6 @@ Description coming soon...
 <hr>
 
 ### Quick Marks: Quickly create and auto-toggle global garks
-This is an original idea, in which I create a map that actually re-maps itself each time it's called. Sweet!
-
 Marks, while extremely useful, are a bit cumbersome to use. Do you ever forget which marks map to which places, accidentally try to use a local mark globally, create too many marks and lose track of them, or find that the syntax is too cumbersome for quickly switching between two marks?
 
 This script streamlines the most common use case for marks, making your workflow more efficient:
@@ -178,7 +176,7 @@ function! ToggleSmartMarkA()
   let g:smart_mark_global = -g:smart_mark_global
 endfunction
 ```
-How do you use it? First, "mm" sets global mark 1, and "mM" sets global mark 2. This simplifies the process of creating global marks and makes it intuitive to remember which one is which. Now for the fun part. Once you've set the two marks, ```<Leader>m``` will toggle between them. If you have your spacebar set as your leader key, this is an extremely fast command to press. Better yet, this eliminates the need for you to remember which mark is which. You can simply move to the "other" one.
+How do you use it? First, "mm" sets global mark 1, and "mM" sets global mark 2. This simplifies the process of creating global marks and makes it intuitive to remember which one is which. Now for the fun part. Once you've set the two marks, ```<Leader>m``` will **toggle** between them. If you have your spacebar set as your leader key, this is an extremely fast command to press. Better yet, this eliminates the need for you to remember which mark is which. You can simply move to the "other" one.
 
 
 ### Quickly nudge lines up and down
@@ -195,31 +193,32 @@ Additionally, here are some remaps I added to my vimrc that will execute when a 
 Here's a command I wrote to help me edit new html files faster by populating an empty page with everything I need to get started with. <br>
 Why is it cool? Using vimscript, it will autofill today's date, using ```=strftime("%m/%d/%y)```
 ```vim
-autocmd FileType html nnoremap <Leader>,, 
-    \i<!-- Author:  Ryan Young --><CR><!-- Created:  <Esc>"=strftime("%m/%d/%y")<CR>Pa --><CR><!DOCTYPE html><CR>
+nnoremap <buffer> <Leader>,, 
+    \i<!-- Maintainer:      <Esc>"=g:my_name<CR>Pa --><CR><!-- Last Modified:   <Esc>"=strftime("%b %d, %Y")<CR>Pa --><CR><!DOCTYPE html><CR>
     \<html></html><Esc>%i<CR><Esc>O<head></head><Esc>%i<CR><Esc>O
-    \<style></style><Esc>%i<CR><Esc>O<Tab><Tab><Tab>body {} h1 {}<Esc>jo
+    \<style></style><Esc>o
+    \<script src=""></script><Esc>o
     \<meta charset="utf-8"><CR><title></title><Esc>jo
     \<body></body><Esc>%i<CR><Esc>O
+    \<script></script><Esc>O
 ```
 When the map is executed in an html file, it will fill the page with the following:
 ```html
-<!-- Author:  Ryan Young -->
-<!-- Created: 10/09/21 -->
+<!-- Maintainer:     Ryan Young -->
+<!-- Last Modified:  Nov 06, 2021 -->
 <!DOCTYPE html>
 <html>
   <head>
-    <style>
-      body {} h1 {}
-    </style>
+    <style></style>
+    <script src=""></script>
     <meta charset="utf-8">
     <title></title>
   </head>
   <body>
 
+    <script></script>
   </body>
 </html>
-
 ```
 
 When you're using a lot of ```<i>```, ```<em>```, ```<b>```, etc., you'll find it can be very cumbersome to remove these modifiers by hand since you have two parts to delete. Here's another html map that makes this process much faster:
