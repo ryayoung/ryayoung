@@ -145,7 +145,7 @@ Description coming soon...
 ### Plugins
 <hr>
 
-### [Comments-And-Headers](https://github.com/ryayoung/vim-comments-and-headers)
+### [vim-annotate-me](https://github.com/ryayoung/vim-annotate-me)
 1. Lets you **toggle** comment/uncomment one or multiple lines of code at a time with a single keypress.
 2. Recognizes your filetype and will comment/uncomment according to that syntax. Especially useful in languages such as HTML, where commented code must be fully enclosed, AND the syntax is annoying to type by hand. (Ex: ```<!-- some html stuff -->```).
 3. Automatically creates headers (name & today's date) at the top of any new document you create, or any empty document that you open, and comments out that header using correct syntax based on your filetype.
