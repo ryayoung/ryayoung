@@ -188,37 +188,27 @@ vnoremap K :m '<-2<CR>gv=gv
 
 ### Maps for editing HTML files
 Firstly, I use a plugin called [Emmet](https://github.com/mattn/emmet-vim) to help edit html files. It's extremely useful.
-Additionally, here are some remaps I added to my vimrc that will execute when a .html file is opened.
+Additionally, here are some maps to add to your ```ftplugin/html.vim```file, to execute when html files are opened.
 
-Here's a command I wrote to help me edit new html files faster by populating an empty page with everything I need to get started with. <br>
-Why is it cool? Using vimscript, it will autofill today's date, using ```=strftime("%m/%d/%y)```
+Here's a function to fill a page with a basic HTML template:
 ```vim
-nnoremap <buffer> <Leader>,, 
-    \i<!-- Maintainer:      <Esc>"=g:my_name<CR>Pa --><CR><!-- Last Modified:   <Esc>"=strftime("%b %d, %Y")<CR>Pa --><CR><!DOCTYPE html><CR>
-    \<html></html><Esc>%i<CR><Esc>O<head></head><Esc>%i<CR><Esc>O
-    \<style></style><Esc>o
-    \<script src=""></script><Esc>o
-    \<meta charset="utf-8"><CR><title></title><Esc>jo
-    \<body></body><Esc>%i<CR><Esc>O
-    \<script></script><Esc>O
-```
-When the map is executed in an html file, it will fill the page with the following:
-```html
-<!-- Maintainer:     Ryan Young -->
-<!-- Last Modified:  Nov 06, 2021 -->
-<!DOCTYPE html>
-<html>
-  <head>
-    <style></style>
-    <script src=""></script>
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
-
-    <script></script>
-  </body>
-</html>
+fun! InsertTemplate()
+  exe "normal! G"
+  let l:line = line('.')
+  call setline(l:line+1, "<!DOCTYPE html>")
+  call setline(l:line+2, '<html lang="en-US">')
+  call setline(l:line+3, "  <head>")
+  call setline(l:line+4, '    <link rel="stylesheet" href="">')
+  call setline(l:line+5, '    <script src=""></script>')
+  call setline(l:line+6, '    <meta charset="utf-8">')
+  call setline(l:line+7, "  </head>")
+  call setline(l:line+8, "  <body>")
+  call setline(l:line+9, "    ")
+  call setline(l:line+10, "  </body>")
+  call setline(l:line+11, "</html>")
+endfun
+" Now, create a current-buffer-only map that gives you a shortcut to call this function.
+nnoremap <buffer> <silent> <Leader>,, :call InsertTemplate()<CR>
 ```
 
 When you're using a lot of ```<i>```, ```<em>```, ```<b>```, etc., you'll find it can be very cumbersome to remove these modifiers by hand since you have two parts to delete. Here's another html map that makes this process much faster:
