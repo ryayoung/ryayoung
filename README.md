@@ -138,11 +138,15 @@ Description coming soon...
 
 <a name="vim"></a>
 <br><br>
-# Vim Configuration & Tips 
+# Vim Configuration & Plugins
 [<img src="Buttons/SVG/see full vim configuration.svg" height="34" width="auto"/>](Vim)
 <hr>
 
+### Plugins
+<hr>
 
+### Comments-And-Headers
+[See it!](https://github.com/ryayoung/vim-comments-and-headers)
 
 ### Maps
 <hr>
