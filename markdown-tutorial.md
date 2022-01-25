@@ -158,7 +158,7 @@ print("Python syntax highlighting")
 1. Absolute: ```[See Google.com](https://www.google.com)```
 2. Relative: ```[See readme file](README.md)```
 3. Relative (with page position): ```[Top of the readme file](README.md/#top)```
-- For this to work, the target file (readme.md) must have an invisible name tag ```<a name="top"></a>``` in the page.
+- For #3 to work, the target file (readme.md) must have an invisible name tag ```<a name="top"></a>``` somewhere in the page, at the location you want to link to.
 
 <details>
   <summary><i><b>Click for an explanation on relative links</b></i></summary>
