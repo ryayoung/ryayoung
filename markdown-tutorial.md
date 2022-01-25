@@ -1,12 +1,12 @@
 [<-- **HOME**](README.md)
 # Github's Special Markdown Rendering
 ---
-In Github, you can use syntax from BOTH **HTML** and **markdown**. Thus, most things have an alternate way of doing the same thing. As a rule of thumb, it's best practice to use **markdown** syntax wherever possible because it's simple and easier to read. 
+In Github, you can use syntax from both **HTML** and **markdown**. Thus, most things can be done in more than one way. It's best practice to use **markdown** syntax wherever possible. It's simple and easier to read. 
 
-**IMPORTANT MISTAKE TO AVOID**: If you use an HTML element, you **must** put a blank line **after** it before writing any markdown.
+**IMPORTANT MISTAKE TO AVOID**: If you use an HTML element, you **must** leave a blank line **below** it before writing any markdown.
 
 # Use the Github Code Editor
-Markdown is something you'll actually want to edit from _inside_ Github, because it's the only way to quickly see your content rendered before committing.
+Markdown is something you'll actually need to edit from _inside_ Github, instead of a text editor, because it's the only way to quickly preview your content in its rendered form before committing.
 
 <details>
   <summary><i><b>Click here for tips on using the Github editor</b></i></summary>
