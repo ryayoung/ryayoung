@@ -227,7 +227,25 @@ The result will look like:
 ```
 Sweet! That was fast.
 
+<hr>
 
+<a name="markdown"></a>
+<br><br>
+# Github Markdown - Interactive Tutorial
+[<img src="Buttons/SVG/see the tutorial.svg" height="34"/>](markdown-tutorial.md)
+<hr>
+
+Amazing documentation [like this](https://spacy.io/usage/linguistic-features/) is hard to come by. Github has some sweet features you can take advantage of in your readme pages with very little effort. For example, you can even fold text like this:
+
+<details>
+  <summary><i><b>CLICK ME!</b></i></summary>
+
+- I am an inside of an html ```details``` element. See the tutorial above for how to use me!
+
+```python
+print("I'm colored with python syntax highlighting, AND I'm encased inside a text folding element :)")
+```
+</details>
 
 <br><hr><br>
 
