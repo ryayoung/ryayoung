@@ -3,13 +3,14 @@
 # Here is some of my work
 
 
-[<img src="Buttons/SVG/graphic design.svg" height="35" width="auto"/>](#graphicdesign)
-[<img src="Buttons/SVG/sql database.svg" height="35" width="auto"/>](#database)
-[<img src="Buttons/SVG/java projects.svg" height="35" width="auto"/>](#java)
-[<img src="Buttons/SVG/python projects.svg" height="35" width="auto"/>](#python)
-[<img src="Buttons/SVG/vb.net.svg" height="35" width="auto"/>](#vb)
-[<img src="Buttons/SVG/vim.svg" height="35" width="auto"/>](#vim)
-[<img src="Buttons/SVG/bottom of page.svg" height="35" width="auto"/>](#bottom)
+[<img src="Buttons/SVG/graphic design.svg" height="35"/>](#graphicdesign)
+[<img src="Buttons/SVG/sql database.svg" height="35"/>](#database)
+[<img src="Buttons/SVG/java projects.svg" height="35"/>](#java)
+[<img src="Buttons/SVG/python projects.svg" height="35"/>](#python)
+[<img src="Buttons/SVG/vb.net.svg" height="35"/>](#vb)
+[<img src="Buttons/SVG/vim.svg" height="35"/>](#vim)
+[<img src="Buttons/SVG/github markdown.svg" height="35"/>](#vim)
+[<img src="Buttons/SVG/bottom of page.svg" height="35"/>](#bottom)
 <br>
 
 ## A quick UI demo
@@ -55,7 +56,7 @@ https://user-images.githubusercontent.com/90723578/136682515-562cd1b8-dd9e-44ce-
 <a name="database"></a>
 <br><br>
 # SQL Database Work 
-[<img src="Buttons/SVG/see the full project sql.svg" height="34" width="auto"/>](Database)
+[<img src="Buttons/SVG/see more sql database work.svg" height="34"/>](Database)
 <hr>
 
 ## Karve Ski Demos
@@ -127,7 +128,7 @@ Nearly all of the data in the [Karve OLTP database](#database) above was generat
 <a name="vb"></a>
 <br><br>
 # VB.NET Application 
-[<img src="Buttons/SVG/see the full project vb.svg" height="34" width="auto"/>](VisualBasic)
+[<img src="Buttons/SVG/see the full project.svg" height="34"/>](VisualBasic)
 <hr>
 
 Description coming soon...
