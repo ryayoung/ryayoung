@@ -213,7 +213,7 @@ To my knowledge, this is the only working solution, and it's a miracle it actual
 ---
 
 ## HTML Tables
-Yes, these are supported. [This article](https://www.w3schools.com/html/html_tables.asp) provides a great tutorial with examples.
+These are cool. [This article](https://www.w3schools.com/html/html_tables.asp) provides a great tutorial with examples.
 
 Here is an example to see how they display inside Github:
 
@@ -238,10 +238,28 @@ Here is an example to see how they display inside Github:
     <th>Column 2</th>
   </tr>
   <tr>
-    <td>Stuff</td>
-    <td>Other stuff</td>
+    <td>Data</td>
+    <td>Data</td>
   </tr>
 </table>
+```
+</details>
+
+Or, you can achieve the same thing with markdown syntax, which is much cleaner and easier to read:
+
+| Header | Header |
+| ------ | ------ |
+| Data | Data |
+| Data | Data |
+
+<details>
+  <summary><i><b>See the code:</b></i></summary>
+  
+```md
+| Header | Header |
+| ------ | ------ |
+| Data | Data |
+| Data | Data |
 ```
 </details>
 
