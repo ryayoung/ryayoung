@@ -96,7 +96,7 @@ _Here is italic text_
 ### Bold & Italic
 ```markdown
 **_This is bold AND italic text_**
-***This works too, even though it's not displaying correctly here***
+***This is also bold & italic, even though it's not displaying correctly here***
 ```
 </details>
 
