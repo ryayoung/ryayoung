@@ -280,7 +280,7 @@ Did you know you can do this?
 - I am an html ```details``` element, open by default. (Add ```open``` to your ```details``` tag to enable this.)
 </details>
   
-This is an easy feature to screw up, so read closely.
+***Warning:*** Text folding is easy to screw up, so read closely.
 
 <details>
   <summary><i><b>Click to see the code for the above elements:</b></i></summary>
@@ -305,7 +305,7 @@ This is an easy feature to screw up, so read closely.
 <details>
   <summary><i><b>Important info on using this feature:</b></i></summary>
 
-- Notice the empty line between ```summary``` element and the bullet point. This NEEDS to be here, just like with all html elements.
+- Notice the empty line between ```summary``` element and the bullet point. This NEEDS to be here, just like with all html elements, since the bullet points are technically markdown.
 - Notice the indentation. In order for github to recognize the markdown syntax (bullets, code element) inside the html ```details``` element, everything enclosed must start at 0 indent. If you accidentally indented the bulleted text, it would display as ```- I am an html '''details''' element```
 - In this example, I used the html ```<b>``` and ```<i>``` elements to make the summary title bold & italic. This is **not** necessary.
 - The ```summary``` element is not actually necessary. Without it, **"Details"** will be displayed instead.
