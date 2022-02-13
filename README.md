@@ -9,7 +9,7 @@
 [<img src="Buttons/SVG/python projects.svg" height="35"/>](#python)
 [<img src="Buttons/SVG/vb.net.svg" height="35"/>](#vb)
 [<img src="Buttons/SVG/vim.svg" height="35"/>](#vim)
-[<img src="Buttons/SVG/github markdown.svg" height="35"/>](#vim)
+[<img src="Buttons/SVG/github markdown.svg" height="35"/>](#markdown)
 [<img src="Buttons/SVG/bottom of page.svg" height="35"/>](#bottom)
 <br>
 
