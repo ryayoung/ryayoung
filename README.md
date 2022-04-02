@@ -10,10 +10,19 @@
 [<img src="Buttons/SVG/vb.net.svg" height="35"/>](#vb)
 [<img src="Buttons/SVG/vim.svg" height="35"/>](#vim)
 [<img src="Buttons/SVG/github markdown.svg" height="35"/>](#markdown)
-[<img src="Buttons/SVG/bottom of page.svg" height="35"/>](#bottom)
+<!-- [<img src="Buttons/SVG/bottom of page.svg" height="35"/>](#bottom) -->
 <br>
 
-## A quick UI demo
+## Power BI Dashboard
+Here's a report I made for a sample database & [data simulation project](#python)
+<br>(Unmute for narration)<br>
+
+https://user-images.githubusercontent.com/90723578/161363277-efcb2183-78a2-4f59-9d22-1fd34b3818da.mov
+
+<br><hr>
+
+
+## .NET Forms Application
 
 This is a VB.NET application I made that communicates with an OLTP database.
 <br>***This video is just a UI demonstration.*** For a walkthrough of the project, see the [SQL Database](#database) section.
