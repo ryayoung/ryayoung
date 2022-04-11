@@ -172,7 +172,7 @@ Description coming soon...
 <details>
   <summary><b><i>Click here</i> to see the code. Paste into your vimrc to use it!</b></summary>
 
-```python
+```vim
 fun! ExecutePythonNewBuffer()
     " SOURCE FOR MAKING REUSABLE WINDOW: https://github.com/fatih/vim-go/blob/master/autoload/go/ui.vim
 
