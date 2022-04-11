@@ -163,8 +163,105 @@ Description coming soon...
 5. As soon as you write/save a file that HAS been modified, the header (if one exists) will be updated with the current date.
 6. The header format is fully customizeable, including the format of the current date. If you change the date format in your vimrc, the old dates in your previous files will automatically update with the new format once you save/write to them again.
 
-### Maps
-<hr>
+### Execute Python INSIDE Vim
+- A much nicer alternative to using your terminal
+- _How it works_
+  - When you press your key binding, it searches your current and parent directories for a python virtual environment. If none are found, then your machine's global python kernel will be used.
+  - Current script gets executed silently, and its output is placed into a new Vim buffer at the bottom of your window.
+  - This new buffer will only be tall enough to fit the output of your script, and its height gets updated every time you execute.
+<details>
+  <summary><b><i>Click here</i> to see the code. Paste into your vimrc to use it!</b></summary>
+
+```python
+fun! ExecutePythonNewBuffer()
+    " SOURCE FOR MAKING REUSABLE WINDOW: https://github.com/fatih/vim-go/blob/master/autoload/go/ui.vim
+
+    " save and reload current file
+    silent exe "update | edit"
+    
+    " add the console output
+    silent exe "cd %:p:h"
+
+    " get file path of current file
+    let s:current_buffer_file_path = expand("%")
+
+    let s:output_buffer_name = ">>> Python Output for " . s:current_buffer_file_path
+    let s:output_buffer_filetype = "output"
+
+    " reuse existing buffer window if it exists otherwise create a new one
+    if !exists("s:buf_nr") || !bufexists(s:buf_nr)
+        silent exe 'botright new ' . s:output_buffer_name
+        let s:buf_nr = bufnr('%')
+    elseif bufwinnr(s:buf_nr) == -1
+        silent exe 'botright new'
+        silent exe s:buf_nr . 'buffer'
+    elseif bufwinnr(s:buf_nr) != bufwinnr('%')
+        silent exe bufwinnr(s:buf_nr) . 'wincmd w'
+    endif
+
+    " silent exe "setlocal filetype=" . s:output_buffer_filetype
+    silent exe "setlocal filetype=typescript"
+    setlocal bufhidden=delete "When buffer is closed, it is deleted
+    setlocal buftype=nofile "Tells vim this buffer isn't related to a file and won't be written
+    setlocal noswapfile "Prevents a swap file being created
+    setlocal nobuflisted "Buffer won't show up in list of buffers
+    setlocal winfixheight "Keeps window height the same as other buffers are opened/closed
+    setlocal cursorline " make it easy to distinguish
+    " setlocal nonumber
+    setlocal norelativenumber "Line numbering is ordered, not relative
+    setlocal wrap linebreak "Lines wrap so everything is visible. VERY IMPORTANT FOR ERROR OUTPUT
+    setlocal showbreak="" "String to put at the start of lines that have been broken
+
+    " clear the buffer
+    setlocal noreadonly
+    setlocal modifiable
+    %delete _
+
+    let l:env = "virtual"
+    if filereadable("env/pyvenv.cfg") == 1
+        silent exe ".!source env/bin/activate&&python3 " . shellescape(s:current_buffer_file_path, 2)
+
+    elseif filereadable("../env/pyvenv.cfg") == 1
+        silent exe ".!source ../env/bin/activate&&python3 " . shellescape(s:current_buffer_file_path, 2)
+
+    elseif filereadable("../../env/pyvenv.cfg") == 1
+        silent exe ".!source ../../env/bin/activate&&python3 " . shellescape(s:current_buffer_file_path, 2)
+
+    elseif filereadable("../../../env/pyvenv.cfg") == 1
+        silent exe ".!source ../../../env/bin/activate&&python3 " . shellescape(s:current_buffer_file_path, 2)
+
+    else
+        silent exe ".!python3 " . shellescape(s:current_buffer_file_path, 2)
+        let l:env = "global"
+    endif
+
+    exe 'normal! ggO'
+    " call setline(".", "'----- PYTHON OUTPUT FOR " . s:current_buffer_file_path . " -----'")
+
+    " resize window to content length
+    if line('$') < 30
+        silent exe 'resize' . (line('$') + 3)
+    else
+        silent exe 'resize 33' 
+    endif
+
+    " make the buffer non modifiable
+    setlocal readonly
+    setlocal nomodifiable
+
+    " Move cursor back to original buffer
+    silent exe "call feedkeys('\<c-w>\<c-p>')"
+
+    echo "Executed in " . l:env . " environment"
+    " echo "SUCCESSFUL"
+
+endfun
+
+```
+</details>
+
+<img width="400" alt="image" src="https://user-images.githubusercontent.com/90723578/162662457-25bc367e-d661-4f91-b105-36babdafb2d5.png">
+
 
 ### Quick Marks: Quickly create and auto-toggle global garks
 Marks, while extremely useful, are a bit cumbersome to use. Do you ever forget which marks map to which places, accidentally try to use a local mark globally, create too many marks and lose track of them, or find that the syntax is too cumbersome for quickly switching between two marks?
@@ -195,46 +292,6 @@ This is super fun to use. I call it "nudging". Make a selection in visual mode, 
 vnoremap J :m '>+1<CR>gv=gv
 vnoremap K :m '<-2<CR>gv=gv
 ```
-
-### Maps for editing HTML files
-Firstly, I use a plugin called [Emmet](https://github.com/mattn/emmet-vim) to help edit html files. It's extremely useful.
-Additionally, here are some maps to add to your ```ftplugin/html.vim```file, to execute when html files are opened.
-
-Here's a function to fill a page with a basic HTML template:
-```vim
-fun! InsertTemplate()
-  exe "normal! G"
-  let l:line = line('.')
-  call setline(l:line+1, "<!DOCTYPE html>")
-  call setline(l:line+2, '<html lang="en-US">')
-  call setline(l:line+3, "  <head>")
-  call setline(l:line+4, '    <link rel="stylesheet" href="">')
-  call setline(l:line+5, '    <script src=""></script>')
-  call setline(l:line+6, '    <meta charset="utf-8">')
-  call setline(l:line+7, "  </head>")
-  call setline(l:line+8, "  <body>")
-  call setline(l:line+9, "    ")
-  call setline(l:line+10, "  </body>")
-  call setline(l:line+11, "</html>")
-endfun
-" Now, create a current-buffer-only map that gives you a shortcut to call this function.
-nnoremap <buffer> <silent> <Leader>,, :call InsertTemplate()<CR>
-```
-
-When you're using a lot of ```<i>```, ```<em>```, ```<b>```, etc., you'll find it can be very cumbersome to remove these modifiers by hand since you have two parts to delete. Here's another html map that makes this process much faster:
-```vim
-autocmd FileType html nnoremap <Leader>,d2 i`<Esc>lvf>d<Esc>hf<vf>d<Esc>F`x
-```
-
-Use the command above while your cursor is hovering over the first angle bracket of the ```<em>``` element in the following text...
-```html
-<p>Here is some <em>emphasized</em> text in html.</p>
-```
-The result will look like:
-```html
-<p>Here is some emphasized text in html.</p>
-```
-Sweet! That was fast.
 
 <hr>
 
