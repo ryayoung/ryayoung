@@ -72,7 +72,8 @@ Use the ```<br>``` tag to make as many line breaks as you want. (REMEMBER to fol
 
 ### Dividers
 
-Place ```---``` on an empty line to create your own divider. (The HTML equivalent is ```<hr>```).
+1. **Big divider:** Place ```---``` on an empty line to create your own divider. (The HTML equivalent is ```<hr>```).
+2. **Small divider:** Place a single ```#``` on its own line.
 
 <br>
 
@@ -277,13 +278,11 @@ Did you know you can do this?
 <details open>
   <summary><i><b>CLICK ME!</b></i></summary>
 
-- I am an html ```details``` element, open by default. (Add ```open``` to your ```details``` tag to enable this.)
+- I am an html ```details``` element, open by default.
 </details>
-  
-***Warning:*** Text folding is easy to screw up, so read closely.
 
 <details>
-  <summary><i><b>Click to see the code for the above elements:</b></i></summary>
+  <summary><i><b>View code for above elements:</b></i></summary>
 
 ```html
 <details>
@@ -302,15 +301,34 @@ Did you know you can do this?
 
 #### To display your content _expanded_ instead of _closed_, change ```<details>``` to ```<details open>```.
 
+#
+
+To use an `inline code block` as the **summary text** of your details dropdown, backticks WILL NOT WORK. Instead, use the `<code>` element. For example:
 <details>
-  <summary><i><b>Important info on using this feature:</b></i></summary>
+  <summary><code>my_function()</code></summary>
+
+```python
+def my_function():
+    pass
+```
+</details>
+
+The header for the above code looks like:
+```html
+  <summary><code>my_function()</code></summary>
+```
+
+#  
+
+#### Important info on using this feature:
 
 - Notice the empty line between ```summary``` element and the bullet point. This NEEDS to be here, just like with all html elements, since the bullet points are technically markdown.
 - Notice the indentation. In order for github to recognize the markdown syntax (bullets, code element) inside the html ```details``` element, everything enclosed must start at 0 indent. If you accidentally indented the bulleted text, it would display as ```- I am an html '''details''' element```
 - In this example, I used the html ```<b>``` and ```<i>``` elements to make the summary title bold & italic. This is **not** necessary.
 - The ```summary``` element is not actually necessary. Without it, **"Details"** will be displayed instead.
-</details>
 
+
+ 
 <br>
 
 # Comments in Markdown
