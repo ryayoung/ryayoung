@@ -62,13 +62,14 @@ text
 ```
 </details>
 
-
+#
 
 ### Manual Line Breaks
 - If you just hit enter a bunch of times, notice the extra lines you made don't get rendered
 
 Use the ```<br>``` tag to make as many line breaks as you want. (REMEMBER to follow it with an empty line)
 
+#
 
 ### Dividers
 
@@ -112,6 +113,9 @@ print("Swift syntax highlighting")
 ```python
 print("Python syntax highlighting")
 ```
+
+#
+
 There are 3 types of code blocks:
 1. **Inline**: Wrap text in triple back ticks: ```` ```code goes here``` ````
 2. **Fenced**: Same thing, but back ticks are on separate lines before and after the code block
@@ -245,6 +249,8 @@ Here is an example to see how they display inside Github:
 </table>
 ```
 </details>
+
+#
 
 Or, you can achieve the same thing with markdown syntax, which is much cleaner and easier to read:
 
