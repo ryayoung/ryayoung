@@ -298,7 +298,7 @@ vnoremap K :m '<-2<CR>gv=gv
 <a name="markdown"></a>
 <br><br>
 # Github Markdown - Interactive Tutorial
-[<img src="Buttons/SVG/see the tutorial.svg" height="34"/>](markdown-tutorial.md)
+[<img src="Buttons/SVG/see the tutorial.svg" height="34"/>](https://github.com/ryayoung/markdown-cheatsheet)
 <hr>
 
 Amazing documentation [like this](https://spacy.io/usage/linguistic-features/) is hard to come by. Github has some sweet features you can take advantage of in your readme pages with very little effort. For example, you can even fold text like this:
