@@ -204,13 +204,9 @@ You can display any _image_ (not video) in your repository with a relative link 
 - If you need to resize it, use HTML instead: ```<img width="500" src="my-directory/my-image.png"/>```
 
 ## Download Links
-<details>
-<summary><i><b>How to make a link that downloads a file with a single click:</b></i></summary>
-
-To my knowledge, this is the only working solution, and it's a miracle it actually works:
-- Create a raw-url html link to the **ABSOLUTE URL** of a file inside your repository:
-- ```<a id="raw-url" href="absolute-url-to-file-in-your-repo.pdf">Download it Here!</a>```
-</details>
+- Make a link that downloads a file with a single click
+- Create a raw-url html link to the **absolute url** (not relative) of a file inside your repository:
+- ```<a id="raw-url" href="https://github.com/my_name/my_repo/some_path/some_file.docx">Download it Here!</a>```
 
 <br>
 
