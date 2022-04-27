@@ -38,7 +38,7 @@ Markdown is something you'll actually need to edit from _inside_ Github, instead
 - **Headers** will break away from the line above, AND insert a linebreak after.
 
 <details>
-  <summary><i><b>Click here to see how it works:</b></i></summary>
+  <summary><i><b>How it works:</b></i></summary>
   
 Typing the following:
 ```
@@ -84,7 +84,7 @@ Use the ```<br>``` tag to make as many line breaks as you want. (REMEMBER to fol
 - This syntax will **not** work for text inside html elements, such as tables and images. Instead, bold: ```<b></b>``` italic: ```<i></i>```
 
 <details>
-  <summary><i><b>Click here to see it in action:</b></i></summary>
+  <summary><i><b>See it in action:</b></i></summary>
 
 ### Bold
 ```markdown
@@ -122,7 +122,7 @@ There are 3 types of code blocks:
 3. **Fenced with syntax highlighting**: After the opening set of back ticks, specify a language: ```` ```python ````
 
 <details>
-  <summary><i><b>Click to see a demonstration</b></i></summary>
+  <summary><i><b>Demo:n</b></i></summary>
 
 ## Inline:
 Here is a sentence with an ```inline code block``` used.
@@ -166,7 +166,7 @@ print("Python syntax highlighting")
 - For #3 to work, the target file (readme.md) must have an invisible name tag ```<a name="top"></a>``` somewhere in the page, at the location you want to link to.
 
 <details>
-  <summary><i><b>Click for an explanation on relative links</b></i></summary>
+  <summary><i><b>More details on relative links:</b></i></summary>
   
 - Relative links are used for navigating within a repository, or displaying files such as images that are stored locally.
 - You can also make an image function as a link by placing a link to the image inside the text field in another link.
@@ -187,7 +187,7 @@ print("Python syntax highlighting")
 #### This is what makes Github markdown really special. You can copy-paste images, videos, and gifs from your computer directly into the code in a markdown file, and they will be embedded seamlessly.
 
 <details>
-  <summary><i><b>Click to see how it works:</b></i></summary>
+  <summary><i><b>See how it works:</b></i></summary>
   
 - Github will store them somewhere and generate a unique link in your markdown. A new link is generated each time you paste.
 - The link that gets generated is your ONLY way of accessing the content. It doesn't get stored in your repository anywhere.
