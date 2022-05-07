@@ -13,14 +13,35 @@
 <!-- [<img src="Buttons/SVG/bottom of page.svg" height="35"/>](#bottom) -->
 <br>
 
+## `chart-tools`
+Python library with powerful pre-configured visualizations, useful functions to help you build charts faster, and an api for loading online datasets.
+
+[<img src="Buttons/SVG/documentation.svg" height="34" width="auto"/>](https://github.com/ryayoung/chart-tools)
+
+### Example: the `superheat()` function
+> A much better correlation matrix/heatmap. Marks are sized based on the strength of the correlation, and it offers advanced options such as masking marks below a threshold, excluding variables that correlate on average below a threshold, and, by default, masking duplicate correlations and self-on-self correlations.
+```py
+# Make an 18x18 inch chart with pre-defined styling, circular marks, grid hidden,
+# hiding correlations below 0.1, hiding self-on-self correlations (default),
+# and hiding repeated/duplicate correlations from the right side (default)
+ct.set_style(18)
+ct.superheat(df.corr(), thresh_mask=0.10, grid=False, marker='o');
+```
+<img width="700" alt="image" src="https://user-images.githubusercontent.com/90723578/167240845-828ddec2-6323-4208-a4de-9e585c27b72e.png">
+
+<br>
+
+---
+
 ## Power BI Dashboard
 Here's a report I made for a sample database & [data simulation project](#python)
 <br>(Unmute for narration)<br>
 
 https://user-images.githubusercontent.com/90723578/161363277-efcb2183-78a2-4f59-9d22-1fd34b3818da.mov
 
-<br><hr>
+<br>
 
+---
 
 ## .NET Forms Application
 
@@ -30,7 +51,7 @@ This is a VB.NET application I made that communicates with an OLTP database.
 
 https://user-images.githubusercontent.com/90723578/136682515-562cd1b8-dd9e-44ce-88bb-776dd553bf5a.mp4
 
-<hr>
+---
 
 <a name="graphicdesign"></a>
 <br><br>
