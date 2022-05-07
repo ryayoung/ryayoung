@@ -14,11 +14,11 @@
 <br>
 
 ## `chart-tools`
-Python library with powerful pre-configured visualizations, useful functions to help you build charts faster, and an api for loading online datasets.
+> Python library with powerful pre-configured visualizations, useful functions to help you build charts faster, and an api for loading online datasets.
 
 [<img src="Buttons/SVG/documentation.svg" height="34" width="auto"/>](https://github.com/ryayoung/chart-tools)
 
-### Example: the `superheat()` function
+#### Example: the `superheat()` function
 > A much better correlation matrix/heatmap. Marks are sized based on the strength of the correlation, and it offers advanced options such as masking marks below a threshold, excluding variables that correlate on average below a threshold, and, by default, masking duplicate correlations and self-on-self correlations.
 ```py
 # Make an 18x18 inch chart with pre-defined styling, circular marks, grid hidden,
@@ -27,7 +27,7 @@ Python library with powerful pre-configured visualizations, useful functions to 
 ct.set_style(18)
 ct.superheat(df.corr(), thresh_mask=0.10, grid=False, marker='o');
 ```
-<img width="700" alt="image" src="https://user-images.githubusercontent.com/90723578/167240845-828ddec2-6323-4208-a4de-9e585c27b72e.png">
+<img width="750" alt="image" src="https://user-images.githubusercontent.com/90723578/167240845-828ddec2-6323-4208-a4de-9e585c27b72e.png">
 
 <br>
 
