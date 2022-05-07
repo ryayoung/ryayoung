@@ -13,10 +13,11 @@
 <!-- [<img src="Buttons/SVG/bottom of page.svg" height="35"/>](#bottom) -->
 <br>
 
-## `chart-tools`
-> Python library with powerful pre-configured visualizations, useful functions to help you build charts faster, and an api for loading online datasets.
+<h1> chart-tools &nbsp;&nbsp;&nbsp; <a href="https://pypi.org/project/chart-tools/" alt="Version"> <img src="https://img.shields.io/pypi/v/chart-tools.svg" /></a> </h1>
 
 [<img src="Buttons/SVG/documentation.svg" height="34" width="auto"/>](https://github.com/ryayoung/chart-tools)
+
+> Python library with powerful pre-configured visualizations, useful functions to help you build charts faster, and an api for loading online datasets.
 
 #### Example: the `superheat()` function
 > A much better correlation matrix/heatmap. Marks are sized based on the strength of the correlation, and it offers advanced options such as masking marks below a threshold, excluding variables that correlate on average below a threshold, and, by default, masking duplicate correlations and self-on-self correlations.
@@ -32,6 +33,8 @@ ct.superheat(df.corr(), thresh_mask=0.10, grid=False, marker='o');
 <br>
 
 ---
+
+<br>
 
 ## Power BI Dashboard
 Here's a report I made for a sample database & [data simulation project](#python)
