@@ -7,9 +7,9 @@
 
 <details><summary><b>What's VS Code?</b></summary>
 
-It's the most popular all-purpose text editor/development environment to ever live. And it's *nothing* like Visual Studio. It's meant to be as lightweight and performant as possible, while offering an enormous and easy to access marketplace for extensions/plugins to suit any need you have. Here are the results of the 2021 StackOverflow survey of about 80,000 developers, asked which development environment they use:
+It's the most popular all-purpose text editor/development environment of all time. And it's *nothing* like Visual Studio. It's meant to be as lightweight and performant as possible, while offering a massive, easy to access marketplace for extensions/plugins to suit any need you have - all of which can be enabled with one click. Here are the results of the 2021 StackOverflow survey of about 80,000 developers, asked which development environment they use:
 
-<img width="500" alt="image" src="https://user-images.githubusercontent.com/90723578/167718718-6d9feeff-211e-40fb-bbe7-66a11e54d7b8.png">
+<img width="600" alt="image" src="https://user-images.githubusercontent.com/90723578/167718718-6d9feeff-211e-40fb-bbe7-66a11e54d7b8.png">
 </details>
 
 #
@@ -38,7 +38,7 @@ Absolutely not. The Jupyter environment in VS Code will at first appear to work 
 ## Quick Start Guide
 
 #### 1. [Download Here](https://code.visualstudio.com/)
-- Don't worry about the handful of questions it asks you when you start it up. Just get through them.
+- Don't worry about the questions it asks you upon first launch. Just get through them.
 
 #### 2. User Interface
 - Don't open files. Open folders. Go to File > Open Folder, and select the root of where you'll be working. This could be a folder containing many projects. It's up to you.
@@ -86,17 +86,19 @@ Download the following extensions. I'll explain below.
 
 ### Cool Feature #1: **Data Viewer**
 
-Every pandas dataframe you create will go into Jupyter Variables, which you can open by clicking "Variables" in the ribbon at the top of your notebook. You can open these in a separate spreadsheet window.
+Every pandas dataframe you create goes into Jupyter Variables. Click "Variables" in the top ribbon to open one in a separate spreadsheet window.
 
 | 1. See Variables | 2. Select one | |
 | :- | :- | - |
 | <img width="300" alt="image" src="https://user-images.githubusercontent.com/90723578/167737994-90d9830c-58cc-4636-80bf-24903514f1de.png"> | <img width="300" alt="image" src="https://user-images.githubusercontent.com/90723578/167738102-b6f99e68-83c4-4f05-af34-5e9d7c98f38c.png"> |
-| **3. Refresh** | **4. Toggle Sort** | **5. Filter** |
+| **Refresh** | **Toggle Sort** | **Filter** |
 | <img width="150" alt="image" src="https://user-images.githubusercontent.com/90723578/167738349-54659aea-a6db-440c-90ef-cb5b5a23a655.png"> | <img width="150" alt="image" src="https://user-images.githubusercontent.com/90723578/167738431-5d041ba5-431d-472f-a91b-5e940813998c.png"> | <img width="150" alt="image" src="https://user-images.githubusercontent.com/90723578/167738508-0972a7ff-afc2-49fd-abfd-2df81afba374.png"> |
 
 #
 
 ### Cool Feature #2: **Coding Environment**
+
+You've got great syntax highlighting, line numbers, autocomplete, indent-guides, and an unlimited number of color themes to choose from. I use the GitHub theme extension, which comes with all 9 of GitHub's website themes.
 
 | VS Code | JupyterLab |
 | - | - |
@@ -135,9 +137,9 @@ Edit CSV lets you view/edit the file in a table form. To enable this, open a fil
 
 | Rainbow | Edit CSV |
 | :- | :- |
-| <img width="300" alt="image" src="https://user-images.githubusercontent.com/90723578/167719790-6fd89d41-71b5-4505-a034-dab1862e2db5.png"> | <img width="300" alt="image" src="https://user-images.githubusercontent.com/90723578/167719992-7bb3c6b5-5723-4b20-9142-1e58b7fca6ba.png"> |
+| <img width="350" alt="image" src="https://user-images.githubusercontent.com/90723578/167719790-6fd89d41-71b5-4505-a034-dab1862e2db5.png"> | <img width="350" alt="image" src="https://user-images.githubusercontent.com/90723578/167719992-7bb3c6b5-5723-4b20-9142-1e58b7fca6ba.png"> |
 | **Enable Edit CSV** | |
-| <img width="200" alt="image" src="https://user-images.githubusercontent.com/90723578/167719882-337f3629-edff-48ce-b345-671585611f27.png"> |  |
+| <img width="350" alt="image" src="https://user-images.githubusercontent.com/90723578/167719882-337f3629-edff-48ce-b345-671585611f27.png"> |  |
 
 
 
