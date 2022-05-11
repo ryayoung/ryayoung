@@ -37,10 +37,10 @@ Absolutely not. The Jupyter environment in VS Code will at first appear to work 
 
 ## Quick Start Guide
 
-#### 1. [Download Here](https://code.visualstudio.com/)
+### 1. [Download Here](https://code.visualstudio.com/)
 - Don't worry about the questions it asks you upon first launch. Just get through them.
 
-#### 2. User Interface
+### 2. User Interface
 - Don't open files. Open folders. Go to File > Open Folder, and select the root of where you'll be working. This could be a folder containing many projects. It's up to you.
 - You'll use the far left sidebar for navigation. I only use two of those icons in my workflow:
 - Files/code editor:
@@ -48,7 +48,7 @@ Absolutely not. The Jupyter environment in VS Code will at first appear to work 
 - Extensions:
     - <img width="40" alt="image" src="https://user-images.githubusercontent.com/90723578/167727056-109fe785-f63e-495d-a118-4e1718b88320.png">
 
-#### 3. Extensions!
+### 3. Extensions!
 
 Download the following extensions. I'll explain below.
 
@@ -65,7 +65,7 @@ Download the following extensions. I'll explain below.
 | <img width="300" alt="image" src="https://user-images.githubusercontent.com/90723578/167719606-0f85e517-fdb5-47f8-b13c-583e423f6a98.png"> | |
 
 
-#### 4. The Basics
+### 4. The Basics
 
 - File Navigator
 
@@ -92,7 +92,7 @@ Every pandas dataframe you create goes into Jupyter Variables. Click "Variables"
 | :- | :- | - |
 | <img width="300" alt="image" src="https://user-images.githubusercontent.com/90723578/167737994-90d9830c-58cc-4636-80bf-24903514f1de.png"> | <img width="300" alt="image" src="https://user-images.githubusercontent.com/90723578/167738102-b6f99e68-83c4-4f05-af34-5e9d7c98f38c.png"> |
 | **Refresh** | **Toggle Sort** | **Filter** |
-| <img width="150" alt="image" src="https://user-images.githubusercontent.com/90723578/167738349-54659aea-a6db-440c-90ef-cb5b5a23a655.png"> | <img width="150" alt="image" src="https://user-images.githubusercontent.com/90723578/167738431-5d041ba5-431d-472f-a91b-5e940813998c.png"> | <img width="150" alt="image" src="https://user-images.githubusercontent.com/90723578/167738508-0972a7ff-afc2-49fd-abfd-2df81afba374.png"> |
+| <img width="200" alt="image" src="https://user-images.githubusercontent.com/90723578/167738349-54659aea-a6db-440c-90ef-cb5b5a23a655.png"> | <img width="200" alt="image" src="https://user-images.githubusercontent.com/90723578/167738431-5d041ba5-431d-472f-a91b-5e940813998c.png"> | <img width="200" alt="image" src="https://user-images.githubusercontent.com/90723578/167738508-0972a7ff-afc2-49fd-abfd-2df81afba374.png"> |
 
 #
 
@@ -102,8 +102,8 @@ You've got great syntax highlighting, line numbers, autocomplete, indent-guides,
 
 | VS Code | JupyterLab |
 | - | - |
-| <img width="400" alt="image" src="https://user-images.githubusercontent.com/90723578/167730116-0d086623-bf7e-4502-80a8-06a3233d1c4a.png"> | <img width="400" alt="image" src="https://user-images.githubusercontent.com/90723578/167730168-94faad98-9ef6-460d-95e5-2d2212d727fc.png"> |
-| <img width="400" alt="image" src="https://user-images.githubusercontent.com/90723578/167730376-91bcf644-9c96-41f1-9bed-386eb26c1c75.png"> |  |
+| <img width="450" alt="image" src="https://user-images.githubusercontent.com/90723578/167730116-0d086623-bf7e-4502-80a8-06a3233d1c4a.png"> | <img width="450" alt="image" src="https://user-images.githubusercontent.com/90723578/167730168-94faad98-9ef6-460d-95e5-2d2212d727fc.png"> |
+| <img width="450" alt="image" src="https://user-images.githubusercontent.com/90723578/167730376-91bcf644-9c96-41f1-9bed-386eb26c1c75.png"> |  |
 
 #
 
@@ -127,7 +127,7 @@ The Excel Viewer extension lets you open excel files inside VS Code. It's amazin
 
 | View/Edit Cells | Sorting |
 | :- | :- |
-| <img width="350" alt="image" src="https://user-images.githubusercontent.com/90723578/167720392-ee2bea4d-4d43-4fbe-a24e-72a624fc138a.png"> | <img width="150" alt="image" src="https://user-images.githubusercontent.com/90723578/167720500-627e3cce-a359-4054-9a44-ffd7dcdd7a76.png"> |
+| <img width="550" alt="image" src="https://user-images.githubusercontent.com/90723578/167720392-ee2bea4d-4d43-4fbe-a24e-72a624fc138a.png"> | <img width="150" alt="image" src="https://user-images.githubusercontent.com/90723578/167720500-627e3cce-a359-4054-9a44-ffd7dcdd7a76.png"> |
 
 ### Rainbow CSV, and Edit csv
 
@@ -137,9 +137,9 @@ Edit CSV lets you view/edit the file in a table form. To enable this, open a fil
 
 | Rainbow | Edit CSV |
 | :- | :- |
-| <img width="350" alt="image" src="https://user-images.githubusercontent.com/90723578/167719790-6fd89d41-71b5-4505-a034-dab1862e2db5.png"> | <img width="350" alt="image" src="https://user-images.githubusercontent.com/90723578/167719992-7bb3c6b5-5723-4b20-9142-1e58b7fca6ba.png"> |
+| <img width="300" alt="image" src="https://user-images.githubusercontent.com/90723578/167719790-6fd89d41-71b5-4505-a034-dab1862e2db5.png"> | <img width="450" alt="image" src="https://user-images.githubusercontent.com/90723578/167719992-7bb3c6b5-5723-4b20-9142-1e58b7fca6ba.png"> |
 | **Enable Edit CSV** | |
-| <img width="350" alt="image" src="https://user-images.githubusercontent.com/90723578/167719882-337f3629-edff-48ce-b345-671585611f27.png"> |  |
+| <img width="250" alt="image" src="https://user-images.githubusercontent.com/90723578/167719882-337f3629-edff-48ce-b345-671585611f27.png"> |  |
 
 
 
