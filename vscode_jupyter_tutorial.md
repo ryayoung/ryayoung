@@ -89,7 +89,7 @@ Download the following extensions. I'll explain below.
 Every pandas dataframe you create will go into Jupyter Variables, which you can open by clicking "Variables" in the ribbon at the top of your notebook. You can open these in a separate spreadsheet window.
 
 | 1. See Variables | 2. Select one | |
-| - | - | - |
+| :- | :- | - |
 | <img width="300" alt="image" src="https://user-images.githubusercontent.com/90723578/167737994-90d9830c-58cc-4636-80bf-24903514f1de.png"> | <img width="300" alt="image" src="https://user-images.githubusercontent.com/90723578/167738102-b6f99e68-83c4-4f05-af34-5e9d7c98f38c.png"> |
 | **3. Refresh** | **4. Toggle Sort** | **5. Filter** |
 | <img width="150" alt="image" src="https://user-images.githubusercontent.com/90723578/167738349-54659aea-a6db-440c-90ef-cb5b5a23a655.png"> | <img width="150" alt="image" src="https://user-images.githubusercontent.com/90723578/167738431-5d041ba5-431d-472f-a91b-5e940813998c.png"> | <img width="150" alt="image" src="https://user-images.githubusercontent.com/90723578/167738508-0972a7ff-afc2-49fd-abfd-2df81afba374.png"> |
@@ -124,7 +124,7 @@ Sweet! We can easily navigate through our notebook. It even creates dropdown fol
 The Excel Viewer extension lets you open excel files inside VS Code. It's amazingly fast, and has only the most basic features you might need:
 
 | View/Edit Cells | Sorting |
-| - | - |
+| :- | :- |
 | <img width="350" alt="image" src="https://user-images.githubusercontent.com/90723578/167720392-ee2bea4d-4d43-4fbe-a24e-72a624fc138a.png"> | <img width="150" alt="image" src="https://user-images.githubusercontent.com/90723578/167720500-627e3cce-a359-4054-9a44-ffd7dcdd7a76.png"> |
 
 ### Rainbow CSV, and Edit csv
@@ -134,9 +134,9 @@ When viewing raw csv data, Rainbow CSV simply colors each column's text differen
 Edit CSV lets you view/edit the file in a table form. To enable this, open a file and click the "Edit csv" button in the upper right hand corner
 
 | Rainbow | Edit CSV |
-| - | - |
+| :- | :- |
 | <img width="300" alt="image" src="https://user-images.githubusercontent.com/90723578/167719790-6fd89d41-71b5-4505-a034-dab1862e2db5.png"> | <img width="300" alt="image" src="https://user-images.githubusercontent.com/90723578/167719992-7bb3c6b5-5723-4b20-9142-1e58b7fca6ba.png"> |
-| Enable Edit CSV | |
+| **Enable Edit CSV** | |
 | <img width="200" alt="image" src="https://user-images.githubusercontent.com/90723578/167719882-337f3629-edff-48ce-b345-671585611f27.png"> |  |
 
 
