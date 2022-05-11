@@ -59,9 +59,9 @@ Download the following extensions. I'll explain below.
 5. Edit csv
 
 | Jupyter | Excel |
-| - | - |
+| :- | :- |
 | <img width="300" alt="image" src="https://user-images.githubusercontent.com/90723578/167719169-144340e3-f2bd-4487-876d-2f8efbf77257.png"> | <img width="300" alt="image" src="https://user-images.githubusercontent.com/90723578/167719420-f1ea995c-e9b7-4910-98a9-bdf39ce1d231.png"> |
-| CSV | |
+| **CSV** | |
 | <img width="300" alt="image" src="https://user-images.githubusercontent.com/90723578/167719606-0f85e517-fdb5-47f8-b13c-583e423f6a98.png"> | |
 
 
