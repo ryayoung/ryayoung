@@ -13,11 +13,11 @@
 <!-- [<img src="Buttons/SVG/bottom of page.svg" height="35"/>](#bottom) -->
 <br>
 
-<h1> chart-tools &nbsp;&nbsp;&nbsp; <a href="https://pypi.org/project/chart-tools/" alt="Version"> <img src="https://img.shields.io/pypi/v/chart-tools.svg" /></a> </h1>
+<h1><a href="https://github.com/ryayoung/chart-tools">chart-tools</a> &nbsp;&nbsp;&nbsp; <a href="https://pypi.org/project/chart-tools/" alt="Version"> <img src="https://img.shields.io/pypi/v/chart-tools.svg"/></a> </h1>
 
-[<img src="Buttons/SVG/documentation.svg" height="34" width="auto"/>](https://github.com/ryayoung/chart-tools)
+<!-- [<img src="Buttons/SVG/documentation.svg" height="34" width="auto"/>](https://github.com/ryayoung/chart-tools) -->
 
-> Python library with powerful pre-configured visualizations, useful functions to help you build charts faster, and an api for loading online datasets.
+> Python library with powerful pre-configured visualizations, useful functions to help you build charts faster, and an api for exploring, managing, loading, and generating documentation for online tabular datasets. Official PyPI page [here](https://pypi.org/project/crime/). GitHub repository [here](https://github.com/ryayoung/chart-tools).
 
 #### Example: the `superheat()` function
 > A much better correlation matrix/heatmap. Marks are sized based on the strength of the correlation, and it offers advanced options such as masking marks below a threshold, excluding variables that correlate on average below a threshold, and, by default, masking duplicate correlations and self-on-self correlations.
