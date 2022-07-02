@@ -8,14 +8,41 @@
 <!-- [<img src="Buttons/SVG/java projects.svg" height="35"/>](#java) -->
 <!-- [<img src="Buttons/SVG/python projects.svg" height="35"/>](#python) -->
 <!-- [<img src="Buttons/SVG/vb.net.svg" height="35"/>](#vb) -->
-<!-- [<img src="Buttons/SVG/vim.svg" height="35"/>](#vim) -->
+<!-- [<img src="Buttons/SVG/vim.svg" height="35"/>]( s#vim) -->
 <!-- [<img src="Buttons/SVG/github markdown.svg" height="35"/>](#markdown) -->
 <!-- [<img src="Buttons/SVG/bottom of page.svg" height="35"/>](#bottom) -->
 <br>
 
-<h1><a href="https://github.com/ryayoung/chart-tools">chart-tools</a> &nbsp;&nbsp;&nbsp; <a href="https://pypi.org/project/chart-tools/" alt="Version"> <img src="https://img.shields.io/pypi/v/chart-tools.svg"/></a> </h1>
+<!-- https://github.com/ryayoung/coloradoplot -->
+<!-- https://github.com/ryayoung/icons/blob/main/svg/chevron.right.blue.svg -->
 
-<!-- [<img src="Buttons/SVG/documentation.svg" height="34" width="auto"/>](https://github.com/ryayoung/chart-tools) -->
+# Geo-Visualization App
+
+### <a href="https://github.com/ryayoung/coloradoplot"><img src="https://github.com/ryayoung/icons/blob/main/svg/code.slash.blue.svg" height="21"/> &nbsp; Code</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://colorado-crime.herokuapp.com/"><img src="https://github.com/ryayoung/icons/blob/main/svg/house.blue.svg" height="21"/> &nbsp; Website</a>
+
+> A Python web app for visualizing Colorado geographic data. Nearly 400 variables to choose from, including crime stats, census data, student demographics, viewable by county or by district.
+
+<details>
+<summary><b>Tech</b></summary>
+
+- **Web Framework:** Plotly Dash for Python
+- **Logic and data structures:** Geopandas dataframes, and pure Python
+- **Geocoding:** Google API
+- **UI Components:** Mostly Dash Bootstrap components with some Dash Core components, and a lot of custom styling.
+
+</details>
+
+<img width="1000" alt="map" src="https://user-images.githubusercontent.com/90723578/177008249-4d618061-f506-42e8-9e19-1a549b388449.png">
+
+<br>
+
+---
+
+<br>
+
+# chart-tools
+
+### <a href="https://github.com/ryayoung/coloradoplot"><img src="https://github.com/ryayoung/icons/blob/main/svg/code.file.blue.svg" height="21"/> &nbsp; Docs</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://colorado-crime.herokuapp.com/"><img src="https://img.shields.io/pypi/v/chart-tools.svg" height="21"/></a>
 
 > Python library with powerful pre-configured visualizations, useful functions to help you build charts faster, and an api for exploring, managing, loading, and generating documentation for online tabular datasets. Official PyPI page [here](https://pypi.org/project/crime/). GitHub repository [here](https://github.com/ryayoung/chart-tools).
 
