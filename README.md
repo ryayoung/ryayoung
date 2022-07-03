@@ -40,11 +40,11 @@
 
 <br>
 
-# chart-tools
+# chart-tools &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://pypi.org/project/chart-tools/"><img src="https://img.shields.io/pypi/v/chart-tools.svg" height="21"/></a>
 
-### <a href="https://github.com/ryayoung/coloradoplot"><img src="https://github.com/ryayoung/icons/blob/main/svg/code.file.blue.svg" height="21"/> &nbsp; Docs</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://colorado-crime.herokuapp.com/"><img src="https://img.shields.io/pypi/v/chart-tools.svg" height="21"/></a>
+### <a href="https://github.com/ryayoung/chart-tools"><img src="https://github.com/ryayoung/icons/blob/main/svg/code.file.blue.svg" height="21"/> &nbsp; Docs</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://pypi.org/project/chart-tools/"><img src="https://github.com/ryayoung/icons/blob/main/svg/folder.blue.svg" height="21"/> &nbsp; PyPI</a>
 
-> Python library with powerful pre-configured visualizations, useful functions to help you build charts faster, and an api for exploring, managing, loading, and generating documentation for online tabular datasets. Official PyPI page [here](https://pypi.org/project/crime/). GitHub repository [here](https://github.com/ryayoung/chart-tools).
+> Python library with powerful pre-configured visualizations, useful functions to help you build charts faster, and an api for exploring, managing, loading, and generating documentation for online tabular datasets.
 
 #### Example: the `superheat()` function
 > A much better correlation matrix/heatmap. Marks are sized based on the strength of the correlation, and it offers advanced options such as masking marks below a threshold, excluding variables that correlate on average below a threshold, and, by default, masking duplicate correlations and self-on-self correlations.
