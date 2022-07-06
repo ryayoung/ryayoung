@@ -17,7 +17,7 @@
 <!-- https://user-images.githubusercontent.com/90723578/136726037-5e793725-719e-4475-a341-eea0211097c1.png -->
 
 
-# Geo-Visualization App
+## Geo-Visualization App
 
 ### <a href="https://github.com/ryayoung/coloradoplot"><img src="https://github.com/ryayoung/icons/blob/main/svg/code.slash.blue.svg" height="21"/> &nbsp; Code</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://colorado-crime.herokuapp.com/"><img src="https://github.com/ryayoung/icons/blob/main/svg/house.blue.svg" height="21"/> &nbsp; Website</a>
 
@@ -41,7 +41,7 @@
 
 <br>
 
-# chart-tools &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://pypi.org/project/chart-tools/"><img src="https://img.shields.io/pypi/v/chart-tools.svg" height="21"/></a>
+## chart-tools &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://pypi.org/project/chart-tools/"><img src="https://img.shields.io/pypi/v/chart-tools.svg" height="21"/></a>
 
 ### <a href="https://github.com/ryayoung/chart-tools"><img src="https://github.com/ryayoung/icons/blob/main/svg/code.file.blue.svg" height="21"/> &nbsp; Docs</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://pypi.org/project/chart-tools/"><img src="https://github.com/ryayoung/icons/blob/main/svg/folder.blue.svg" height="21"/> &nbsp; PyPI</a>
 
@@ -65,7 +65,11 @@ ct.superheat(df.corr(), thresh_mask=0.10, grid=False, marker='o');
 <br>
 
 ## Power BI Dashboard
-Here's a report I made for a sample database & [data simulation project](#python)
+
+### <a href="https://github.com/ryayoung/data-warehousing"><img src="https://github.com/ryayoung/icons/blob/main/svg/server.blue.svg" height="21"/> &nbsp; Database Project</a>
+
+> Uses data from the Karve Analytics data warehouse. This is the final part of the Karve project.
+
 <br>(Unmute for narration)<br>
 
 https://user-images.githubusercontent.com/90723578/161363277-efcb2183-78a2-4f59-9d22-1fd34b3818da.mov
@@ -77,6 +81,8 @@ https://user-images.githubusercontent.com/90723578/161363277-efcb2183-78a2-4f59-
 <br>
 
 ## .NET Forms App
+
+### <a href="https://github.com/ryayoung/karve-forms-app"><img src="https://github.com/ryayoung/icons/blob/main/svg/code.slash.blue.svg" height="21"/> &nbsp; Code</a>
 
 A .NET app to interact with the [Karve OLTP sample database](https://github.com/ryayoung/karve-sample-database) to manage the fictitious business.
 
