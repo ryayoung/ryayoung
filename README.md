@@ -74,15 +74,62 @@ https://user-images.githubusercontent.com/90723578/161363277-efcb2183-78a2-4f59-
 
 ---
 
-## .NET Forms Application
+<br>
 
-This is a VB.NET application I made that communicates with an OLTP database.
-<br>***This video is just a UI demonstration.*** For a walkthrough of the project, see the [SQL Database](#database) section.
+## .NET Forms App
+
+A .NET app to interact with the [Karve OLTP sample database](https://github.com/ryayoung/karve-sample-database) to manage the fictitious business.
+
 <br>(Unmute for narration)<br>
 
 https://user-images.githubusercontent.com/90723578/136682515-562cd1b8-dd9e-44ce-88bb-776dd553bf5a.mp4
 
+<br>
+
 ---
+
+<br>
+
+## SQL Server OLTP Sample Database: *Karve Ski Demos*
+
+> Karve is an online ski demo subscription for enthusiasts who always want the ideal gear for current snow conditions. Members have access to hundreds of skis at the touch of a button, delivered to their doorstep, with the freedom to swap products at any time with no additional cost.
+
+> In another project, I used Python to simulate real business patterns and distributions to populate this database with sample data. The code and sample database from that project can be found [here](https://github.com/ryayoung/karve-sample-database).
+
+Here is the diagram for Karve's OLTP database.
+
+![image](https://user-images.githubusercontent.com/90723578/136710522-a44f98dc-d7bf-4756-89f2-b80a134231af.png)
+
+### Simulating realistic data
+> After building the database, 
+
+1. Simulate real business patters
+    * Create an order volume distribution that's bimodal, peaking in Dec. and Mar. Then, _based on time of season_, choose how the length of time customers keep skis for will be distributed. This is skewed right for most of the season, but shortens in the spring since all rentals _must_ be returned by July 7th.   
+   * Choose how often skis get damaged, which types of damage are most common, how often multiple (2-3) damages occur in one rental event, how often a ski gets totaled/broken, and which types of critical damage are most common. And, when a ski does get totaled, update records to permanently prevent it from being rented again.
+
+2. Simulate a realistic distribution for each measure and include dependencies
+    * Pick what percent of customers are male/female.
+    * Height will be normally distributed based on gender.
+    * Weight will be based on height, and also normally distributed differently based on gender.
+    * Boot size will be normally distributed based on gender.
+    * Boot sole length will be based on boot size and then randomized within 3 millimeters.
+    * Skier ability level will be slightly skewed towards advanced skiers
+    * Days Used (# of days a customer _claims_ to have actually used the ski) will roughly correlate with the # of days between order and return date.
+
+#### Here are a few histograms of the data:
+
+<table>
+  <tr>
+    <td><img src="https://github.com/ryayoung/data-warehousing/blob/main/KarveAutomation/plots/customer_weights.png" height="250" width="auto"></td>
+    <td><img src="https://github.com/ryayoung/data-warehousing/blob/main/KarveAutomation/hist_days_kept.png" height="250" width="auto"></td>
+  </tr>
+</table>
+
+<br>
+
+---
+
+<br>
 
 <a name="graphicdesign"></a>
 <br><br>
@@ -111,100 +158,36 @@ https://user-images.githubusercontent.com/90723578/136682515-562cd1b8-dd9e-44ce-
   </tr>
 </table>
 
+<br>
 
-<hr>
+---
 
-<a name="database"></a>
-<br><br>
-# SQL Database Work 
-[<img src="Buttons/SVG/see more sql database work.svg" height="34"/>](Database)
-<hr>
-
-## Karve Ski Demos
-
-Karve is an online ski demo subscription for enthusiasts who always want the ideal gear for current snow conditions. Members have access to hundreds of skis at the touch of a button, delivered to their doorstep, with the freedom to swap products at any time with no additional cost.
-
-To see how I populated this database with thousands of rows of realistic data by simulating normal and skewed distributions for customer measures based on gender, adding seasonality for consumer behavior, simulating ski damage patterns, and much more, see [Python Projects](#python).
-
-Here is the diagram for Karve's OLTP database.
-
-![image](https://user-images.githubusercontent.com/90723578/136710522-a44f98dc-d7bf-4756-89f2-b80a134231af.png)
-
-#### For an in-depth walkthrough of this project, [see more SQL/Database work](Database)
+<br>
 
 
+## Maze generator & solver (Java)
 
-<hr>
+### <a href="https://github.com/ryayoung/maze-solver"><img src="https://github.com/ryayoung/icons/blob/main/svg/code.slash.blue.svg" height="21"/> &nbsp; Code</a>
 
-<a name="java"></a>
-<br><br>
-# Java Projects 
-[<img src="Buttons/SVG/see more java projects.svg" height="34" width="auto"/>](JavaProjects)
-<hr>
-
-## Maze
-This program randomly generates a unique maze, then solves it. Designed to run slowly in order to visualize what's going on, the pathfinder can recognize short dead-ends and avoid them. When the maze is complete, the path corrects itself, removing all dead-ends and revealing the shortest possible path to the finish line.
+> Randomly generates a unique maze and solves it. Uses pure Java, with custom data structures. As soon as the maze is solved, the path corrects itself to remove dead ends and reveal the shortest path.
 
 https://user-images.githubusercontent.com/90723578/136681997-f5c74bb6-6f57-4d3c-84cc-de1064729ad6.mp4
 
 
+<br>
 
+---
 
+<br>
 
+## [vim-annotate-me](https://github.com/ryayoung/vim-annotate-me)
+> A Vim plugin for commenting/uncommenting lines of text, with some additional features. I prefer this over [commentary](https://github.com/tpope/vim-commentary) because it *doesn't* use motions. It instead works like a normal IDE, where a single key mapping toggles one or more lines of text.
 
-<hr>
-
-<a name="python"></a>
-<br><br>
-# Python Projects 
-[<img src="Buttons/SVG/see more python projects.svg" height="34" width="auto"/>](PythonProjects)
-<hr>
-
-## Generating Highly Realistic Data to Populate a Database
-Nearly all of the data in the [Karve OLTP database](#database) above was generated using a series of lengthy Python scripts, but *very few* attributes are truly randomized.
-#### The program must do the following:
-
-1. Simulate real business patters
-    * Create an order volume distribution that's bimodal, peaking in Dec. and Mar. Then, _based on time of season_, choose how the length of time customers keep skis for will be distributed. This is skewed right for most of the season, but shortens in the spring since all rentals _must_ be returned by July 7th.   
-   * Choose how often skis get damaged, which types of damage are most common, how often multiple (2-3) damages occur in one rental event, how often a ski gets totaled/broken, and which types of critical damage are most common. And, when a ski does get totaled, update records to permanently prevent it from being rented again.
-
-2. Simulate a realistic distribution for each measure and include dependencies
-    * Pick what percent of customers are male/female.
-    * Height will be normally distributed based on gender.
-    * Weight will be based on height, and also normally distributed differently based on gender.
-    * Boot size will be normally distributed based on gender.
-    * Boot sole length will be based on boot size and then randomized within 3 millimeters.
-    * Skier ability level will be slightly skewed towards advanced skiers
-    * Days Used (# of days a customer _claims_ to have actually used the ski) will roughly correlate with the # of days between order and return date.
-
-#### Here are a few histograms of the simulated data:
-
-<table>
-  <tr>
-    <td><img src="https://github.com/ryayoung/data-warehousing/blob/main/KarveAutomation/plots/customer_weights.png" height="250" width="auto"></td>
-    <td><img src="https://github.com/ryayoung/data-warehousing/blob/main/KarveAutomation/hist_days_kept.png" height="250" width="auto"></td>
-  </tr>
-</table>
-
-
-<hr>
-
-<a name="vim"></a>
-<br><br>
-# Vim Configuration & Plugins
-[<img src="Buttons/SVG/see full vim configuration.svg" height="34" width="auto"/>](Vim)
-<hr>
-
-### Plugins
-<hr>
-
-### [vim-annotate-me](https://github.com/ryayoung/vim-annotate-me)
-1. Lets you **toggle** comment/uncomment one or multiple lines of code at a time with a single keypress.
-2. Recognizes your filetype and will comment/uncomment according to that syntax. Especially useful in languages such as HTML, where commented code must be fully enclosed, AND the syntax is annoying to type by hand. (Ex: ```<!-- some html stuff -->```).
-3. Automatically creates headers (name & today's date) at the top of any new document you create, or any empty document that you open, and comments out that header using correct syntax based on your filetype.
-4. Lets you toggle the current file's header on/off with a single keypress, without disrupting your code, and without moving your cursor from its relative position.
-5. As soon as you write/save a file that HAS been modified, the header (if one exists) will be updated with the current date.
-6. The header format is fully customizeable, including the format of the current date. If you change the date format in your vimrc, the old dates in your previous files will automatically update with the new format once you save/write to them again.
+**File headers**
+- A feature to automatically create headers (your name & today's date) at the top of any new document you create, or any empty document that you open, and comments out that header using correct syntax based on your filetype.
+- Lets you toggle the current file's header on/off with a single keypress, without disrupting your code, and without moving your cursor from its relative position.
+- As soon as you write/save a file that HAS been modified, the header (if one exists) will be updated with the current date.
+- The header format is customizeable, including the format of the current date. If you change the date format in your vimrc, the old dates in your previous files will automatically update with the new format once you save/write to them again.
 
 ### Execute Python INSIDE Vim
 - A much nicer alternative to using your terminal

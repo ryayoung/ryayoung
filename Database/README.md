@@ -14,12 +14,10 @@ Here is the diagram for Karve's OLTP database.
 ![image](https://user-images.githubusercontent.com/90723578/136710522-a44f98dc-d7bf-4756-89f2-b80a134231af.png)
 
 ## Database Design
-Description coming soon...
 
 Here are its most important tables:
 
 ### Rental
-Description coming soon...
 ```sql
 CREATE TABLE Rental
     (RentalID           INT CONSTRAINT pk_rental PRIMARY KEY,
@@ -34,7 +32,6 @@ CREATE TABLE Rental
 ```
 
 ### DamageType and Damage
-Description coming soon...
 ```sql
 CREATE TABLE DamageType
     (DamageTypeID       INT CONSTRAINT pk_damage_type PRIMARY KEY,
@@ -52,7 +49,6 @@ CREATE TABLE Damage
 ```
 
 ### Customer
-Description coming soon
 ```sql
 CREATE TABLE Customer
     (CustomerID         INT CONSTRAINT pk_customer PRIMARY KEY,
@@ -81,7 +77,6 @@ CREATE TABLE Customer
 ```
 
 ### MountedSki
-Description coming soon...
 ```sql
 CREATE TABLE MountedSki
     (MountedSkiID       INT CONSTRAINT pk_mounted_ski PRIMARY KEY,
@@ -96,7 +91,6 @@ CREATE TABLE MountedSki
 ```
 
 ### SkiModel and Ski
-Description coming soon...
 ```sql
 CREATE TABLE SkiModel
     (SkiModelID         INT CONSTRAINT pk_ski_model PRIMARY KEY,
@@ -120,7 +114,6 @@ CREATE TABLE Ski
 ```
 
 ### BindingModel and Binding
-Description coming soon...
 ```sql
 CREATE TABLE BindingModel
     (BindingModelID     INT CONSTRAINT pk_binding_model PRIMARY KEY,
@@ -145,13 +138,3 @@ CREATE TABLE [Binding]
     );
 
 ```
-
-## Inventory Management Application
-### A VB.NET App Built using Visual Studio
-
-Description coming soon...
-
-![sc_Search](https://user-images.githubusercontent.com/90723578/136711697-a1c762bb-8058-4db7-8a88-cf9d332ff8b3.png)
-
-
-
