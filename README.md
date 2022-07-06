@@ -88,7 +88,7 @@ A .NET app to interact with the [Karve OLTP sample database](https://github.com/
 
 <br>(Unmute for narration)<br>
 
-https://user-images.githubusercontent.com/90723578/136682515-562cd1b8-dd9e-44ce-88bb-776dd553bf5a.mp4
+https://user-images.githubusercontent.com/90723578/177630055-e287d2a7-78b6-47c5-8567-7290e597ced9.mp4
 
 <br>
 
