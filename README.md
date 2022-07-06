@@ -19,7 +19,7 @@
 
 ## Geo-Visualization App
 
-### <a href="https://github.com/ryayoung/coloradoplot"><img src="https://github.com/ryayoung/icons/blob/main/svg/code.slash.blue.svg" height="21"/> &nbsp; Code</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://colorado-crime.herokuapp.com/"><img src="https://github.com/ryayoung/icons/blob/main/svg/house.blue.svg" height="21"/> &nbsp; Website</a>
+### <a href="https://github.com/ryayoung/coloradoplot"><img src="https://github.com/ryayoung/icons/blob/main/svg/code.slash.blue.svg" height="20"/> &nbsp; Code</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://colorado-crime.herokuapp.com/"><img src="https://github.com/ryayoung/icons/blob/main/svg/house.blue.svg" height="21"/> &nbsp; Website</a>
 
 > A Python web app for visualizing Colorado geographic data. Nearly 400 variables to choose from, including crime stats, census data, student demographics, viewable by county or by district.
 
@@ -41,9 +41,9 @@
 
 <br>
 
-## chart-tools &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://pypi.org/project/chart-tools/"><img src="https://img.shields.io/pypi/v/chart-tools.svg" height="21"/></a>
+# ```chart-tools``` &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://pypi.org/project/chart-tools/"><img src="https://img.shields.io/pypi/v/chart-tools.svg" height="21"/></a>
 
-### <a href="https://github.com/ryayoung/chart-tools"><img src="https://github.com/ryayoung/icons/blob/main/svg/code.file.blue.svg" height="21"/> &nbsp; Docs</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://pypi.org/project/chart-tools/"><img src="https://github.com/ryayoung/icons/blob/main/svg/folder.blue.svg" height="21"/> &nbsp; PyPI</a>
+### <a href="https://github.com/ryayoung/chart-tools"><img src="https://github.com/ryayoung/icons/blob/main/svg/code.file.blue.svg" height="22"/> &nbsp; Docs</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://pypi.org/project/chart-tools/"><img src="https://github.com/ryayoung/icons/blob/main/svg/folder.blue.svg" height="22"/> &nbsp; PyPI</a>
 
 > Python library with powerful pre-configured visualizations, useful functions to help you build charts faster, and an api for exploring, managing, loading, and generating documentation for online tabular datasets.
 
@@ -64,9 +64,9 @@ ct.superheat(df.corr(), thresh_mask=0.10, grid=False, marker='o');
 
 <br>
 
-## Power BI Dashboard
+# Power BI Dashboard
 
-### <a href="https://github.com/ryayoung/data-warehousing"><img src="https://github.com/ryayoung/icons/blob/main/svg/server.blue.svg" height="21"/> &nbsp; Database Project</a>
+### <a href="https://github.com/ryayoung/data-warehousing"><img src="https://github.com/ryayoung/icons/blob/main/svg/server.blue.svg" height="22"/> &nbsp; Database Project</a>
 
 > Uses data from the Karve Analytics data warehouse. This is the final part of the Karve project.
 
@@ -80,9 +80,9 @@ https://user-images.githubusercontent.com/90723578/161363277-efcb2183-78a2-4f59-
 
 <br>
 
-## .NET Forms App
+# .NET Forms App
 
-### <a href="https://github.com/ryayoung/karve-forms-app"><img src="https://github.com/ryayoung/icons/blob/main/svg/code.slash.blue.svg" height="21"/> &nbsp; Code</a>
+### <a href="https://github.com/ryayoung/karve-forms-app"><img src="https://github.com/ryayoung/icons/blob/main/svg/code.slash.blue.svg" height="20"/> &nbsp; Code</a>
 
 A .NET app to interact with the [Karve OLTP sample database](https://github.com/ryayoung/karve-sample-database) to manage the fictitious business.
 
@@ -96,31 +96,18 @@ https://user-images.githubusercontent.com/90723578/136682515-562cd1b8-dd9e-44ce-
 
 <br>
 
-## SQL Server OLTP Sample Database: *Karve Ski Demos*
+# Simulation: Karve OLTP Sample Database
 
-> Karve is an online ski demo subscription for enthusiasts who always want the ideal gear for current snow conditions. Members have access to hundreds of skis at the touch of a button, delivered to their doorstep, with the freedom to swap products at any time with no additional cost.
+### <a href="https://github.com/ryayoung/karve-sample-database"><img src="https://github.com/ryayoung/icons/blob/main/svg/code.slash.blue.svg" height="20"/> &nbsp; Code</a>
 
-> In another project, I used Python to simulate real business patterns and distributions to populate this database with sample data. The code and sample database from that project can be found [here](https://github.com/ryayoung/karve-sample-database).
+> A Python script to simulate real business patterns and distributions of customer data to populate the Karve database with sample data. The result is a sample SQL Server database that students can use to practice analytical tasks such as queries or visualizations to discover hidden patterns and trends in the data.
 
-Here is the diagram for Karve's OLTP database.
+*For example...*
 
-![image](https://user-images.githubusercontent.com/90723578/136710522-a44f98dc-d7bf-4756-89f2-b80a134231af.png)
-
-### Simulating realistic data
-> After building the database, 
-
-1. Simulate real business patters
-    * Create an order volume distribution that's bimodal, peaking in Dec. and Mar. Then, _based on time of season_, choose how the length of time customers keep skis for will be distributed. This is skewed right for most of the season, but shortens in the spring since all rentals _must_ be returned by July 7th.   
-   * Choose how often skis get damaged, which types of damage are most common, how often multiple (2-3) damages occur in one rental event, how often a ski gets totaled/broken, and which types of critical damage are most common. And, when a ski does get totaled, update records to permanently prevent it from being rented again.
-
-2. Simulate a realistic distribution for each measure and include dependencies
-    * Pick what percent of customers are male/female.
-    * Height will be normally distributed based on gender.
-    * Weight will be based on height, and also normally distributed differently based on gender.
-    * Boot size will be normally distributed based on gender.
-    * Boot sole length will be based on boot size and then randomized within 3 millimeters.
-    * Skier ability level will be slightly skewed towards advanced skiers
-    * Days Used (# of days a customer _claims_ to have actually used the ski) will roughly correlate with the # of days between order and return date.
+- Rental order volume and return statistics are distributed bimodally, peaking near christmas and spring break.
+- Rental operations are valid, such that a ski won't be in the hands of more than one customer at a time, won't be used after it has been damaged critically, will be rented less frequently over consecutive seasons, and always gets returned on time at the end of the season.
+- The rate at which skis get damaged, the number of damage records per order, and the frequency of different types of ski damage are distributed based on time of season, the type of rider, and the type of ski.
+- All customers are treated as real people. Thus, their key identifiers (name, gender, email, home address) line up with each other, and their body type and rider metrics (height, weight, boot size, ability) are aligned with each other. Those metrics also follow the distributions of real people.
 
 #### Here are a few histograms of the data:
 
@@ -137,13 +124,11 @@ Here is the diagram for Karve's OLTP database.
 
 <br>
 
-<a name="graphicdesign"></a>
-<br><br>
 # Graphic Design 
-[<img src="Buttons/SVG/see more graphic design.svg" height="34" width="auto"/>](GraphicDesign/README.md/#top)
-<hr>
 
-## Select one...
+### <a href="https://github.com/ryayoung/graphic-design"><img src="https://github.com/ryayoung/icons/blob/main/svg/easel.blue.svg" height="22"/> &nbsp; Full Portfolio</a>
+
+#### Select one...
 
 <table>
   <tr>
@@ -171,9 +156,9 @@ Here is the diagram for Karve's OLTP database.
 <br>
 
 
-## Maze generator & solver (Java)
+# Maze generator & solver (Java)
 
-### <a href="https://github.com/ryayoung/maze-solver"><img src="https://github.com/ryayoung/icons/blob/main/svg/code.slash.blue.svg" height="21"/> &nbsp; Code</a>
+### <a href="https://github.com/ryayoung/java-maze"><img src="https://github.com/ryayoung/icons/blob/main/svg/code.slash.blue.svg" height="20"/> &nbsp; Code</a>
 
 > Randomly generates a unique maze and solves it. Uses pure Java, with custom data structures. As soon as the maze is solved, the path corrects itself to remove dead ends and reveal the shortest path.
 
@@ -186,7 +171,10 @@ https://user-images.githubusercontent.com/90723578/136681997-f5c74bb6-6f57-4d3c-
 
 <br>
 
-## [vim-annotate-me](https://github.com/ryayoung/vim-annotate-me)
+# ```vim-annotate-me```
+
+### <a href="https://github.com/ryayoung/vim-annotate-me"><img src="https://github.com/ryayoung/icons/blob/main/svg/code.file.blue.svg" height="20"/> &nbsp; Docs & Install</a>
+
 > A Vim plugin for commenting/uncommenting lines of text, with some additional features. I prefer this over [commentary](https://github.com/tpope/vim-commentary) because it *doesn't* use motions. It instead works like a normal IDE, where a single key mapping toggles one or more lines of text.
 
 **File headers**
@@ -195,110 +183,38 @@ https://user-images.githubusercontent.com/90723578/136681997-f5c74bb6-6f57-4d3c-
 - As soon as you write/save a file that HAS been modified, the header (if one exists) will be updated with the current date.
 - The header format is customizeable, including the format of the current date. If you change the date format in your vimrc, the old dates in your previous files will automatically update with the new format once you save/write to them again.
 
-### Execute Python INSIDE Vim
-- A much nicer alternative to using your terminal
-- _How it works_
-  - When you press your key binding, it searches your current and parent directories for a python virtual environment. If none are found, then your machine's global python kernel will be used.
-  - Current script gets executed silently, and its output is placed into a new Vim buffer at the bottom of your window.
-  - This new buffer will only be tall enough to fit the output of your script, and its height gets updated every time you execute.
-<details>
-  <summary><b><i>Click here</i> to see the code. Paste into your vimrc to use it!</b></summary>
+<br>
 
-```vim
-fun! ExecutePythonNewBuffer()
-    " SOURCE FOR MAKING REUSABLE WINDOW: https://github.com/fatih/vim-go/blob/master/autoload/go/ui.vim
+---
 
-    " save and reload current file
-    silent exe "update | edit"
-    
-    " add the console output
-    silent exe "cd %:p:h"
+<br>
 
-    " get file path of current file
-    let s:current_buffer_file_path = expand("%")
+# ```vim-run-python```
 
-    let s:output_buffer_name = ">>> Python Output for " . s:current_buffer_file_path
-    let s:output_buffer_filetype = "output"
+### <a href="https://github.com/ryayoung/vim-run-python"><img src="https://github.com/ryayoung/icons/blob/main/svg/code.file.blue.svg" height="22"/> &nbsp; Docs & Install</a>
 
-    " reuse existing buffer window if it exists otherwise create a new one
-    if !exists("s:buf_nr") || !bufexists(s:buf_nr)
-        silent exe 'botright new ' . s:output_buffer_name
-        let s:buf_nr = bufnr('%')
-    elseif bufwinnr(s:buf_nr) == -1
-        silent exe 'botright new'
-        silent exe s:buf_nr . 'buffer'
-    elseif bufwinnr(s:buf_nr) != bufwinnr('%')
-        silent exe bufwinnr(s:buf_nr) . 'wincmd w'
-    endif
+> A vim plugin to run Python code inside Vim, without using a terminal. With a single keypress, the output from your current Python file will be placed in a new buffer (window) at the bottom of your editor.
 
-    " silent exe "setlocal filetype=" . s:output_buffer_filetype
-    silent exe "setlocal filetype=typescript"
-    setlocal bufhidden=delete "When buffer is closed, it is deleted
-    setlocal buftype=nofile "Tells vim this buffer isn't related to a file and won't be written
-    setlocal noswapfile "Prevents a swap file being created
-    setlocal nobuflisted "Buffer won't show up in list of buffers
-    setlocal winfixheight "Keeps window height the same as other buffers are opened/closed
-    setlocal cursorline " make it easy to distinguish
-    " setlocal nonumber
-    setlocal norelativenumber "Line numbering is ordered, not relative
-    setlocal wrap linebreak "Lines wrap so everything is visible. VERY IMPORTANT FOR ERROR OUTPUT
-    setlocal showbreak="" "String to put at the start of lines that have been broken
-
-    " clear the buffer
-    setlocal noreadonly
-    setlocal modifiable
-    %delete _
-
-    let l:env = "virtual"
-    if filereadable("env/pyvenv.cfg") == 1
-        silent exe ".!source env/bin/activate&&python3 " . shellescape(s:current_buffer_file_path, 2)
-
-    elseif filereadable("../env/pyvenv.cfg") == 1
-        silent exe ".!source ../env/bin/activate&&python3 " . shellescape(s:current_buffer_file_path, 2)
-
-    elseif filereadable("../../env/pyvenv.cfg") == 1
-        silent exe ".!source ../../env/bin/activate&&python3 " . shellescape(s:current_buffer_file_path, 2)
-
-    elseif filereadable("../../../env/pyvenv.cfg") == 1
-        silent exe ".!source ../../../env/bin/activate&&python3 " . shellescape(s:current_buffer_file_path, 2)
-
-    else
-        silent exe ".!python3 " . shellescape(s:current_buffer_file_path, 2)
-        let l:env = "global"
-    endif
-
-    exe 'normal! ggO'
-    " call setline(".", "'----- PYTHON OUTPUT FOR " . s:current_buffer_file_path . " -----'")
-
-    " resize window to content length
-    if line('$') < 30
-        silent exe 'resize' . (line('$') + 3)
-    else
-        silent exe 'resize 33' 
-    endif
-
-    " make the buffer non modifiable
-    setlocal readonly
-    setlocal nomodifiable
-
-    " Move cursor back to original buffer
-    silent exe "call feedkeys('\<c-w>\<c-p>')"
-
-    echo "Executed in " . l:env . " environment"
-    " echo "SUCCESSFUL"
-
-endfun
-
-```
-</details>
+- **Intelligent Environment Finding**: When you press your key binding, it searches your current directory, and several parent directories, to find a python virtual environment named `env`. If none are found, then your machine's global python kernel will be used.
+- Current script gets executed silently, and its output is placed into a new Vim buffer at the bottom of your window.
+- This new buffer is dynamically sized, so it's only tall enough to fit the output of your script. Its height is updated every time you execute.
 
 <img width="400" alt="image" src="https://user-images.githubusercontent.com/90723578/162662457-25bc367e-d661-4f91-b105-36babdafb2d5.png">
 
+<br>
 
-### Quick Marks: Quickly create and auto-toggle global garks
-Marks, while extremely useful, are a bit cumbersome to use. Do you ever forget which marks map to which places, accidentally try to use a local mark globally, create too many marks and lose track of them, or find that the syntax is too cumbersome for quickly switching between two marks?
+---
+
+<br>
+
+# ```vim-quick-marks```
+
+### <a href="https://github.com/ryayoung/vim-quick-marks"><img src="https://github.com/ryayoung/icons/blob/main/svg/code.file.blue.svg" height="22"/> &nbsp; Docs & Install</a>
+
+> Vim plugin to quickly create and auto-toggle global marks. A more simple and easier alternative to traditional Vim marks, which can be cumbersome for new users, or difficult to keep track of.
 
 This script streamlines the most common use case for marks, making your workflow more efficient:
+
 ```vim
 nnoremap mm mM:echo "GLOBAL MARK 1 SET"<CR>
 nnoremap mM mK:echo "GLOBAL MARK 2 SET"<CR>
@@ -315,25 +231,20 @@ function! ToggleSmartMarkA()
   let g:smart_mark_global = -g:smart_mark_global
 endfunction
 ```
+
 How do you use it? First, "mm" sets global mark 1, and "mM" sets global mark 2. This simplifies the process of creating global marks and makes it intuitive to remember which one is which. Now for the fun part. Once you've set the two marks, ```<Leader>m``` will **toggle** between them. If you have your spacebar set as your leader key, this is an extremely fast command to press. Better yet, this eliminates the need for you to remember which mark is which. You can simply move to the "other" one.
 
+<br>
 
-### Quickly nudge lines up and down
-This is super fun to use. I call it "nudging". Make a selection in visual mode, and nudge it up or down 1 line using J or K.
-```vim
-vnoremap J :m '>+1<CR>gv=gv
-vnoremap K :m '<-2<CR>gv=gv
-```
+---
 
-<hr>
+<br>
 
-<a name="markdown"></a>
-<br><br>
-# Github Markdown - Interactive Tutorial
-[<img src="Buttons/SVG/see the tutorial.svg" height="34"/>](https://github.com/ryayoung/markdown-cheatsheet)
-<hr>
+# Github Markdown Advanced Tutorial
 
-Amazing documentation [like this](https://spacy.io/usage/linguistic-features/) is hard to come by. Github has some sweet features you can take advantage of in your readme pages with very little effort. For example, you can even fold text like this:
+### <a href="https://github.com/ryayoung/markdown-cheatsheet"><img src="https://github.com/ryayoung/icons/blob/main/svg/mortorboard.blue.svg" height="22"/> &nbsp; See Tutorial</a>
+
+Amazing documentation [like this](https://spacy.io/usage/linguistic-features/) is hard to come by. Often we don't have time to create a dedicated website for our documentation, and must rely on Github. There are plenty of sweet features you can take advantage of in your readme pages with very little effort. For example, did you know you can fold text like this:
 
 <details>
   <summary><i><b>CLICK ME!</b></i></summary>
@@ -345,7 +256,10 @@ print("I'm colored with python syntax highlighting, AND I'm encased inside a tex
 ```
 </details>
 
-<br><hr><br>
+<br>
 
-<a name="bottom"></a>
+---
+
+<br>
+
 [<img src="Buttons/SVG/top of page.svg" height="35" width="auto"/>](#top)
