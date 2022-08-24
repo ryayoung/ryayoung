@@ -313,13 +313,13 @@
 ### [Tesla AI Day 2021 Cut](https://www.youtube.com/watch?v=keWEE9FwS9o) <a id="aiday2021">
 <table><tr> <td> <b> Andrei Karpathy, Ashok Elluswamy, Ganesh V. </b> </td><td> Tesla Daily </td><td> 20 <b>Aug 2021</b> </td><td> 19 min </td> </table></tr>
 
-- Full Self-Driving [1:01](&t=61s) - Andrei Karpathy (Sr. Dir. of AI)
-- 4D vector labeling [3:24](&t=204s) - Andrei Karpathy
-- Auto-labeling [4:30](&t=270s) - Ashok Elluswamy (Dir. of Autopilot Software)
-- Tracking objects [6:28](&t=388s) - Ashok Elluswamy
-- Tesla simulation [8:15](&t=495s) - Ashok Elluswamy
-- Dojo supercomputer [9:46](&t=586s) - Milan Kovac (Dir. of Eng. of Autopilot), Ganesh V. (Sr. Dir. Autopilot Hardware)
-- Tesla Bot humanoid [16:18](&t=978s) - Elon Musk
+- Full Self-Driving [1:01](https://www.youtube.com/watch?v=keWEE9FwS9o&t=61s) - Andrei Karpathy (Sr. Dir. of AI)
+- 4D vector labeling [3:24](https://www.youtube.com/watch?v=keWEE9FwS9o&t=204s) - Andrei Karpathy
+- Auto-labeling [4:30](https://www.youtube.com/watch?v=keWEE9FwS9o&t=270s) - Ashok Elluswamy (Dir. of Autopilot Software)
+- Tracking objects [6:28](https://www.youtube.com/watch?v=keWEE9FwS9o&t=388s) - Ashok Elluswamy
+- Tesla simulation [8:15](https://www.youtube.com/watch?v=keWEE9FwS9o&t=495s) - Ashok Elluswamy
+- Dojo supercomputer [9:46](https://www.youtube.com/watch?v=keWEE9FwS9o&t=586s) - Milan Kovac (Dir. of Eng. of Autopilot), Ganesh V. (Sr. Dir. Autopilot Hardware)
+- Tesla Bot humanoid [16:18](https://www.youtube.com/watch?v=keWEE9FwS9o&t=978s) - Elon Musk
 
 ### [Tesla AI Day 2021 Cut (How lane changing works)](https://www.youtube.com/watch?v=W5Eo5EEbt0s) <a id="lanechanging">
 <table><tr> <td> <b> Ashok Elluswamy </b> </td><td> CNET Highlights </td><td> 19 <b>Aug 2021</b> </td><td> 6 min </td> </table></tr>
