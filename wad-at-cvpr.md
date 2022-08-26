@@ -88,26 +88,43 @@
 
 ### _Keynotes_
 
-### [AV2.0: Learning a Globally Scalable Driving Intelligence](https://www.youtube.com/watch?v=UhDUczF47VI) <a id="kendall2">
+### [AV2.0: Learning a Globally Scalable Driving Intelligence](https://www.youtube.com/watch?v=UhDUczF47VI) <a id="kendall2"></a>
 <table><tr> <td> <b> Alex Kendall </b> </td><td> Wayve </td><td> 31 min </td> </tr></table>
 
+<details><summary> <b> . . . </b> </summary>
+
 - .
 
+</details>
 
-### [From Imitation Learning to Offline RL](https://www.youtube.com/watch?v=Od9CVqzIgZ8) <a id="levine">
+#
+
+### [From Imitation Learning to Offline RL](https://www.youtube.com/watch?v=Od9CVqzIgZ8) <a id="levine"></a>
 <table><tr> <td> <b> Sergey Levine </b> </td><td> UC Berkeley </td><td> 28 min </td> </tr></table>
 
+<details><summary> <b> . . . </b> </summary>
+
 - .
 
+</details>
 
-### [Deploying Autonomous Driving: Where are we now and what lies ahead?](https://www.youtube.com/watch?v=EJ0hgOc0XLA) <a id="chai">
+#
+
+### [Deploying Autonomous Driving: Where are we now and what lies ahead?](https://www.youtube.com/watch?v=EJ0hgOc0XLA) <a id="chai"></a>
 <table><tr> <td> <b> Yuning Chai </b> </td><td> Cruise </td><td> 25 min </td> </tr></table>
 
+<details><summary> <b> . . . </b> </summary>
+
 - .
 
+</details>
 
-### [History of self-driving, escaping labeling, sensors, simulation](https://www.youtube.com/watch?v=I4QEZxfPUmc) <a id="roberson">
+#
+
+### [History of self-driving, escaping labeling, sensors, simulation](https://www.youtube.com/watch?v=I4QEZxfPUmc) <a id="roberson"></a>
 <table><tr> <td> <b> Matthew J.-Roberson </b> </td><td> CMU </td><td> 23 min </td> </tr></table>
+
+<details><summary> <b> . . . </b> </summary>
 
 - History of self-driving: The idea is actually very old. AVs were built in the 50s that controlled steering using metal cables embedded in the roadway
 - How do we escape paying for labeled datasets to train with? [3:56](https://www.youtube.com/watch?v=I4QEZxfPUmc&t=236s)
@@ -129,9 +146,14 @@
         - Add things like chromatic aberration, blur, exposure issues, etc.
     - Limitations of these simulation techniques [19:40](https://www.youtube.com/watch?v=I4QEZxfPUmc&t=1180s)
 
+</details>
 
-### [Waabi simulation; sensors, scenarios, learning](https://www.youtube.com/watch?v=g0uIVWecws4) <a id="urtasun2">
+#
+
+### [Waabi simulation; sensors, scenarios, learning](https://www.youtube.com/watch?v=g0uIVWecws4) <a id="urtasun2"></a>
 <table><tr> <td> <b> Raquel Urtasun </b> </td><td> Waabi/UofT </td><td> 38 min </td> </tr></table>
+
+<details><summary> <b> . . . </b> </summary>
 
 - [Waabi](https://waabi.ai/): Taking an AI-first, simulation-centric approach to creating a scalable self-driving solution that can adapt to any hardware.
 - Autonomy stack walkthrough: sensors, maps, perception, prediction, planning, control [2:07](https://www.youtube.com/watch?v=g0uIVWecws4&t=127s)
@@ -154,15 +176,25 @@
     - This speeds up development dramatically. The typical approach has the hardware team build the platform first, and then the software team builds on top of it. With Waabi, you can test many possible hardware platforms in simulation and select the one that actually performs the best
 - **Learning** in **closed-loop** simulation [36:03](https://www.youtube.com/watch?v=g0uIVWecws4&t=2163s)
 
+</details>
 
-### [Neural AV Simulation](https://www.youtube.com/watch?v=K1RvII74zW4) <a id="fidler">
+#
+
+### [Neural AV Simulation](https://www.youtube.com/watch?v=K1RvII74zW4) <a id="fidler"></a>
 <table><tr> <td> <b> Sanja Fidler </b> </td><td> Nvidia/UofT </td><td> 26 min </td> </tr></table>
+
+<details><summary> <b> . . . </b> </summary>
 
 - .
 
+</details>
 
-### [Why work on autonomy in academia?](https://www.youtube.com/watch?v=Lk_X08NejX0) <a id="krahenbuhl">
+#
+
+### [Why work on autonomy in academia?](https://www.youtube.com/watch?v=Lk_X08NejX0) <a id="krahenbuhl"></a>
 <table><tr> <td> <b> Philipp Krähenbühl </b> </td><td> UT Austin </td><td> 29 min </td> </tr></table>
+
+<details><summary> <b> . . . </b> </summary>
 
 - Excuses for not working on autonomy in academia [1:25](https://www.youtube.com/watch?v=Lk_X08NejX0&t=85s)
     - a. Autonomy is almost solved, b. I don't own a test vehicle, c. not enough resources
@@ -190,9 +222,14 @@
         - This lets us use a reinforcement learning objective on data that was collected just for imitation
 - Summary and questions [24:54](https://www.youtube.com/watch?v=Lk_X08NejX0&t=1494s)
 
+</details>
 
-### [Occupancy Networks](https://www.youtube.com/watch?v=jPCV4GKX9Dw) <a id="elluswamy">
+#
+
+### [Occupancy Networks](https://www.youtube.com/watch?v=jPCV4GKX9Dw) <a id="elluswamy"></a>
 <table><tr> <td> <b> Ashok Elluswamy </b> </td><td> Tesla </td><td> 35 min </td> </tr></table>
+
+<details><summary> <b> . . . </b> </summary>
 
 - Status of Autopilot and FSD Beta as of June, 2022
 - Why classical image space is not sufficient; 3D space is needed [3:20](https://www.youtube.com/watch?v=jPCV4GKX9Dw&t=200s)
@@ -234,13 +271,18 @@
         - Compress the occupancy from previous networks into an MLP that's an implicit representation of whether a collision is avoidable or not from any particular query state
     - Super cool visualization of **collision field** over time horizon [30:59](https://www.youtube.com/watch?v=jPCV4GKX9Dw&t=1811s)
 
+</details>
 
-#
+<br>
+
 
 ### _Challenges_
+---
 
-### [Argoverse Challenge](https://www.youtube.com/watch?v=Z1q9ijuLLvU) <a id="argoverse3">
+### [Argoverse Challenge](https://www.youtube.com/watch?v=Z1q9ijuLLvU) <a id="argoverse3"></a>
 <table><tr> <td> <b> Argo AI </b> </td><td> 44 min </td> </tr> </table>
+
+<details><summary> <b> . . . </b> </summary>
 
 <table><tr>
 <td> <b> Speakers: </b> </td> <td> James Hays </td><td> Benjamin Wilson </td><td> Jhony Pontes </td><td> William Qi </td>
@@ -282,9 +324,14 @@
         - Honorable mention: **GANet** by Mingkun Wang et al [40:00](https://www.youtube.com/watch?v=Z1q9ijuLLvU&t=2400s)
 - AV1 vs. AV2: Why AV2 is harder than AV1 [40:30](https://www.youtube.com/watch?v=Z1q9ijuLLvU&t=2430s)
 
+</details>
 
-### [nuPlan](https://www.youtube.com/watch?v=R9w_0Fz19pQ) <a id="nuplan">
+#
+
+### [nuPlan](https://www.youtube.com/watch?v=R9w_0Fz19pQ) <a id="nuplan"></a>
 <table><tr> <td> <b> Motional </b> </td> <td> Juraj Kabzan </td> <td> 5 min </td> </tr></table>
+
+<details><summary> <b> . . . </b> </summary>
 
 - nuPlan: "The world's first benchmark for autonomous vehicle planning"
 - 1300 hour dataset from 4 cities
@@ -298,9 +345,14 @@
     - Simulation, reactive agents: closed-loop ego, closed-loop agents
 - **Timeline:** challenge starts in August, results presented in NeurIPS 2022 in December
 
+</details>
 
-### [BDD100K](https://www.youtube.com/watch?v=13PjjBEgEcM) <a id="bdd100k">
+#
+
+### [BDD100K](https://www.youtube.com/watch?v=13PjjBEgEcM) <a id="bdd100k"></a>
 <table><tr> <td> <b> ETH VIS </b> </td><td> 22 min </td> </tr></table>
+
+<details><summary> <b> . . . </b> </summary>
 
 <table>
 <tr> <td> <b> Hosts: </b> </td> <td colspan="2"> Tobias Fischer </td> </tr>
@@ -327,9 +379,14 @@
     - Results [18:07](https://www.youtube.com/watch?v=13PjjBEgEcM&t=1087s)
     - Visualization [20:09](https://www.youtube.com/watch?v=13PjjBEgEcM&t=1209s)
 
+</details>
 
-### [Waymo Open Dataset](https://www.youtube.com/watch?v=G01cfxuJ_ro) <a id="opendataset2">
+#
+
+### [Waymo Open Dataset](https://www.youtube.com/watch?v=G01cfxuJ_ro) <a id="opendataset2"></a>
 <table><tr> <td> <b> Waymo </b> </td><td> 40 min </td> </tr></table>
+
+<details><summary> <b> . . . </b> </summary>
 
 <table>
 <tr> <td> <b> Hosts: </b> </td><td> Zoey Yang </td><td> Vincent Casser </td><td> Wei-Chih (Wayne) Hung </td><td> Charles R. Qi </td><td> Scott Ettinger </td><td> Reza Mahjourian </td> </tr>
@@ -376,6 +433,8 @@
         - Loss [38:54](https://www.youtube.com/watch?v=G01cfxuJ_ro&t=2334s)
 
 
+</details>
+
 <br>
 
 # 2021
@@ -383,8 +442,10 @@
 
 ### _Keynotes_
 
-### [The vision-only approach, NN training, hardware](https://www.youtube.com/watch?v=g6bOwQdCJrc) <a id="karpathy">
+### [The vision-only approach, NN training, hardware](https://www.youtube.com/watch?v=g6bOwQdCJrc) <a id="karpathy"></a>
 <table><tr> <td> <b> Andrej Karpathy </b> </td><td> Tesla </td><td> 31 min </td> </tr></table>
+
+<details><summary> <b> . . . </b> </summary>
 
 - Value currently provided with **Autopilot**: AEB, PMM, traffic control warning, PMM [2:17](https://www.youtube.com/watch?v=g6bOwQdCJrc&t=137s)
 - **FSD Beta** drive with zero interventions [3:50](https://www.youtube.com/watch?v=g6bOwQdCJrc&t=230s)
@@ -413,57 +474,120 @@
 - Release and Validation: testing, simulation, etc. [27:10](https://www.youtube.com/watch?v=g6bOwQdCJrc&t=1630s)
 - More about auto-labeling [28:49](https://www.youtube.com/watch?v=g6bOwQdCJrc&t=1729s)
 
-
-
-
-### [Bridging Perception to Motion Planning](https://www.youtube.com/watch?v=YQ_yar_5Q98) <a id="wellington">
-<table><tr> <td> <b> Carl Wellington </b> </td><td> Aurora </td><td> 27 min </td> </tr></table>
-
-- .
-
-
-### [Perception and Action in the Open World](https://www.youtube.com/watch?v=N-A5qnYXw_U) <a id="ramanan">
-<table><tr> <td> <b> Deva Ramanan </b> </td><td> Argo/CMU </td><td> 32 min </td> </tr></table>
-
-- .
-
-
-### [Interpretable Neural Motion Planner](https://www.youtube.com/watch?v=PSZ2Px9PrHg) <a id="urtasun">
-<table><tr> <td> <b> Raquel Urtasun </b> </td><td> Waabi/UofT </td><td> 32 min </td> </tr></table>
-
-- .
-
-
-### [AV Development at Massive Scale](https://www.youtube.com/watch?v=3WqooCcUpn0) <a id="tariq">
-<table><tr> <td> <b> Sarah Tariq </b> </td><td> Nvidia </td><td> 28 min </td> </tr></table>
-
-- .
-
-
-### [Self-Supervised 3D Vision](https://www.youtube.com/watch?v=YO5fnaRm5L0) <a id="gaidon">
-<table><tr> <td> <b> Adrien Gaidon </b> </td><td> TTI </td><td> 22 min </td> </tr></table>
-
-- .
-
-
-### [AV2.0: Reimagining autonomous mobility with embodied intelligence](https://www.youtube.com/watch?v=Va-F4qtTQ6g) <a id="kendall">
-<table><tr> <td> <b> Alex Kendall </b> </td><td> Wayve </td><td> 29 min </td> </tr></table>
-
-- .
-
-
-### [Secure Learning for Autonomous Driving in Adversarial Environments](https://www.youtube.com/watch?v=X1a4rbddz-s) <a id="li2">
-<table><tr> <td> <b> Bo Li </b> </td><td> UIUC </td><td> 28 min </td> </tr></table>
-
-- .
-
+</details>
 
 #
 
-### _Challenges_
+### [Bridging Perception to Motion Planning](https://www.youtube.com/watch?v=YQ_yar_5Q98) <a id="wellington"></a>
+<table><tr> <td> <b> Carl Wellington </b> </td><td> Aurora </td><td> 27 min </td> </tr></table>
 
-### [Argoverse Challenge](https://www.youtube.com/watch?v=DM8jWfi69zM) <a id="argoverse2">
+<details><summary> <b> . . . </b> </summary>
+
+- What is Aurora?
+    - Self-driving system. First product is **Trucks**
+- Overview of self-driving system: **Joint Perception and Forecasting** [1:20](https://www.youtube.com/watch?v=YQ_yar_5Q98&t=80s)
+- **Forecasting** is the area upon which Aurora improves the most
+- Example of single-mode vs multimodal forecasting with uncertainty [3:24](https://www.youtube.com/watch?v=YQ_yar_5Q98&t=204s)
+- Benefit of using **radar** [5:43](https://www.youtube.com/watch?v=YQ_yar_5Q98&t=343s)
+- **Input Representation**: Lidar Range View [6:57](https://www.youtube.com/watch?v=YQ_yar_5Q98&t=417s)
+    - Can we use raw input data directly and work in image space instead of 3D space? [7:58](https://www.youtube.com/watch?v=YQ_yar_5Q98&t=478s)
+        - VERY interesting theory. Exact opposite of Ashok's 2022 talk.
+        - It avoids approximations and processes every single lidar point
+        - Easier to process, and more structure
+        - Somehow, Carl believes that using raw depth information allows you to see and reason around occlusions better than if you had projected it into 3D. He also says that it's more computationally efficient than 3D projections, even though you're dealing with more data points.
+    - **Lidar + Camera** [10:39](https://www.youtube.com/watch?v=YQ_yar_5Q98&t=639s)
+        - Since we're working in *range view*, or 2D space, it's very easy to combine camera and lidar data. Since there's no 3D projections, you can just lay the camera features on top of the lidar points
+- Video demo of the system [12:33](https://www.youtube.com/watch?v=YQ_yar_5Q98&t=753s)
+- Summary of first section [13:00](https://www.youtube.com/watch?v=YQ_yar_5Q98&t=780s)
+    - Learning end-to-end
+    - Key point: The features that you want on the sensor data for understanding the motion and velocities of actors are quite different from the features that you want for *detection*
+- Challenges of forward-pass data-driven forecasting [13:56](https://www.youtube.com/watch?v=YQ_yar_5Q98&t=836s)
+    - Decision problem: You're a semi truck in the right lane on a highway, and vehicles are merging in on your right. Do you speed up, slow down to let them in, or stay put?
+- Actor goals. What are other cars trying to do? [19:43](https://www.youtube.com/watch?v=YQ_yar_5Q98&t=1183s)
+    - Goals relative to map geometry [20:36](https://www.youtube.com/watch?v=YQ_yar_5Q98&t=1236s)
+        - Based on the layout of intersections, we can reason about where pedestrians and vehicles will want to go
+        - Lane goals, and crossing goals
+- Closing talk [23:56](https://www.youtube.com/watch?v=YQ_yar_5Q98&t=1436s)
+
+
+</details>
+
+#
+
+### [Perception and Action in the Open World](https://www.youtube.com/watch?v=N-A5qnYXw_U) <a id="ramanan"></a>
+<table><tr> <td> <b> Deva Ramanan </b> </td><td> Argo/CMU </td><td> 32 min </td> </tr></table>
+
+<details><summary> <b> . . . </b> </summary>
+
+- .
+
+</details>
+
+#
+
+### [Interpretable Neural Motion Planner](https://www.youtube.com/watch?v=PSZ2Px9PrHg) <a id="urtasun"></a>
+<table><tr> <td> <b> Raquel Urtasun </b> </td><td> Waabi/UofT </td><td> 32 min </td> </tr></table>
+
+<details><summary> <b> . . . </b> </summary>
+
+- .
+
+</details>
+
+#
+
+### [AV Development at Massive Scale](https://www.youtube.com/watch?v=3WqooCcUpn0) <a id="tariq"></a>
+<table><tr> <td> <b> Sarah Tariq </b> </td><td> Nvidia </td><td> 28 min </td> </tr></table>
+
+<details><summary> <b> . . . </b> </summary>
+
+- .
+
+</details>
+
+#
+
+### [Self-Supervised 3D Vision](https://www.youtube.com/watch?v=YO5fnaRm5L0) <a id="gaidon"></a>
+<table><tr> <td> <b> Adrien Gaidon </b> </td><td> TTI </td><td> 22 min </td> </tr></table>
+
+<details><summary> <b> . . . </b> </summary>
+
+- .
+
+</details>
+
+#
+
+### [AV2.0: Reimagining autonomous mobility with embodied intelligence](https://www.youtube.com/watch?v=Va-F4qtTQ6g) <a id="kendall"></a>
+<table><tr> <td> <b> Alex Kendall </b> </td><td> Wayve </td><td> 29 min </td> </tr></table>
+
+<details><summary> <b> . . . </b> </summary>
+
+- .
+
+</details>
+
+#
+
+### [Secure Learning for Autonomous Driving in Adversarial Environments](https://www.youtube.com/watch?v=X1a4rbddz-s) <a id="li2"></a>
+<table><tr> <td> <b> Bo Li </b> </td><td> UIUC </td><td> 28 min </td> </tr></table>
+
+<details><summary> <b> . . . </b> </summary>
+
+- .
+
+</details>
+
+<br>
+
+
+### _Challenges_
+---
+
+### [Argoverse Challenge](https://www.youtube.com/watch?v=DM8jWfi69zM) <a id="argoverse2"></a>
 <table><tr> <td> <b> Argo AI </b> </td><td> 55 min </td> </tr></table>
+
+<details><summary> <b> . . . </b> </summary>
 
 <table>
 <tr> <td> <b> Hosts: </b> </td><td> James Hays </td><td> Jhony Kaesemodel Pontes </td><td> Jagjeet Singh </td><td> Martin Li </td> </tr>
@@ -518,9 +642,14 @@
         - Results [48:55](https://www.youtube.com/watch?v=DM8jWfi69zM&t=2935s)
 - Argoverse 1.1 vs 2.0 [50:40](https://www.youtube.com/watch?v=DM8jWfi69zM&t=3040s)
 
+</details>
 
-### [Waymo Open Dataset](https://www.youtube.com/watch?v=sjXI_FKYw4Y) <a id="opendataset">
+#
+
+### [Waymo Open Dataset](https://www.youtube.com/watch?v=sjXI_FKYw4Y) <a id="opendataset"></a>
 <table><tr> <td> <b> Waymo </b> </td><td> 61 min </td> </tr></table>
+
+<details><summary> <b> . . . </b> </summary>
 
 <table>
 <tr> <td> <b> Hosts: </b> </td><td colspan="5"> Zoey Yang </td> </tr>
@@ -577,6 +706,7 @@
     - Input Representations [58:03](https://www.youtube.com/watch?v=sjXI_FKYw4Y&t=3483s)
     - Results & Conclusion [60:18](https://www.youtube.com/watch?v=sjXI_FKYw4Y&t=3618s)
 
+</details>
 
 <br>
 
@@ -585,26 +715,109 @@
 
 ### _Keynotes_
 
-### [Secure Learning in Adversarial Autonomous Driving Environments](https://www.youtube.com/watch?v=0VfBGWnFNuw) <a id="li">
+### [Secure Learning in Adversarial Autonomous Driving Environments](https://www.youtube.com/watch?v=0VfBGWnFNuw) <a id="li"></a>
 <table><tr> <td> <b> Bo Li </b> </td><td> UIUC </td><td> 27 min </td> </tr></table>
 
-- .
+<details><summary> <b> . . . </b> </summary>
 
+- Threat Model in AV perception [2:03](https://www.youtube.com/watch?v=0VfBGWnFNuw&t=123s)
+- An optimization approach to creating robust physical adversarial examples [3:28](https://www.youtube.com/watch?v=0VfBGWnFNuw&t=208s)
+- Optimizing Spatial constraints (Handling limits on imperceptibility) [5:53](https://www.youtube.com/watch?v=0VfBGWnFNuw&t=353s)
+- Video examples of misclassifications in the real world [8:19](https://www.youtube.com/watch?v=0VfBGWnFNuw&t=499s)
+- AV Perception, and going from image space to 3D space [10:58](https://www.youtube.com/watch?v=0VfBGWnFNuw&t=658s)
+- Adversarial Point Clouds - **PointNet** [11:32](https://www.youtube.com/watch?v=0VfBGWnFNuw&t=692s)
+- Adversarial 3D Meshes [14:05](https://www.youtube.com/watch?v=0VfBGWnFNuw&t=845s)
+- Real world examples - physical experiments: adv-front [15:34](https://www.youtube.com/watch?v=0VfBGWnFNuw&t=934s)
+- Challenges for MSF (Multi-Sensor Fusion) systems [17:43](https://www.youtube.com/watch?v=0VfBGWnFNuw&t=1063s)
+- Adversarial attacks against MSF [18:14](https://www.youtube.com/watch?v=0VfBGWnFNuw&t=1094s)
+    - Adversarial Object against Physical MSF [18:57](https://www.youtube.com/watch?v=0VfBGWnFNuw&t=1137s)
+    - Video examples in **Apollo** simulation: driving facing adversarial object [20:02](https://www.youtube.com/watch?v=0VfBGWnFNuw&t=1202s)
+- Pipeline: end-to-end robustness with knowledge [21:25](https://www.youtube.com/watch?v=0VfBGWnFNuw&t=1285s)
+- Defensing adversarial behaviors in videos - Temporal dependency [24:01](https://www.youtube.com/watch?v=0VfBGWnFNuw&t=1441s)
+- Video examples [25:51](https://www.youtube.com/watch?v=0VfBGWnFNuw&t=1551s)
 
-### [Machine Learning for Autonomous Driving at Scale](https://www.youtube.com/watch?v=BV4EXwlb3yo) <a id="anguelov">
-<table><tr> <td> <b> Drago Anguelov </b> </td><td> Waymo </td><td> 35 min </td> </tr></table>
-
-- .
-
+</details>
 
 #
 
-### _Challenges_
+### [Machine Learning for Autonomous Driving at Scale](https://www.youtube.com/watch?v=BV4EXwlb3yo) <a id="anguelov"></a>
+<table><tr> <td> <b> Drago Anguelov </b> </td><td> Waymo </td><td> 35 min </td> </tr></table>
 
-### [Argoverse Challenge](https://www.youtube.com/watch?v=Vcbj_peZT4Q) <a id="argoverse">
+<details><summary> <b> . . . </b> </summary>
+
+- In-car video examples [2:30](https://www.youtube.com/watch?v=BV4EXwlb3yo&t=150s)
+- Explanation of self-driving problem [3:58](https://www.youtube.com/watch?v=BV4EXwlb3yo&t=238s)
+    - **Sensors:** LiDAR, Camera, Radar
+- Why is it a difficult problem? [4:53](https://www.youtube.com/watch?v=BV4EXwlb3yo&t=293s)
+    - Complex input, millions of pixels, lidar data
+    - Environment diversity
+- Examples of scene configuration, agent interactions, rare events [6:25](https://www.youtube.com/watch?v=BV4EXwlb3yo&t=385s)
+    - These make it difficult because you can't learn by crashing
+- Diagram of autonomous system design [8:25](https://www.youtube.com/watch?v=BV4EXwlb3yo&t=505s)
+- **STINet** model: Simultaneous detection tracking and prediction [12:09](https://www.youtube.com/watch?v=BV4EXwlb3yo&t=729s)
+    - Detection results [14:22](https://www.youtube.com/watch?v=BV4EXwlb3yo&t=862s)
+    - Prediction results [14:54](https://www.youtube.com/watch?v=BV4EXwlb3yo&t=894s)
+    - **VectorNet** structured scene context encoding [15:20](https://www.youtube.com/watch?v=BV4EXwlb3yo&t=920s)
+        - Map features are simplified into geometry represented as **polylines**, made up of polyline subgraphs
+        - Use global interaction graph to model interactions between these map features
+    - **Global interaction graph** [17:32](https://www.youtube.com/watch?v=BV4EXwlb3yo&t=1052s)
+        - Two loss functions:
+            - Loss for trajectory prediction
+            - Map completion loss (complete missing road graph features)
+- Experimental results: VectorNet [18:01](https://www.youtube.com/watch?v=BV4EXwlb3yo&t=1081s)
+- **Waymo open dataset** as of June 2020 [19:28](https://www.youtube.com/watch?v=BV4EXwlb3yo&t=1168s)
+    - 1950 20s scenes at 10Hz: 5 lidar, 5 cameras
+- **CHALLENGES: Waymo Open Dataset** [20:43](https://www.youtube.com/watch?v=BV4EXwlb3yo&t=1243s)
+    - 5 challenges: 2D detection & tracking, 3D detection & tracking, domain adaptation
+- Intro to **ViDAR**, and typical **Deep SfM frameworks** [22:29](https://www.youtube.com/watch?v=BV4EXwlb3yo&t=1349s)
+    - Estimate future motion given depth information
+- **ViDAR** Characteristics and Applications [24:16](https://www.youtube.com/watch?v=BV4EXwlb3yo&t=1456s)
+- Video examples of depth maps from RGB images [26:17](https://www.youtube.com/watch?v=BV4EXwlb3yo&t=1577s)
+- Consistency Modeling Framework [27:27](https://www.youtube.com/watch?v=BV4EXwlb3yo&t=1647s)
+- Simulation: **SurfelGAN** [28:55](https://www.youtube.com/watch?v=BV4EXwlb3yo&t=1735s)
+    - Typical methods of simulation (game engine) aren't good
+    - SurfelGAN uses existing Waymo sensor data to re-construct environment
+    - using **Surfel** for scene reconstruction [30:51](https://www.youtube.com/watch?v=BV4EXwlb3yo&t=1851s)
+    - Network Architecture [33:08](https://www.youtube.com/watch?v=BV4EXwlb3yo&t=1988s)
+    - Novel View Rendering [33:46](https://www.youtube.com/watch?v=BV4EXwlb3yo&t=2026s)
+    - Novel Scene Configuration [34:15](https://www.youtube.com/watch?v=BV4EXwlb3yo&t=2055s)
+
+</details>
+
+<br>
+
+
+### _Challenges_
+---
+
+### [Argoverse Challenge](https://www.youtube.com/watch?v=Vcbj_peZT4Q) <a id="argoverse"></a>
 <table><tr> <td> <b> Argo AI </b> </td><td> James Hays </td><td> 28 min </td> </tr></table>
 
-- .
+<details><summary> <b> . . . </b> </summary>
+
+- **3D Tracking Challenge** [0:19](https://www.youtube.com/watch?v=Vcbj_peZT4Q&t=19s)
+    - Winners summary [1:21](https://www.youtube.com/watch?v=Vcbj_peZT4Q&t=81s)
+    - 1st Place: **Alibaba_AD_Lab** [3:41](https://www.youtube.com/watch?v=Vcbj_peZT4Q&t=221s)
+        - Title: *Occlusion-aware Tracking and Fusion Algorithm*
+        - Visualization of Results [4:26](https://www.youtube.com/watch?v=Vcbj_peZT4Q&t=266s)
+    - Honorable Mention: **Test_A**: Andrey Pak [5:06](https://www.youtube.com/watch?v=Vcbj_peZT4Q&t=306s)
+        - Title: *Simple Gaussian Mixture Filter*
+        - Simple Gaussian mixture Filter [5:13](https://www.youtube.com/watch?v=Vcbj_peZT4Q&t=313s)
+    - Honorable Mention: **MSU CANVAS**: Su Pang and Hayder Radha [6:11](https://www.youtube.com/watch?v=Vcbj_peZT4Q&t=371s)
+- **Motion Forecasting Challenge** [12:24](https://www.youtube.com/watch?v=Vcbj_peZT4Q&t=744s)
+    - Winners summary [13:10](https://www.youtube.com/watch?v=Vcbj_peZT4Q&t=790s)
+    - 1st Place: **Team Jean**: Jean Mercat et al [16:15](https://www.youtube.com/watch?v=Vcbj_peZT4Q&t=975s)
+        - Title: *Multi-Head Attention for Multi-Modal Vehicle Motion Forecasting v2: Look-Ahead Self-Correction*
+    - Honorable Mention: **HYU_ACE**: Seong Hyeon Park et al [17:55](https://www.youtube.com/watch?v=Vcbj_peZT4Q&t=1075s)
+        - Title: *Diverse and Admissable Trajectory Forecasting through Multimodal Context Understanding*
+    - Honorable Mention: **mtz**: Francesco Marchetti et al [18:54](https://www.youtube.com/watch?v=Vcbj_peZT4Q&t=1134s)
+        - Title: *MANTRA: Memory-Augmented Neural TRAjectory prediction*
+    - Other: **WIMP, Argo AI**: Siddhesh Khandelwal et al [20:13](https://www.youtube.com/watch?v=Vcbj_peZT4Q&t=1213s)
+        - Title: *What-If Motion Predictor*
+        - Visualization [21:20](https://www.youtube.com/watch?v=Vcbj_peZT4Q&t=1280s)
+    - Other: **UberATG-LaneGCN**: Ming Liang et al [22:50](https://www.youtube.com/watch?v=Vcbj_peZT4Q&t=1370s)
+
+</details>
 
 
 <br>
@@ -614,8 +827,11 @@
 ---
 
 
-### [Tesla AI Day 2021 Cut](https://www.youtube.com/watch?v=keWEE9FwS9o) <a id="aiday2021">
+
+### [Tesla AI Day 2021 Cut](https://www.youtube.com/watch?v=keWEE9FwS9o) <a id="aiday2021"></a>
 <table><tr> <td> <b> Andrei Karpathy, Ashok Elluswamy, Ganesh V. </b> </td><td> Tesla Daily </td><td> 20 <b>Aug 2021</b> </td><td> 19 min </td> </tr></table>
+
+<details><summary> <b> . . . </b> </summary>
 
 - Full Self-Driving [1:01](https://www.youtube.com/watch?v=keWEE9FwS9o&t=61s) - Andrei Karpathy (Sr. Dir. of AI)
 - 4D vector labeling [3:24](https://www.youtube.com/watch?v=keWEE9FwS9o&t=204s) - Andrei Karpathy
@@ -625,6 +841,7 @@
 - Dojo supercomputer [9:46](https://www.youtube.com/watch?v=keWEE9FwS9o&t=586s) - Milan Kovac (Dir. of Eng. of Autopilot), Ganesh V. (Sr. Dir. Autopilot Hardware)
 - Tesla Bot humanoid [16:18](https://www.youtube.com/watch?v=keWEE9FwS9o&t=978s) - Elon Musk
 
+</details>
 
-### [Tesla AI Day 2021 Cut (How lane changing works)](https://www.youtube.com/watch?v=W5Eo5EEbt0s) <a id="lanechanging">
+### [Tesla AI Day 2021 Cut (How lane changing works)](https://www.youtube.com/watch?v=W5Eo5EEbt0s) <a id="lanechanging"></a>
 <table><tr> <td> <b> Ashok Elluswamy </b> </td><td> CNET Highlights </td><td> 19 <b>Aug 2021</b> </td><td> 6 min </td> </tr></table>
