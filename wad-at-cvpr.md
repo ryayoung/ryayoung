@@ -89,9 +89,9 @@
 ### _Keynotes_
 
 ### [AV2.0: Learning a Globally Scalable Driving Intelligence](https://www.youtube.com/watch?v=UhDUczF47VI) <a id="kendall2"></a>
-<table><tr> <td> <b> Alex Kendall </b> </td><td> Wayve </td><td> 31 min </td> </tr></table>
+<table><tr> <td> <b> <a href="https://alexgkendall.com/">Alex Kendall</a> </b> </td><td> Wayve </td><td> 31 min </td> </tr></table>
 
-<details><summary> <b> . . . </b> </summary>
+<details><summary> <b> IN PROGRESS </b> </summary>
 
 - .
 
@@ -102,7 +102,7 @@
 ### [From Imitation Learning to Offline RL](https://www.youtube.com/watch?v=Od9CVqzIgZ8) <a id="levine"></a>
 <table><tr> <td> <b> Sergey Levine </b> </td><td> UC Berkeley </td><td> 28 min </td> </tr></table>
 
-<details><summary> <b> . . . </b> </summary>
+<details><summary> <b> IN PROGRESS </b> </summary>
 
 - .
 
@@ -113,7 +113,7 @@
 ### [Deploying Autonomous Driving: Where are we now and what lies ahead?](https://www.youtube.com/watch?v=EJ0hgOc0XLA) <a id="chai"></a>
 <table><tr> <td> <b> Yuning Chai </b> </td><td> Cruise </td><td> 25 min </td> </tr></table>
 
-<details><summary> <b> . . . </b> </summary>
+<details><summary> <b> IN PROGRESS </b> </summary>
 
 - .
 
@@ -151,7 +151,7 @@
 #
 
 ### [Waabi simulation; sensors, scenarios, learning](https://www.youtube.com/watch?v=g0uIVWecws4) <a id="urtasun2"></a>
-<table><tr> <td> <b> Raquel Urtasun </b> </td><td> Waabi/UofT </td><td> 38 min </td> </tr></table>
+<table><tr> <td> <b> <a href="http://www.cs.toronto.edu/~urtasun/">Raquel Urtasun</a> </b> </td><td> Waabi/UofT </td><td> 38 min </td> </tr></table>
 
 <details><summary> <b> . . . </b> </summary>
 
@@ -183,7 +183,7 @@
 ### [Neural AV Simulation](https://www.youtube.com/watch?v=K1RvII74zW4) <a id="fidler"></a>
 <table><tr> <td> <b> Sanja Fidler </b> </td><td> Nvidia/UofT </td><td> 26 min </td> </tr></table>
 
-<details><summary> <b> . . . </b> </summary>
+<details><summary> <b> IN PROGRESS </b> </summary>
 
 - .
 
@@ -443,7 +443,7 @@
 ### _Keynotes_
 
 ### [The vision-only approach, NN training, hardware](https://www.youtube.com/watch?v=g6bOwQdCJrc) <a id="karpathy"></a>
-<table><tr> <td> <b> Andrej Karpathy </b> </td><td> Tesla </td><td> 31 min </td> </tr></table>
+<table><tr> <td> <b> <a href="https://karpathy.ai/">Andrej Karpathy</a> </b> </td><td> Tesla </td><td> 31 min </td> </tr></table>
 
 <details><summary> <b> . . . </b> </summary>
 
@@ -479,7 +479,7 @@
 #
 
 ### [Bridging Perception to Motion Planning](https://www.youtube.com/watch?v=YQ_yar_5Q98) <a id="wellington"></a>
-<table><tr> <td> <b> Carl Wellington </b> </td><td> Aurora </td><td> 27 min </td> </tr></table>
+<table><tr> <td> <b> <a href="http://www.carlwellington.com/">Carl Wellington</a> </b> </td><td> Aurora </td><td> 27 min </td> </tr></table>
 
 <details><summary> <b> . . . </b> </summary>
 
@@ -515,22 +515,99 @@
 #
 
 ### [Perception and Action in the Open World](https://www.youtube.com/watch?v=N-A5qnYXw_U) <a id="ramanan"></a>
-<table><tr> <td> <b> Deva Ramanan </b> </td><td> Argo/CMU </td><td> 32 min </td> </tr></table>
+<table><tr> <td> <b> <a href="https://www.cs.cmu.edu/~deva/">Deva Ramanan</a> </b> </td><td> Argo/CMU </td><td> 32 min </td> </tr></table>
 
 <details><summary> <b> . . . </b> </summary>
 
-- .
+- Critical challenges of autonomy in the open world [1:46](https://www.youtube.com/watch?v=N-A5qnYXw_U&t=106s)
+    - AV death: car hits bicyclist. The system changed the person's classification several times, and, by design, excluded tracking history for nonpersisting objects, so it couldn't predict its path
+    - Building *stable* interpretations of a dynamic world is hard [5:06](https://www.youtube.com/watch?v=N-A5qnYXw_U&t=306s)
+    - Streaming perception is an issue. [6:19](https://www.youtube.com/watch?v=N-A5qnYXw_U&t=379s)
+        - By the time an alg finishes, the world has changed
+- *Perceive and act in continuous-time world* [7:30](https://www.youtube.com/watch?v=N-A5qnYXw_U&t=450s)
+    - Normal approach: to realtime/anytime algorithms: [10:35](https://www.youtube.com/watch?v=N-A5qnYXw_U&t=635s): the algorithm *must* finish in a specific amount of time, such as before the next frame, for instance
+    - Our approach: [10:55](https://www.youtube.com/watch?v=N-A5qnYXw_U&t=655s): the algorithm can *choose* when to finish processing, but in the meantime, has to spit out an intermediate answer about what the world is doing. Convert any single-frame metric into a streaming metric
+    - Results [11:15](https://www.youtube.com/watch?v=N-A5qnYXw_U&t=675s)
+    - Surprising conclusions [12:44](https://www.youtube.com/watch?v=N-A5qnYXw_U&t=764s)
+        - Performance/compute tradeoff to maximize streaming perception
+        - Idle and wait for new frame to arrive
+        - Instead of optimizing for average precision, optimize for streaming average precision
+    - Reaction times in biological vision [16:39](https://www.youtube.com/watch?v=N-A5qnYXw_U&t=999s)
+- Argoverse challenge - Streaming CVPR 21 benchmark [18:42](https://www.youtube.com/watch?v=N-A5qnYXw_U&t=1122s)
+- Some interesting findings [19:49](https://www.youtube.com/watch?v=N-A5qnYXw_U&t=1189s)
+    - Attentional processing via smart **foveated subsampling**
+- Benchmarks: tracking any object TAO [20:36](https://www.youtube.com/watch?v=N-A5qnYXw_U&t=1236s) (not just AV related)
+    - Diverse data, not big data
+    - Semantics: Can we track never-before-seen objects?
+- 3D from 2D images [22:44](https://www.youtube.com/watch?v=N-A5qnYXw_U&t=1364s)
+    - Use multiple frames, not single images
+- 2D vs 3D-ish motion [24:45](https://www.youtube.com/watch?v=N-A5qnYXw_U&t=1485s)
+    - **Optical expansion** (time-to-contact) instead of **depth maps** [25:24](https://www.youtube.com/watch?v=N-A5qnYXw_U&t=1524s): Visualize the *rate* of expansion of every pixel. This is different from depth maps because if you're moving fast towards a far-away object, or slow towards a nearby object, the returned value will be the same
+- Build motion systems that infer depth changes through flow divergence [27:06](https://www.youtube.com/watch?v=N-A5qnYXw_U&t=1626s)
+- Motion based object detection [27:16](https://www.youtube.com/watch?v=N-A5qnYXw_U&t=1636s)
+- Segmenting rigid motions [28:51](https://www.youtube.com/watch?v=N-A5qnYXw_U&t=1731s)
+- Code and results [29:00](https://www.youtube.com/watch?v=N-A5qnYXw_U&t=1740s)
+- Motion-based detection [29:12](https://www.youtube.com/watch?v=N-A5qnYXw_U&t=1752s)
+
+
+
 
 </details>
 
 #
 
 ### [Interpretable Neural Motion Planner](https://www.youtube.com/watch?v=PSZ2Px9PrHg) <a id="urtasun"></a>
-<table><tr> <td> <b> Raquel Urtasun </b> </td><td> Waabi/UofT </td><td> 32 min </td> </tr></table>
+<table><tr> <td> <b> <a href="http://www.cs.toronto.edu/~urtasun/">Raquel Urtasun</a> </b> </td><td> Waabi/UofT </td><td> 32 min </td> </tr></table>
 
 <details><summary> <b> . . . </b> </summary>
 
-- .
+- Why is self-driving not solved yet?
+    - Need the ability for real-time, high fidelity closed-loop simulation
+- What Waabi is building [1:17](https://www.youtube.com/watch?v=PSZ2Px9PrHg&t=77s)
+    - Ai-first approach
+    - Best close-loop simulator, so we don't depend on driving millions of real world miles
+    - Start with long haul trucking
+- How self-driving works - typical approach to self-driving [3:48](https://www.youtube.com/watch?v=PSZ2Px9PrHg&t=228s)
+    - Disadvantages of traditional software stack [5:04](https://www.youtube.com/watch?v=PSZ2Px9PrHg&t=304s)
+    - Traditional end-to-end approach [6:28](https://www.youtube.com/watch?v=PSZ2Px9PrHg&t=388s)
+        - System is not interpretable. If it does something wrong, you don't know why. And you can't let it learn by killing people.
+- Our solution: **Interpretable Neural Motion Planning** [7:30](https://www.youtube.com/watch?v=PSZ2Px9PrHg&t=450s)
+    - Best of both worlds.
+    - Modular, and interpretable
+    - But still **end-to-end trainable**
+- Our first generation design diagram [8:24](https://www.youtube.com/watch?v=PSZ2Px9PrHg&t=504s)
+    - Multi-task problem
+    - Detect objects of interest, predict the motion into the future
+    - Evaluate a sample of all possible trajectories, optimize for lowest cost. Easy.
+    - Video example [10:12](https://www.youtube.com/watch?v=PSZ2Px9PrHg&t=612s)
+- What's wrong with detection based perception? [11:08](https://www.youtube.com/watch?v=PSZ2Px9PrHg&t=668s)
+    - Your object detector has a threshold. If you detect something that doesn't meet the threshold, then you have to ignore it. Very dangerous
+- Better alternative: [12:05](https://www.youtube.com/watch?v=PSZ2Px9PrHg&t=725s) **SEMANTIC OCCUPANCIES**
+    - Instead of going from detection boxes and thresholds to occupancy, can't we just go to occupancy directly?
+    - Semantic hierarchy [12:42](https://www.youtube.com/watch?v=PSZ2Px9PrHg&t=762s) of object classes
+- Occupancy Forecasting architecture [14:10](https://www.youtube.com/watch?v=PSZ2Px9PrHg&t=850s)
+- Motion planning [14:57](https://www.youtube.com/watch?v=PSZ2Px9PrHg&t=897s)
+    - Sample possible trajectories, evaluate, select minimum cost
+    - Trajectory sampling and eval [15:30](https://www.youtube.com/watch?v=PSZ2Px9PrHg&t=930s)
+        - Map-aware, behavior-based
+- End to end training [16:54](https://www.youtube.com/watch?v=PSZ2Px9PrHg&t=1014s)
+    - COMPARISON with **Waymo Multipath** and others [18:05](https://www.youtube.com/watch?v=PSZ2Px9PrHg&t=1085s)
+    - Charts of improvements had by end-to-end and occupancy [18:44](https://www.youtube.com/watch?v=PSZ2Px9PrHg&t=1124s)
+- Visualization of qualitative results [19:34](https://www.youtube.com/watch?v=PSZ2Px9PrHg&t=1174s)
+- Why closed-loop simulation? [20:52](https://www.youtube.com/watch?v=PSZ2Px9PrHg&t=1252s)
+- Intro to our simulator [21:58](https://www.youtube.com/watch?v=PSZ2Px9PrHg&t=1318s)
+    - Virtual world creation from raw data
+    - Automatic scenario generation
+    - End to end Safety Critical Evaluation [24:40](https://www.youtube.com/watch?v=PSZ2Px9PrHg&t=1480s)
+    - VIDEO EXAMPLE of simulation. [25:09](https://www.youtube.com/watch?v=PSZ2Px9PrHg&t=1509s) Insanely realistic.
+    - Closed loop simulator diagram of system [26:02](https://www.youtube.com/watch?v=PSZ2Px9PrHg&t=1562s)
+    - Results from experiments in closed-loop system [26:29](https://www.youtube.com/watch?v=PSZ2Px9PrHg&t=1589s)
+- MP3 Motivation: **HD Maps** vs **mapless** driving [27:11](https://www.youtube.com/watch?v=PSZ2Px9PrHg&t=1631s)
+    - Semantic scene representations [29:03](https://www.youtube.com/watch?v=PSZ2Px9PrHg&t=1743s)
+    - Probabilistic model for dynamic occupancy [29:38](https://www.youtube.com/watch?v=PSZ2Px9PrHg&t=1778s)
+    - Routing [30:07](https://www.youtube.com/watch?v=PSZ2Px9PrHg&t=1807s)
+- Results [30:34](https://www.youtube.com/watch?v=PSZ2Px9PrHg&t=1834s)
+
 
 </details>
 
@@ -539,7 +616,7 @@
 ### [AV Development at Massive Scale](https://www.youtube.com/watch?v=3WqooCcUpn0) <a id="tariq"></a>
 <table><tr> <td> <b> Sarah Tariq </b> </td><td> Nvidia </td><td> 28 min </td> </tr></table>
 
-<details><summary> <b> . . . </b> </summary>
+<details><summary> <b> IN PROGRESS </b> </summary>
 
 - .
 
@@ -548,33 +625,169 @@
 #
 
 ### [Self-Supervised 3D Vision](https://www.youtube.com/watch?v=YO5fnaRm5L0) <a id="gaidon"></a>
-<table><tr> <td> <b> Adrien Gaidon </b> </td><td> TTI </td><td> 22 min </td> </tr></table>
+<table><tr> <td> <b> <a href="https://adriengaidon.com/">Adrien Gaidon</a> </b> </td><td> TTI </td><td> 22 min </td> </tr></table>
 
 <details><summary> <b> . . . </b> </summary>
 
-- .
+
+- Machine learning Research at TRI [0:33](https://www.youtube.com/watch?v=YO5fnaRm5L0&t=33s)
+- Why **Monocular Depth**? Driving, **Robotiq** [1:12](https://www.youtube.com/watch?v=YO5fnaRm5L0&t=72s)
+    - Monocular depth means predicting depth from RGB
+    - We do this because cameras are common and cheap
+    - **QUESTION:** Can we get robust 3D vision thanks to large-scale self-supervision?
+    - Example of depth maps [2:23](https://www.youtube.com/watch?v=YO5fnaRm5L0&t=143s)
+- Self-Supervised Learning: Geometry as Supervis [3:12](https://www.youtube.com/watch?v=YO5fnaRm5L0&t=192s)
+    - Replacing pooling and up-sampling operators by learning compression and decompression models (packing and unpacking) to preserve details important for reconstruction. Preserving these details reduces photometric ambiguities.
+- FSM: Full Surround Monodepth [5:03](https://www.youtube.com/watch?v=YO5fnaRm5L0&t=303s)
+    - Stitching together multiple cameras to have 360 degree depth
+    - When there is **not enough** overlap, we stitch together across time. For instance if there is a gap between the images from camera 1 and camera 2 (1 being in front of 2), we use historical frames from camera 1, which will have covered the gap
+- Neural ray surfaces [9:04](https://www.youtube.com/watch?v=YO5fnaRm5L0&t=544s)
+- Scalable supervision: Self-Supervised++ [11:09](https://www.youtube.com/watch?v=YO5fnaRm5L0&t=669s)
+    - Semi-supervised learning
+    - Auto-labeling
+    - Sim2Real Transfer
+- Robust semi-supervised inference [12:37](https://www.youtube.com/watch?v=YO5fnaRm5L0&t=757s)
+- **Dialable Perception** [13:30](https://www.youtube.com/watch?v=YO5fnaRm5L0&t=810s)
+    - You can turn on and off the lidar sensor and the model is always able to predict the depth of the scene
+    - There is a standard decoder def network like bacnet or monodev2, but in addition we sometimes have a sparse point file as input, using sparse convolutions and learning a representation that we can inject into the skip connections of the encoder/decoder. The adapter weights to do this injection in the skip connections are able to learn to inject it when we have it and otherwise use the skip connections as normal
+    - VIDEO EXAMPLES [14:12](https://www.youtube.com/watch?v=YO5fnaRm5L0&t=852s)
+- Auto-labeling via **Differentiable Render** [14:44](https://www.youtube.com/watch?v=YO5fnaRm5L0&t=884s)
+    - Feed an image to a deep network that outputs some scene-level params that can then be used as an input to a renderer. Renderer can then use those scene descriptions to re-render the input image that was fed into the network. Check the accuracy of the rendered image, and backpropagate to improve
+- **Scene Understanding** Multi-task learning for real-time perception [16:29](https://www.youtube.com/watch?v=YO5fnaRm5L0&t=989s)
+- Where to get semantic labels? **Sim!** [18:02](https://www.youtube.com/watch?v=YO5fnaRm5L0&t=1082s)
+    - **GUDA:** *Sim* + *Self* for *Sem* + *Depth* [19:22](https://www.youtube.com/watch?v=YO5fnaRm5L0&t=1162s)
+- Conclusion: Use geometry as supervision on videos [20:30](https://www.youtube.com/watch?v=YO5fnaRm5L0&t=1230s)
+
+
+#### External Links/Papers
+
+- [Github: TRI-ML/DDAD](https://github.com/TRI-ML/DDAD)
+- [Website: Frontiers of Monocular 3D Perception @ CVPR'21](https://sites.google.com/view/mono3d-workshop)
+- [*SuperDepth: Self-supervised, Super-resolved monocular depth estimation*, S. Pillai et al, ICRA'19](https://arxiv.org/pdf/1810.01849.pdf)
+- [*Two stream networks for self-supervised ego-motion estimation*, R. Ambrus et al, CoRL'19](https://arxiv.org/pdf/1910.01764.pdf)
+- [*3D Packing for self-supervised monocular depth estimation*, V. Guizilini et al, CVPR'20](https://arxiv.org/pdf/1905.02693.pdf)
+    - [Github: TRI-ML/packnet-sfm](https://github.com/TRI-ML/packnet-sfm)
+- [*Neural ray surfaces for self-supervised learning of depth and ego-motion*, I. Vasiljevic et al, 3DV](https://arxiv.org/pdf/2008.06630.pdf)
+- [*Full surround monodepth from multiple cameras*, Vitor Guizilini et al](https://arxiv.org/pdf/2104.00152.pdf)
+- **Semi-supervised Learning**
+    - [Robust semi-supervised monocular depth estimation with reprojected distances, CoRL'19](https://arxiv.org/pdf/1910.01765.pdf)
+    - [Semantically-guided representation learning for self-supervised monocular depth, ICLR'20](https://arxiv.org/pdf/2002.12319.pdf)
+    - [Sparse auxiliary networks for unified monocular depth prediction and completion, CVPR'21](https://arxiv.org/pdf/2103.16690.pdf)
+- **Auto-labeling** via Differentiable Rendering
+    - [ROI-10D. Monocular lifting of 2D detection to 6D pose and metric shape, CVPR'19](https://arxiv.org/pdf/1812.02781.pdf)
+    - [Autolabeling 3D objects with differentiable rendering of SDF shape priors, CVPR'20](https://arxiv.org/pdf/1911.11288.pdf)
+    - [Monocular differentiable rendering for self-supervised 3D object detection, ECCV'20](https://arxiv.org/pdf/2009.14524.pdf)
+    - [Differentiable rendering: a survey, 2020](https://arxiv.org/pdf/2006.12057.pdf)
+- **Sim2Real Transfer**
+    - [SPIGAN: Privileged adversarial learning from simulation, ICLR'19](https://openreview.net/pdf?id=rkxoNnC5FQ)
+    - [Geometric unsupervised domain adaptation for semantic segmentation, arxiv'21](https://arxiv.org/pdf/2103.16694.pdf)
+    - [Learning to track with object permanence, arxiv'21](https://arxiv.org/pdf/2103.14258.pdf)
+- **Scene Understanding**: Multi-task learning for real-time perception
+    - [Real-time panoptic segmentation from dense detections, CVPR'20](https://arxiv.org/pdf/1912.01202.pdf)
+        - [Github: TRI-ML/realtime_panoptic](https://github.com/tri-ml/realtime_panoptic)
+    - [Hierarchical Lovasz embeddings for proposal-free panoptic segmentation, CVPR'21](https://arxiv.org/pdf/2106.04555.pdf)
+    - [Is pseudo-lidar needed for monocular 3D object detection? arxiv'21](https://arxiv.org/pdf/2108.06417.pdf)
+
 
 </details>
 
 #
 
 ### [AV2.0: Reimagining autonomous mobility with embodied intelligence](https://www.youtube.com/watch?v=Va-F4qtTQ6g) <a id="kendall"></a>
-<table><tr> <td> <b> Alex Kendall </b> </td><td> Wayve </td><td> 29 min </td> </tr></table>
+<table><tr> <td> <b> <a href="https://alexgkendall.com/">Alex Kendall</a> </b> </td><td> Wayve </td><td> 29 min </td> </tr></table>
 
 <details><summary> <b> . . . </b> </summary>
 
-- .
+- **Generalization**: London training data, autonomous driving UK-wide [5:25](https://www.youtube.com/watch?v=Va-F4qtTQ6g&t=325s)
+- Intro to **Wayve** [6:09](https://www.youtube.com/watch?v=Va-F4qtTQ6g&t=369s)
+- Reimagining mobility with embodied intelligence [7:23](https://www.youtube.com/watch?v=Va-F4qtTQ6g&t=443s)
+    - Synthetic data, off-policy data, on-policy data
+- Learning representations with 3D geometry and temporal reasoning [8:14](https://www.youtube.com/watch?v=Va-F4qtTQ6g&t=494s)
+    - Example of why single-frame reasoning is stupid [8:42](https://www.youtube.com/watch?v=Va-F4qtTQ6g&t=522s)
+- Multimodal future prediction [9:09](https://www.youtube.com/watch?v=Va-F4qtTQ6g&t=549s)
+    - **FIERY**: Future instance prediction in bird's-eye view from surround monocular cameras [9:35](https://www.youtube.com/watch?v=Va-F4qtTQ6g&t=575s)
+        1. Lift features to 3D
+        2. Project to bird's-eye view
+        3. Temporal model
+        4. Present & future distributions
+        5. Future prediction
+        6. Future instance segmentation and motion
+- Prediction examples
+    - Intersection #1 [11:57](https://www.youtube.com/watch?v=Va-F4qtTQ6g&t=717s)
+    - U-Turn [12:18](https://www.youtube.com/watch?v=Va-F4qtTQ6g&t=738s)
+    - Intersection #2 [12:37](https://www.youtube.com/watch?v=Va-F4qtTQ6g&t=757s)
+    - Overtaking vehicles [12:53](https://www.youtube.com/watch?v=Va-F4qtTQ6g&t=773s)
+- Action conditioned world models towards model-based reinforcement learning for driving [13:05](https://www.youtube.com/watch?v=Va-F4qtTQ6g&t=785s)
+- Model architecture
+    - Observing and learning - *offline, off-policy data* [13:45](https://www.youtube.com/watch?v=Va-F4qtTQ6g&t=825s)
+        - Encode state input into latent representation Z
+        - Decode into better output representation, like semantics, motion, or geometry
+        - Train dynamics model that can take as inputs this hidden state and the action that was taken, and predict the next state
+        - Compare outputs over time and get divergence loss between present and future distributions
+    - Imagining to act [15:14](https://www.youtube.com/watch?v=Va-F4qtTQ6g&t=914s)
+        - Now, we can predict our own actions further into the future
+        - Take an action and learn to output an action, and then we can use our dynamics model and learn to predict the next state, and run this forward recurrently over a longer time period
+- Results and imagined futures [16:32](https://www.youtube.com/watch?v=Va-F4qtTQ6g&t=992s)
+    - Long time horizon [18:01](https://www.youtube.com/watch?v=Va-F4qtTQ6g&t=1081s)
+- Real world examples - learned intelligent behavior
+    - [18:29](https://www.youtube.com/watch?v=Va-F4qtTQ6g&t=1109s) Predicting that an oncoming bus will enter our lane and waiting for it to pass
+    - Stopping for unknown traffic light and navigating around road works [20:06](https://www.youtube.com/watch?v=Va-F4qtTQ6g&t=1206s)
+- **7 grand challenges** for autonomy [21:31](https://www.youtube.com/watch?v=Va-F4qtTQ6g&t=1291s)
+    - **Adaptability**: Adapt quickly to different sensors, vehicles, use cases
+    - **Off-policy learning**: Train from scalable offline and off-policy data
+    - **World modeling**: Understand complex worlds with joint prediction and planning
+    - **Uncertainty**: Interpretability: Figure out what's causing decisions and mistakes
+    - **Generalization**: Be intelligent in states that it hasn't been trained on
+    - **Reward**: Optimize objective for society's changing needs without supervision
+
+#### External Links/Papers
+- Action conditioned world models towards model-based reinforcement learning for driving
+    - [World Models, NeurIPS 2018. David Ha et al.](https://arxiv.org/pdf/1803.10122.pdf)
+    - [Dreaming about Driving, Wayve Blog 2018](https://wayve.ai/blog/dreaming-about-driving-imagination-rl)
+    - [Learning to drive in a day, ICRA 2019. Kendall et al.](https://arxiv.org/pdf/1807.00412.pdf)
+    - [Probabilistic future prediction for video scene understanding, ECCV 2020. Hu et al.](https://arxiv.org/pdf/2003.06409.pdf)
+    - [Mastering Atari with discrete world models, ICLR 2021. Hafner et al.](https://arxiv.org/pdf/2010.02193.pdf)
+    - [**FIERY**: Future instance prediction in bird's-eye view from surround monocular cameras. Anthony hu et al, 2021](https://arxiv.org/pdf/2104.10490.pdf)
 
 </details>
 
 #
 
 ### [Secure Learning for Autonomous Driving in Adversarial Environments](https://www.youtube.com/watch?v=X1a4rbddz-s) <a id="li2"></a>
-<table><tr> <td> <b> Bo Li </b> </td><td> UIUC </td><td> 28 min </td> </tr></table>
+<table><tr> <td> <b> <a href="https://aisecure.github.io/">Bo Li</a> </b> </td><td> UIUC </td><td> 28 min </td> </tr></table>
 
 <details><summary> <b> . . . </b> </summary>
 
-- .
+> Note: This is an updated version of Bo's presentation from last year, covering the same topic.
+
+- Intro: Machine learning is used in many places in the physical world, but it has security and privacy concerns
+- We are in adversarial environments [2:06](https://www.youtube.com/watch?v=X1a4rbddz-s&t=126s)
+- Goal of **Secure Learning Lab**: Design and certify *robust, private*, and *explainable* machine learning paradigms for real-world applications [2:47](https://www.youtube.com/watch?v=X1a4rbddz-s&t=167s)
+- Autonomous vehicle architecture [4:15](https://www.youtube.com/watch?v=X1a4rbddz-s&t=255s)
+- Examples of mis-classification of stop signs [5:26](https://www.youtube.com/watch?v=X1a4rbddz-s&t=326s) 
+- Art perturbation [6:13](https://www.youtube.com/watch?v=X1a4rbddz-s&t=373s)
+- Physical attacks against detectors [6:49](https://www.youtube.com/watch?v=X1a4rbddz-s&t=409s)
+    - Adversarial stop sign in science museum of London [8:04](https://www.youtube.com/watch?v=X1a4rbddz-s&t=484s)
+- **MSF**: widely recognized as a general defense strategy against existing attacks on AD perception [8:31](https://www.youtube.com/watch?v=X1a4rbddz-s&t=511s) (Cao et al. CCS'19, Shin et al. CHES'17, Yang et al. FGCS'18, Ivanov et al. DATE'14, Park et al. ICCPS'15)
+- Attack generation against **MSF** [9:04](https://www.youtube.com/watch?v=X1a4rbddz-s&t=544s)
+- Real example testing adversarial objects on road [10:30](https://www.youtube.com/watch?v=X1a4rbddz-s&t=630s)
+- Diagram: how physical world MSF-based attacks work [11:21](https://www.youtube.com/watch?v=X1a4rbddz-s&t=681s)
+- Informing companies about possible vulnerabilities [11:41](https://www.youtube.com/watch?v=X1a4rbddz-s&t=701s)
+- Diagram: attacking deep reinforcement learning [12:40](https://www.youtube.com/watch?v=X1a4rbddz-s&t=760s)
+- **Traffic level**: Attack on mixed-autonomous automobile traffic [15:18](https://www.youtube.com/watch?v=X1a4rbddz-s&t=918s)
+    - **CAN** bus manipulation
+- Scene level real-world attack [18:17](https://www.youtube.com/watch?v=X1a4rbddz-s&t=1097s)
+    - Generate realistic scenes to attack SOTA point cloud semantic segmentation algorithms
+- Knowledge enabled adversarial scene generation [19:19](https://www.youtube.com/watch?v=X1a4rbddz-s&t=1159s)
+- How to defend and ensure the safety of AV in *adversarial* environments? [21:08](https://www.youtube.com/watch?v=X1a4rbddz-s&t=1268s)
+    - Proposed defenses [21:19](https://www.youtube.com/watch?v=X1a4rbddz-s&t=1279s)
+- Robust ML pipeline with exogenous information [23:10](https://www.youtube.com/watch?v=X1a4rbddz-s&t=1390s)
+- Certified robustness for *sensing-reasoning* ML pipelines [24:11](https://www.youtube.com/watch?v=X1a4rbddz-s&t=1451s)
+- End-to-end robustness certification [24:55](https://www.youtube.com/watch?v=X1a4rbddz-s&t=1495s)
+- Challenges and opportunities [25:19](https://www.youtube.com/watch?v=X1a4rbddz-s&t=1519s)
+- Knowledge enhanced ML pipeline against *diverse* adversarial attacks [25:53](https://www.youtube.com/watch?v=X1a4rbddz-s&t=1553s)
+- Experimental results [27:00](https://www.youtube.com/watch?v=X1a4rbddz-s&t=1620s)
+
 
 </details>
 
@@ -716,9 +929,11 @@
 ### _Keynotes_
 
 ### [Secure Learning in Adversarial Autonomous Driving Environments](https://www.youtube.com/watch?v=0VfBGWnFNuw) <a id="li"></a>
-<table><tr> <td> <b> Bo Li </b> </td><td> UIUC </td><td> 27 min </td> </tr></table>
+<table><tr> <td> <b> <a href="https://aisecure.github.io/">Bo Li</a> </b> </td><td> UIUC </td><td> 27 min </td> </tr></table>
 
 <details><summary> <b> . . . </b> </summary>
+
+> Note: Bo gives a similar, updated presentation in 2021, with the same title, and about the same topic. Scroll up to see her latest work.
 
 - Threat Model in AV perception [2:03](https://www.youtube.com/watch?v=0VfBGWnFNuw&t=123s)
 - An optimization approach to creating robust physical adversarial examples [3:28](https://www.youtube.com/watch?v=0VfBGWnFNuw&t=208s)
@@ -829,7 +1044,7 @@
 
 
 ### [Tesla AI Day 2021 Cut](https://www.youtube.com/watch?v=keWEE9FwS9o) <a id="aiday2021"></a>
-<table><tr> <td> <b> Andrei Karpathy, Ashok Elluswamy, Ganesh V. </b> </td><td> Tesla Daily </td><td> 20 <b>Aug 2021</b> </td><td> 19 min </td> </tr></table>
+<table><tr> <td> <b> <a href="https://karpathy.ai/">Andrei Karpathy</a>, Ashok Elluswamy, Ganesh V. </b> </td><td> Tesla Daily </td><td> 20 <b>Aug 2021</b> </td><td> 19 min </td> </tr></table>
 
 <details><summary> <b> . . . </b> </summary>
 
