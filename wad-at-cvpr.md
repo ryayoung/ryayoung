@@ -1,26 +1,23 @@
-
 # WAD at CVPR Keynote Notes
 > Workshop on Autonomous Driving (WAD), at the Computer Vision and Pattern Recognition Conference (CVPR)
 
 <br>
 
-## TABLE OF CONTENTS
 
-<details>
-    <summary> <h3> 2022 </h3> </summary>
+### TABLE OF CONTENTS
 
 #### _KEYNOTES_
 
-| Speaker | Source | Title | Time |
-| ------- | ------ | ----- | ---- |
-| Alex Kendall | Wayve | [**AV2.0: Learning a Globally Scalable Driving Intelligence**](#kendall2) | 31 |
-| Sergey Levine | UC Berkeley | [**From Imitation Learning to Offline RL**](#levine) | 28 |
-| Yuning Chai | Cruise | [**Deploying Autonomous Driving: Where are we now and what lies ahead?**](#chai) | 25 |
-| Matthew J.-Roberson | CMU | [**History of self-driving, escaping labeling, sensors, simulation**](#roberson) | 23 |
-| Raquel Urtasun | Waabi/UofT | [**Waabi simulation; sensors, scenarios, learning**](#urtasun2) | 38 |
-| Sanja Fidler | Nvidia/UofT | [**Neural AV Simulation**](#fidler) | 26 |
-| Philipp Krähenbühl | UT Austin | [**Why work on autonomy in academia?**](#krahenbuhl) | 29 |
-| Ashok Elluswamy | Tesla | [**Occupancy Networks**](#elluswamy) | 35 |
+| Title | Speaker | Source | Time |
+| ----- | ------- | ------ | ---- |
+| [**AV2.0: Learning a Globally Scalable Driving Intelligence**](#kendall2) | Alex Kendall | Wayve | 31 |
+| [**From Imitation Learning to Offline RL**](#levine) | Sergey Levine | UC Berkeley | 28 |
+| [**Deploying Autonomous Driving: Where are we now and what lies ahead?**](#chai) | Yuning Chai | Cruise | 25 |
+| [**History of self-driving, escaping labeling, sensors, simulation**](#roberson) | Matthew J.-Roberson | CMU | 23 |
+| [**Waabi simulation; sensors, scenarios, learning**](#urtasun2) | Raquel Urtasun | Waabi/UofT | 38 |
+| [**Neural AV Simulation**](#fidler) | Sanja Fidler | Nvidia/UofT | 26 |
+| [**Why work on autonomy in academia?**](#krahenbuhl) | Philipp Krähenbühl | UT Austin | 29 |
+| [**Occupancy Networks**](#elluswamy) | Ashok Elluswamy | Tesla | 35 |
 
 #### _CHALLENGES_
 
@@ -32,23 +29,20 @@
 | [**Waymo Open Dataset**](#opendataset2) | Waymo | 40 |
 
 
-</details>
-
-<details>
-    <summary> <h3> 2021 </h3> </summary>
+### TABLE OF CONTENTS
 
 #### _KEYNOTES_
 
-| Speaker | Source | Title | Time |
-| ------- | ------ | ----- | ---- |
-| Andrej Karpathy | Tesla | [**Vision vs. lidar/HD-map, NN training, hardware**](#karpathy) | 31 |
-| Carl Wellington | Aurora | [**Bridging Perception to Motion Planning**](#wellington) | 27 |
-| Deva Ramanan | Argo/CMU | [**Perception and Action in the Open World**](#ramanan) | 32 |
-| Raquel Urtasun | Waabi/UofT | [**Interpretable Neural Motion Planner**](#urtasun) | 32 |
-| Sarah Tariq | Nvidia | [**AV Development at Massive Scale**](#tariq) | 28 |
-| Adrien Gaidon | TTI | [**Self-Supervised 3D Vision**](#gaidon) | 22 |
-| Alex Kendall | Wayve | [**AV2.0: Reimagining autonomous mobility with embodied intelligence**](#kendall) | 29 |
-| Bo Li | UIUC | [**Secure Learning for Autonomous Driving in Adversarial Environments**](#li2) | 28 |
+| Title | Speaker | Source | Time |
+| ----- | ------- | ------ | ---- |
+| [**Vision vs. lidar/HD-map, NN training, hardware**](#karpathy) | Andrej Karpathy | Tesla | 31 |
+| [**Bridging Perception to Motion Planning**](#wellington) | Carl Wellington | Aurora | 27 |
+| [**Perception and Action in the Open World**](#ramanan) | Deva Ramanan | Argo/CMU | 32 |
+| [**Interpretable Neural Motion Planner**](#urtasun) | Raquel Urtasun | Waabi/UofT | 32 |
+| [**AV Development at Massive Scale**](#tariq) | Sarah Tariq | Nvidia | 28 |
+| [**Self-Supervised 3D Vision**](#gaidon) | Adrien Gaidon | TTI | 22 |
+| [**AV2.0: Reimagining autonomous mobility with embodied intelligence**](#kendall) | Alex Kendall | Wayve | 29 |
+| [**Secure Learning for Autonomous Driving in Adversarial Environments**](#li2) | Bo Li | UIUC | 28 |
 
 #### _CHALLENGES_
 
@@ -57,36 +51,60 @@
 | [**Argoverse Challenge**](#argoverse2) | Argo AI | 55 |
 | [**Waymo Open Dataset**](#opendataset) | Waymo | 1 |
 
-</details>
-
-<details>
-    <summary> <h3> 2020 </h3> </summary>
 
 #### _KEYNOTES_
 
-| Speaker | Source | Title | Time |
-| ------- | ------ | ----- | ---- |
-| Bo Li | UIUC | [**Secure Learning in Adversarial Autonomous Driving Environments**](#li) | 27 |
-| Drago Anguelov | Waymo | [**Machine Learning for Autonomous Driving at Scale**](#anguelov) | 35 |
+| Title | Speaker | Source | Time |
+| ----- | ------- | ------ | ---- |
+| **Secure Learning in Adversarial Autonomous Driving Environments** | Bo Li | UIUC | 27 |
+| **Machine Learning for Autonomous Driving at Scale** | Drago Anguelov | Waymo | 35 |
 
 
 #### _CHALLENGES_
 
 | Title | Source | Time |
 | ----- | ------ | ---- |
-| [**Argoverse Challenge**](#argoverse) | Argo AI | 28 |
-
-</details>
+| **Argoverse Challenge** | Argo AI | 28 |
 
 <br>
-<br>
 
-
-
-# **2022**
+# *Presentation Notes*
 ---
 
-### _Keynotes_
+
+<details><summary><h2>2022</h2></summary>
+
+<br>
+
+## TABLE OF CONTENTS
+
+#### Keynotes
+
+| Title | Speaker | Source | Time |
+| ----- | ------- | ------ | ---- |
+| [**AV2.0: Learning a Globally Scalable Driving Intelligence**](#kendall2) | Alex Kendall | Wayve | 31 |
+| [**From Imitation Learning to Offline RL**](#levine) | Sergey Levine | UC Berkeley | 28 |
+| [**Deploying Autonomous Driving: Where are we now and what lies ahead?**](#chai) | Yuning Chai | Cruise | 25 |
+| [**History of self-driving, escaping labeling, sensors, simulation**](#roberson) | Matthew J.-Roberson | CMU | 23 |
+| [**Waabi simulation; sensors, scenarios, learning**](#urtasun2) | Raquel Urtasun | Waabi/UofT | 38 |
+| [**Neural AV Simulation**](#fidler) | Sanja Fidler | Nvidia/UofT | 26 |
+| [**Why work on autonomy in academia?**](#krahenbuhl) | Philipp Krähenbühl | UT Austin | 29 |
+| [**Occupancy Networks**](#elluswamy) | Ashok Elluswamy | Tesla | 35 |
+
+#### Challenges
+
+| Title | Source | Time |
+| ----- | ------ | ---- |
+| [**Argoverse Challenge**](#argoverse3) | Argo AI | 44 |
+| [**nuPlan**](#nuplan) | Motional | 5 |
+| [**BDD100K**](#bdd100k) | ETH VIS | 22 |
+| [**Waymo Open Dataset**](#opendataset2) | Waymo | 40 |
+
+<br>
+
+## VIDEO NOTES
+
+## _Keynotes_
 
 ### [AV2.0: Learning a Globally Scalable Driving Intelligence](https://www.youtube.com/watch?v=UhDUczF47VI) <a id="kendall2"></a>
 <table><tr> <td> <b> <a href="https://alexgkendall.com/">Alex Kendall</a> </b> </td><td> Wayve </td><td> 31 min </td> </tr></table>
@@ -273,11 +291,11 @@
 
 </details>
 
+#
+
 <br>
 
-
-### _Challenges_
----
+## _Challenges_
 
 ### [Argoverse Challenge](https://www.youtube.com/watch?v=Z1q9ijuLLvU) <a id="argoverse3"></a>
 <table><tr> <td> <b> Argo AI </b> </td><td> 44 min </td> </tr> </table>
@@ -435,10 +453,42 @@
 
 </details>
 
+#
+
+---
+
+</details>
+
 <br>
 
-# 2021
+<details><summary><h2>2021</h2></summary>
+
+## TABLE OF CONTENTS
 ---
+
+#### Keynotes
+
+| Title | Speaker | Source | Time |
+| ----- | ------- | ------ | ---- |
+| [**Vision vs. lidar/HD-map, NN training, hardware**](#karpathy) | Andrej Karpathy | Tesla | 31 |
+| [**Bridging Perception to Motion Planning**](#wellington) | Carl Wellington | Aurora | 27 |
+| [**Perception and Action in the Open World**](#ramanan) | Deva Ramanan | Argo/CMU | 32 |
+| [**Interpretable Neural Motion Planner**](#urtasun) | Raquel Urtasun | Waabi/UofT | 32 |
+| [**AV Development at Massive Scale**](#tariq) | Sarah Tariq | Nvidia | 28 |
+| [**Self-Supervised 3D Vision**](#gaidon) | Adrien Gaidon | TTI | 22 |
+| [**AV2.0: Reimagining autonomous mobility with embodied intelligence**](#kendall) | Alex Kendall | Wayve | 29 |
+| [**Secure Learning for Autonomous Driving in Adversarial Environments**](#li2) | Bo Li | UIUC | 28 |
+
+#### Challenges
+
+| Title | Source | Time |
+| ----- | ------ | ---- |
+| [**Argoverse Challenge**](#argoverse2) | Argo AI | 55 |
+| [**Waymo Open Dataset**](#opendataset) | Waymo | 1 |
+
+<br>
+
+## VIDEO NOTES
 
 ### _Keynotes_
 
@@ -618,7 +668,54 @@
 
 <details><summary> <b> IN PROGRESS </b> </summary>
 
-- .
+> #### If you are here to learn new, useful information, please skip this talk. It will be uncomfortable to watch. However, if you like entertainment, please continue, as Nvidia's presentation far exceeds any April fools joke I've seen, with its cleverness and attention to detail.
+
+#### Talk given by Sarah Tariq, the VP of Autonomous Driving Software at NVIDIA
+
+- "Nvidia announced a partnership with Mercedes last year to build **the world's leading platform** for AV functionality in consumer cars", starting in 2024 [1:32]
+    - "This functionality includes very basic active safety functionality, but then it also includes driving, um, autonomously, from address to address on *regular routes*..." [1:50]
+    - "We're enabling *large amounts* of AV functionality, from active safety, all the way up to level 4!" [2:17]
+- At [2:35], she talks about levels 1-3 of self-driving. Then, "and then you have complex level 4 driving, where the vehicle not only parks or unparks, but can be summoned from a parking spot. It can have a trailer attached, you need to deal with that as well. And *all* of this functionality needs to be supported with a single stack." [3:06]
+- How much compute is necessary for autonomy? [4:29]
+    - "Full self-driving ... requires more than 2,000 TOPs". Thanks. Finally, we have an official, confirmed number that everyone can agree on: 2,000 trillion, or 2 quadrillion, operations per second. (Tesla HW3 does 144 trillion ops per second).
+    - <img width="600" alt="Screen Shot 2022-08-27 at 9 36 59 PM" src="https://user-images.githubusercontent.com/90723578/187056260-c1d57d3c-5fe4-41bb-83fa-a6d02d700337.png">
+    - "The L3 version of the sensor stack has to have some extra capability"
+    - <img width="600" alt="Screen Shot 2022-08-27 at 9 41 57 PM" src="https://user-images.githubusercontent.com/90723578/187056353-2bc91c11-3349-4f3f-8ab6-63455ba5cee7.png">
+- "World-class neural networks" [7:31]
+    - While discussing their industry-leading neural networks, she mentions "But then there's more complex stuff. You need to estimate distance to things. You need to estimate your paths, especially if there's no maps." [7:54]
+- "A lot of advanced planning maneuvers requrie HD maps. And that's a vital component for self-driving technology. You can do some things without a map, but much more functionality is enabled once you have a map." [8:34]
+- "It starts with needing to have a really good map. Maps are an important component for realistic generation scenarios for testing." [17:00]
+- FINALLY! Some results [23:02]
+- <img width="600" alt="Screen Shot 2022-08-27 at 10 09 28 PM" src="https://user-images.githubusercontent.com/90723578/187057020-f99bc352-bfdf-4c2d-bcf7-0f187d33e4eb.png">
+- "A network trained on just simulated data is **not** going to do that well in the real world." [23:51]
+- ...30 seconds later...
+- "We were able to train and test our parking end-to-end with object detection running on our simulator, and with the object detector trained entirely on synthetic fisheye lens camera data." [24:10]
+    - (Note: so... by this logic your car's ability to PARK is "not going to do that well in the real world")
+- "Here's an example of a network that was having trouble detecting truncated large trucks that were very close to us" [25:00]
+    - "One way of solving for this easily:"
+        1. "Find the failure event"
+        2. "Generate *massive* amounts of similar data in simulation"
+        3. "Retrain with *some* of this data added in"
+        4. Problem solved
+    - Excellent
+    - <img width="600" alt="Screen Shot 2022-08-27 at 10 15 26 PM" src="https://user-images.githubusercontent.com/90723578/187057134-c7560535-5a33-4f5b-8f37-98248eaf076f.png">
+
+
+### "We basically model the appearance of the world as realistically as possible" ... "the image quality is absolutely unsurpassed". (Except... Nvidia didn't make this - they're using Omniverse's renderer)
+
+<img width="700" alt="Screen Shot 2022-08-27 at 8 47 49 PM" src="https://user-images.githubusercontent.com/90723578/187055277-8f897b8f-4023-49cc-9786-2f44182a8c26.png">
+
+### Meanwhile, this is **Waabi's** simulator, from this same conference. They are a startup, *founded exactly 12 days prior*.
+
+<img width="700" alt="Screen Shot 2022-08-27 at 8 17 40 PM" src="https://user-images.githubusercontent.com/90723578/187054841-3daeb141-0c1d-4a9d-b89c-80490ca4b924.png">
+<img width="700" alt="Screen Shot 2022-08-27 at 8 15 46 PM" src="https://user-images.githubusercontent.com/90723578/187054849-45f27402-1e26-41a2-8a2e-8aec7133e093.png">
+
+### Again, here's **Nvidia's** masterpiece. GTA 5 vibes?
+
+<img width="700" alt="Screen Shot 2022-08-27 at 8 23 09 PM" src="https://user-images.githubusercontent.com/90723578/187054831-ed527800-ac59-46fa-9889-0799a5d7398d.png">
+<img width="700" alt="Screen Shot 2022-08-27 at 8 20 04 PM" src="https://user-images.githubusercontent.com/90723578/187054834-cb19ac93-1200-4c4a-93f4-93864cf2414d.png">
+<img width="700" alt="Screen Shot 2022-08-27 at 8 13 48 PM" src="https://user-images.githubusercontent.com/90723578/187054836-598ddc81-da59-474e-aece-fcbd516b2830.png">
+
 
 </details>
 
@@ -921,9 +1018,16 @@
 
 </details>
 
+---
+
+</details>
+
 <br>
 
-# 2020
+<details><summary><h2>2020</h2></summary>
+
+<!-- # 2020 -->
+
 ---
 
 ### _Keynotes_
@@ -1034,6 +1138,7 @@
 
 </details>
 
+</details>
 
 <br>
 <br>
