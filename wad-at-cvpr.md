@@ -4,67 +4,48 @@
 <br>
 
 
-### TABLE OF CONTENTS
+<details open><summary><h3>TABLE OF CONTENTS</h3></summary>
 
 #### _KEYNOTES_
 
-| Title | Speaker | Source | Time |
-| ----- | ------- | ------ | ---- |
-| [**AV2.0: Learning a Globally Scalable Driving Intelligence**](#kendall2) | Alex Kendall | Wayve | 31 |
-| [**From Imitation Learning to Offline RL**](#levine) | Sergey Levine | UC Berkeley | 28 |
-| [**Deploying Autonomous Driving: Where are we now and what lies ahead?**](#chai) | Yuning Chai | Cruise | 25 |
-| [**History of self-driving, escaping labeling, sensors, simulation**](#roberson) | Matthew J.-Roberson | CMU | 23 |
-| [**Waabi simulation; sensors, scenarios, learning**](#urtasun2) | Raquel Urtasun | Waabi/UofT | 38 |
-| [**Neural AV Simulation**](#fidler) | Sanja Fidler | Nvidia/UofT | 26 |
-| [**Why work on autonomy in academia?**](#krahenbuhl) | Philipp Krähenbühl | UT Austin | 29 |
-| [**Occupancy Networks**](#elluswamy) | Ashok Elluswamy | Tesla | 35 |
+|  | Title | Speaker | Source | Time |
+| - | ----- | ------- | ------ | ---- |
+| 2022 | **AV2.0: Learning a Globally Scalable Driving Intelligence** | Alex Kendall | Wayve | 31 |
+|  | **From Imitation Learning to Offline Reinforcement Learning** | Sergey Levine | UC Berkeley | 28 |
+|  | **Deploying Autonomous Driving: Where are we now and what lies ahead?** | Yuning Chai | Cruise | 25 |
+|  | **History of self-driving, escaping labeling, sensors, simulation** | Matthew J.-Roberson | CMU | 23 |
+|  | **Waabi simulation; sensors, scenarios, learning** | Raquel Urtasun | Waabi/UofT | 38 |
+|  | **Neural AV Simulation** | Sanja Fidler | Nvidia/UofT | 26 |
+|  | **Why work on autonomy in academia?** | Philipp Krähenbühl | UT Austin | 29 |
+|  | **Occupancy Networks** | Ashok Elluswamy | Tesla | 35 |
+| | | | | |
+| 2021 | **Vision vs. lidar/HD-map, NN training, hardware** | Andrej Karpathy | Tesla | 31 |
+| | **Bridging Perception to Motion Planning** | Carl Wellington | Aurora | 27 |
+| | **Perception and Action in the Open World** | Deva Ramanan | Argo/CMU | 32 |
+| | **Interpretable Neural Motion Planner** | Raquel Urtasun | Waabi/UofT | 32 |
+| | **AV Development at Massive Scale** | Sarah Tariq | Nvidia | 28 |
+| | **Self-Supervised 3D Vision** | Adrien Gaidon | TTI | 22 |
+| | **AV2.0: Reimagining autonomous mobility with embodied intelligence** | Alex Kendall | Wayve | 29 |
+| | **Secure Learning for Autonomous Driving in Adversarial Environments** | Bo Li | UIUC | 28 |
+| | | | | |
+| 2020 | **Secure Learning in Adversarial Autonomous Driving Environments** | Bo Li | UIUC | 27 |
+| | **Machine Learning for Autonomous Driving at Scale** | Drago Anguelov | Waymo | 35 |
 
 #### _CHALLENGES_
 
-| Title | Source | Time |
-| ----- | ------ | ---- |
-| [**Argoverse Challenge**](#argoverse3) | Argo AI | 44 |
-| [**nuPlan**](#nuplan) | Motional | 5 |
-| [**BDD100K**](#bdd100k) | ETH VIS | 22 |
-| [**Waymo Open Dataset**](#opendataset2) | Waymo | 40 |
+| | Title | Source | Time |
+| - | ----- | ------ | ---- |
+| 2022 | **Argoverse Challenge** | Argo AI | 44 |
+| | **nuPlan** | Motional | 5 |
+| | **BDD100K** | ETH VIS | 22 |
+| | **Waymo Open Dataset** | Waymo | 40 |
+| | | | |
+| 2021 | **Argoverse Challenge** | Argo AI | 55 |
+| | **Waymo Open Dataset** | Waymo | 1 |
+| | | | |
+| 2020 | **Argoverse Challenge** | Argo AI | 28 |
 
-
-### TABLE OF CONTENTS
-
-#### _KEYNOTES_
-
-| Title | Speaker | Source | Time |
-| ----- | ------- | ------ | ---- |
-| [**Vision vs. lidar/HD-map, NN training, hardware**](#karpathy) | Andrej Karpathy | Tesla | 31 |
-| [**Bridging Perception to Motion Planning**](#wellington) | Carl Wellington | Aurora | 27 |
-| [**Perception and Action in the Open World**](#ramanan) | Deva Ramanan | Argo/CMU | 32 |
-| [**Interpretable Neural Motion Planner**](#urtasun) | Raquel Urtasun | Waabi/UofT | 32 |
-| [**AV Development at Massive Scale**](#tariq) | Sarah Tariq | Nvidia | 28 |
-| [**Self-Supervised 3D Vision**](#gaidon) | Adrien Gaidon | TTI | 22 |
-| [**AV2.0: Reimagining autonomous mobility with embodied intelligence**](#kendall) | Alex Kendall | Wayve | 29 |
-| [**Secure Learning for Autonomous Driving in Adversarial Environments**](#li2) | Bo Li | UIUC | 28 |
-
-#### _CHALLENGES_
-
-| Title | Source | Time |
-| ----- | ------ | ---- |
-| [**Argoverse Challenge**](#argoverse2) | Argo AI | 55 |
-| [**Waymo Open Dataset**](#opendataset) | Waymo | 1 |
-
-
-#### _KEYNOTES_
-
-| Title | Speaker | Source | Time |
-| ----- | ------- | ------ | ---- |
-| **Secure Learning in Adversarial Autonomous Driving Environments** | Bo Li | UIUC | 27 |
-| **Machine Learning for Autonomous Driving at Scale** | Drago Anguelov | Waymo | 35 |
-
-
-#### _CHALLENGES_
-
-| Title | Source | Time |
-| ----- | ------ | ---- |
-| **Argoverse Challenge** | Argo AI | 28 |
+</details>
 
 <br>
 
@@ -73,10 +54,6 @@
 
 
 <details><summary><h2>2022</h2></summary>
-
-<br>
-
-## TABLE OF CONTENTS
 
 #### Keynotes
 
@@ -109,20 +86,103 @@
 ### [AV2.0: Learning a Globally Scalable Driving Intelligence](https://www.youtube.com/watch?v=UhDUczF47VI) <a id="kendall2"></a>
 <table><tr> <td> <b> <a href="https://alexgkendall.com/">Alex Kendall</a> </b> </td><td> Wayve </td><td> 31 min </td> </tr></table>
 
-<details><summary> <b> IN PROGRESS </b> </summary>
+<details><summary> <b> Notes </b> </summary>
 
-- .
+- Autonomous driving is an embodied intelligence problem [1:58](https://www.youtube.com/watch?v=UhDUczF47VI&t=118s)
+- Learning to drive with end-to-end deep learning and computer vision [4:10](https://www.youtube.com/watch?v=UhDUczF47VI&t=250s)
+- Video of the first time training a model to drive in 2015 [4:50](https://www.youtube.com/watch?v=UhDUczF47VI&t=290s)
+- Grand challenges for scalable autonomy: [6:49](https://www.youtube.com/watch?v=UhDUczF47VI&t=409s)
+
+1. **Adaptability**
+    - Unlocking new markets faster [7:35](https://www.youtube.com/watch?v=UhDUczF47VI&t=455s)
+        - Trained models to drive only in London, and were able to easily adapt to new cities they had never seen before
+    - Adaptation to new vehicle types [8:30](https://www.youtube.com/watch?v=UhDUczF47VI&t=510s)
+2. **Off-policy Learning**
+    - Improving pedestrian safety with self-supervised learning [10:39](https://www.youtube.com/watch?v=UhDUczF47VI&t=639s)
+    - Create a learning curriculum to solve pedestrian interaction [11:23](https://www.youtube.com/watch?v=UhDUczF47VI&t=683s)
+    - Real-world results [11:50](https://www.youtube.com/watch?v=UhDUczF47VI&t=710s)
+3. **Uncertainty**
+    - Understanding epistemic model uncertainty: When and what we don't know [12:38](https://www.youtube.com/watch?v=UhDUczF47VI&t=758s)
+    - Measuring uncertainty for autonomous driving with ensembles [13:14](https://www.youtube.com/watch?v=UhDUczF47VI&t=794s)
+4. **Interpretability**
+    - Visual attention masks [14:38](https://www.youtube.com/watch?v=UhDUczF47VI&t=878s)
+5. **World Modeling**
+    - Video example of why single-image predictions don't always work [16:35](https://www.youtube.com/watch?v=UhDUczF47VI&t=995s)
+    - Multimodal future prediction (presented last year) [17:01](https://www.youtube.com/watch?v=UhDUczF47VI&t=1021s)
+    - World models meet driving policy [17:36](https://www.youtube.com/watch?v=UhDUczF47VI&t=1056s)
+    - Simulation example: Traffic light: two futures [18:40](https://www.youtube.com/watch?v=UhDUczF47VI&t=1120s)
+    - Leveraging model-based imitation learning for closed-loop driving in CARLA [19:01](https://www.youtube.com/watch?v=UhDUczF47VI&t=1141s)
+6. **Benchmarks & Simulation**
+    - Simulation for autonomous driving [19:38](https://www.youtube.com/watch?v=UhDUczF47VI&t=1178s)
+    - Simulation for adaptable driving intelligence [21:17](https://www.youtube.com/watch?v=UhDUczF47VI&t=1277s)
+- QUESTIONS [24:09](https://www.youtube.com/watch?v=UhDUczF47VI&t=1449s)
+
+
+#### Papers Cited
+- [*Reimagining an autonomous vehicle*, Hawke et al. 2021](https://arxiv.org/abs/2108.05805)
+	- [PDF](https://arxiv.org/pdf/2108.05805.pdf)
+- [*What uncertainties do we need in bayesian deep learning for computer vision?*, Kendall & Gal. NeurIPS'17](https://arxiv.org/abs/1703.04977)
+	- [PDF](https://arxiv.org/pdf/1703.04977.pdf)
+- [*Bayesian SegNet: Model uncertainty for scene understanding*, Kendall et al. BMVC'17](https://arxiv.org/abs/1511.02680)
+	- [PDF](https://arxiv.org/pdf/1511.02680.pdf)
+- [*FIERY: Future instance prediction in bird's-eye view from surround monocular cameras*, Hu et al. 2021](https://arxiv.org/abs/2104.10490)
+	- [PDF](https://arxiv.org/pdf/2104.10490.pdf)
+	- [Code: wayveai/fiery](https://github.com/wayveai/fiery)
+
 
 </details>
 
 #
 
-### [From Imitation Learning to Offline RL](https://www.youtube.com/watch?v=Od9CVqzIgZ8) <a id="levine"></a>
+### [From Imitation Learning to Offline Reinforcement Learning](https://www.youtube.com/watch?v=Od9CVqzIgZ8) <a id="levine"></a>
 <table><tr> <td> <b> Sergey Levine </b> </td><td> UC Berkeley </td><td> 28 min </td> </tr></table>
 
-<details><summary> <b> IN PROGRESS </b> </summary>
+<details><summary> <b> Notes </b> </summary>
 
-- .
+#### *Note: "RL" = Reinforcement Learning*
+
+- End-to-end learning-based control [0:24](https://www.youtube.com/watch?v=Od9CVqzIgZ8&t=24s)
+- Can we do this with RL? [1:11](https://www.youtube.com/watch?v=Od9CVqzIgZ8&t=71s)
+    - What is RL?
+        1. Framework for learning-based decision making
+        2. Active, online learning algorithms for control
+- Making RL look more like supervised learning [3:00](https://www.youtube.com/watch?v=Od9CVqzIgZ8&t=180s)
+    - Offline RL: Take a dataset that you collected previously, and train on that
+- Imitation learning and offline RL [3:44](https://www.youtube.com/watch?v=Od9CVqzIgZ8&t=224s)
+    - Only difference is that offline RL doesn't assume driving behaviors we're training on are optimal
+- What's the difference? [5:43](https://www.youtube.com/watch?v=Od9CVqzIgZ8&t=343s)
+- What's the similarity? [7:16](https://www.youtube.com/watch?v=Od9CVqzIgZ8&t=436s)
+    - Any functional offline RL method must do:
+        1. Stay close to the provided data
+        2. Maximize reward
+- Why is this even a question? [9:00](https://www.youtube.com/watch?v=Od9CVqzIgZ8&t=540s)
+    - i.e. shouldn't RL just always be better than imitation?
+    - Imitation learning has some advantages:
+        - Behavioral cloning is simple and easy
+            - Stable, scalable for large data, and easy to debug
+        - There are some ways to use rewards in imitation
+- Putting offline RL & Behavioral Cloning (BC) side by side [11:03](https://www.youtube.com/watch?v=Od9CVqzIgZ8&t=663s)
+- Why is BC difficult? [11:37](https://www.youtube.com/watch?v=Od9CVqzIgZ8&t=697s)
+    - Mistakes can compound. You make a mistake, and now you're in a different state, so you're more likely to make another mistake, and so on
+- Why might RL help? [14:32](https://www.youtube.com/watch?v=Od9CVqzIgZ8&t=872s)
+    - By incorporating dynamics into the update, value-based offline RL is **aware of the consequences of actions**
+    - Offline RL can benefit from suboptimal data
+- The formal results [16:18](https://www.youtube.com/watch?v=Od9CVqzIgZ8&t=978s)
+- Combining behavioral cloning and RL [20:19](https://www.youtube.com/watch?v=Od9CVqzIgZ8&t=1219s)
+- Various instantiations [21:05](https://www.youtube.com/watch?v=Od9CVqzIgZ8&t=1265s)
+    - Deep imitative models [21:40](https://www.youtube.com/watch?v=Od9CVqzIgZ8&t=1300s)
+    - Trajectory transformer [24:37](https://www.youtube.com/watch?v=Od9CVqzIgZ8&t=1477s)
+- VIKING: Kilometer-Scale Navigation [27:01](https://www.youtube.com/watch?v=Od9CVqzIgZ8&t=1621s)
+- Takeaways [27:38](https://www.youtube.com/watch?v=Od9CVqzIgZ8&t=1658s)
+
+#### External Links/Papers
+
+- [*When should we prefer offline reinforcement learning over behavioral cloning?*, Kumar et al. ICLR'22](https://arxiv.org/abs/2204.05618)
+	- [PDF](https://arxiv.org/pdf/2204.05618.pdf)
+- [*Offline reinforcement learning as one big sequence modeling problem*, Janner et al. NeurIPS'21](https://arxiv.org/abs/2106.02039)
+	- [PDF](https://arxiv.org/pdf/2106.02039.pdf)
+	- [Code: JannerM/trajectory-transformer](https://github.com/JannerM/trajectory-transformer)
+
 
 </details>
 
@@ -131,9 +191,43 @@
 ### [Deploying Autonomous Driving: Where are we now and what lies ahead?](https://www.youtube.com/watch?v=EJ0hgOc0XLA) <a id="chai"></a>
 <table><tr> <td> <b> Yuning Chai </b> </td><td> Cruise </td><td> 25 min </td> </tr></table>
 
-<details><summary> <b> IN PROGRESS </b> </summary>
+<details><summary> <b> Notes </b> </summary>
 
-- .
+- Cruise's current product in San Francisco [1:12](https://www.youtube.com/watch?v=EJ0hgOc0XLA&t=72s)
+- Rollout schedule [2:00](https://www.youtube.com/watch?v=EJ0hgOc0XLA&t=120s)
+- Remaining challenges [2:53](https://www.youtube.com/watch?v=EJ0hgOc0XLA&t=173s)
+    - Scaling in San Francisco, new locations, and to new platforms
+        - Demo [3:32](https://www.youtube.com/watch?v=EJ0hgOc0XLA&t=212s)
+- Quantifying epistemic uncertainty [6:13](https://www.youtube.com/watch?v=EJ0hgOc0XLA&t=373s)
+    - Knowing when the models do not know something
+    - Example - person running into street [7:06](https://www.youtube.com/watch?v=EJ0hgOc0XLA&t=426s)
+    - **Aleatory** vs. **epistemic** uncertainty [9:29](https://www.youtube.com/watch?v=EJ0hgOc0XLA&t=569s)
+    - <img width="500" alt="image" src="https://user-images.githubusercontent.com/90723578/187085962-2731dd0c-153a-42e6-95c8-8882fb788882.png">
+    - Example - qualitative result [12:50](https://www.youtube.com/watch?v=EJ0hgOc0XLA&t=770s)
+- In defense of **radar** [14:11](https://www.youtube.com/watch?v=EJ0hgOc0XLA&t=851s)
+    - Radar gives redundancy and is critical for adverse weather
+    - Example images of camera/lidar lens being blocked [14:55](https://www.youtube.com/watch?v=EJ0hgOc0XLA&t=895s)
+    - Our proprietary radar technology [16:04](https://www.youtube.com/watch?v=EJ0hgOc0XLA&t=964s)
+    - Opportunities for research into radar [16:30](https://www.youtube.com/watch?v=EJ0hgOc0XLA&t=990s)
+        - With and without radar ego-motion compensation
+        - Radar + camera vs. Radar
+- Adversarial reinforcement learning agents [17:53](https://www.youtube.com/watch?v=EJ0hgOc0XLA&t=1073s)
+    - Our approach: train adversarial agents who seek to get hit by our AV, and use them to train the car. [18:53](https://www.youtube.com/watch?v=EJ0hgOc0XLA&t=1133s)
+    - Example: Jaywalker behind occlusion [20:38](https://www.youtube.com/watch?v=EJ0hgOc0XLA&t=1238s)
+- Data mining: **triggers** [22:27](https://www.youtube.com/watch?v=EJ0hgOc0XLA&t=1347s)
+    1. Signals from safety drivers aren't as useful anymore
+    2. Then, they *hand-crafted* features, and searched their data for similar events. But the searching wasn't accurate enough
+    3. Now, adopted a **few-shot active learning strategy** to actually train models to identify the triggers, so they can accurately search for them
+- Investing heavily in tooling automation [23:30](https://www.youtube.com/watch?v=EJ0hgOc0XLA&t=1410s)
+
+#### External Links/Papers
+
+- [*Simple and Scalable Predictive Uncertainty Estimation using Deep Ensembles*, Lakshminarayanan et al. NIPS'17](https://arxiv.org/abs/1612.01474)
+	- [PDF](https://arxiv.org/pdf/1612.01474.pdf)
+- [*Bayesian deep learning and a probabilistic perspective of generalization*, Wilson & Izmailov. 2020](https://arxiv.org/abs/2002.08791)
+	- [PDF](https://arxiv.org/pdf/2002.08791.pdf)
+	- [Code: izmailovpavel/understandingbdl](https://github.com/izmailovpavel/understandingbdl)
+
 
 </details>
 
@@ -142,27 +236,38 @@
 ### [History of self-driving, escaping labeling, sensors, simulation](https://www.youtube.com/watch?v=I4QEZxfPUmc) <a id="roberson"></a>
 <table><tr> <td> <b> Matthew J.-Roberson </b> </td><td> CMU </td><td> 23 min </td> </tr></table>
 
-<details><summary> <b> . . . </b> </summary>
+<details><summary> <b> Notes </b> </summary>
 
 - History of self-driving: The idea is actually very old. AVs were built in the 50s that controlled steering using metal cables embedded in the roadway
 - How do we escape paying for labeled datasets to train with? [3:56](https://www.youtube.com/watch?v=I4QEZxfPUmc&t=236s)
 - Examples of **perception challenges** - smoke, fog, glare, dark, motion blur [4:54](https://www.youtube.com/watch?v=I4QEZxfPUmc&t=294s)
-- Paper by S. R. Manikandasriram, [Failing to Learn: Autonomously Identifying Perception Failures for Self-driving Cars](https://arxiv.org/pdf/1707.00051.pdf)
+- Identifying perception failures
     - Simple technique: Look for missed-detections in a series of frames across time. [5:30](https://www.youtube.com/watch?v=I4QEZxfPUmc&t=330s)
         - **Stereo inconsistencies** as hypotheses (if left camera sees something, the right camera should also identify it) [7:09](https://www.youtube.com/watch?v=I4QEZxfPUmc&t=429s)
     - Correlate errors with geo-locations. Find places on a map where errors are most common [8:05](https://www.youtube.com/watch?v=I4QEZxfPUmc&t=485s)
 - **Thermal cameras** [8:46](https://www.youtube.com/watch?v=I4QEZxfPUmc&t=526s)
     - Cheap versus high quality thermal cameras. How do we make the most of the cheaper, noisier image so we can use thermal imaging at a low cost?
-    - Paper by S. R. Manikandasriram, [Pixel-Wise Motion Deblurring of Thermal Videos](https://arxiv.org/pdf/2006.04973.pdf)
-- Paper by Ming-Yuan Yu, [Risk Assessment and Planning with Bidirectional Reachability for Autonomous Driving](https://arxiv.org/pdf/1909.08059.pdf)
-    - **Understanding risk** [10:58](https://www.youtube.com/watch?v=I4QEZxfPUmc&t=658s)
+- **Understanding risk** [10:58](https://www.youtube.com/watch?v=I4QEZxfPUmc&t=658s)
     - How does it work? Calculate a **forward reachability set** for all vehicles in the scene. [13:28](https://www.youtube.com/watch?v=I4QEZxfPUmc&t=808s)
         - FRS uses all the vehicle's dynamics to determine all places the vehicle could possibly end up in the future.
-- Paper by Alexa Carlson, [Modeling camera effects to improve visual learning from synthetic data](https://arxiv.org/pdf/1803.07721.pdf)
+- Simulation
     - **Simulation - GTA 5**: Training on GTA 5 data partially works, but the image data is very different from real-world images [15:45](https://www.youtube.com/watch?v=I4QEZxfPUmc&t=945s)
     - Solution: use physics to make simulated data look much more like real data [17:30](https://www.youtube.com/watch?v=I4QEZxfPUmc&t=1050s)
         - Add things like chromatic aberration, blur, exposure issues, etc.
     - Limitations of these simulation techniques [19:40](https://www.youtube.com/watch?v=I4QEZxfPUmc&t=1180s)
+
+#### External Links/Papers
+
+- [*Failing to Learn: Autonomously Identifying Perception Failures for Self-driving Cars*, Ramanagopal et al. IROS'18](https://arxiv.org/abs/1707.00051)
+	- [PDF](https://arxiv.org/pdf/1707.00051.pdf)
+- [*Pixel-Wise Motion Deblurring of Thermal Videos*, Ramanagopal et al. CVPR'20](https://arxiv.org/abs/2006.04973)
+	- [PDF](https://arxiv.org/pdf/2006.04973.pdf)
+- [*Risk Assessment and Planning with Bidirectional Reachability for Autonomous Driving*, Yu et al. 2019](https://arxiv.org/abs/1909.08059)
+	- [PDF](https://arxiv.org/pdf/1909.08059.pdf)
+- [*Modeling Camera Effects to Improve Visual Learning from Synthetic Data*, Carlson et al. CVPR'18](https://arxiv.org/abs/1803.07721)
+	- [PDF](https://arxiv.org/pdf/1803.07721.pdf)
+	- [Code: alexacarlson/SensorEffectAugmentation](https://github.com/alexacarlson/SensorEffectAugmentation)
+
 
 </details>
 
@@ -171,7 +276,7 @@
 ### [Waabi simulation; sensors, scenarios, learning](https://www.youtube.com/watch?v=g0uIVWecws4) <a id="urtasun2"></a>
 <table><tr> <td> <b> <a href="http://www.cs.toronto.edu/~urtasun/">Raquel Urtasun</a> </b> </td><td> Waabi/UofT </td><td> 38 min </td> </tr></table>
 
-<details><summary> <b> . . . </b> </summary>
+<details><summary> <b> Notes </b> </summary>
 
 - [Waabi](https://waabi.ai/): Taking an AI-first, simulation-centric approach to creating a scalable self-driving solution that can adapt to any hardware.
 - Autonomy stack walkthrough: sensors, maps, perception, prediction, planning, control [2:07](https://www.youtube.com/watch?v=g0uIVWecws4&t=127s)
@@ -194,16 +299,51 @@
     - This speeds up development dramatically. The typical approach has the hardware team build the platform first, and then the software team builds on top of it. With Waabi, you can test many possible hardware platforms in simulation and select the one that actually performs the best
 - **Learning** in **closed-loop** simulation [36:03](https://www.youtube.com/watch?v=g0uIVWecws4&t=2163s)
 
+#### External Links
+- [Waabi Website](https://waabi.ai/)
+- [Waabi Jobs](https://jobs.lever.co/waabi)
+
+
 </details>
 
 #
 
 ### [Neural AV Simulation](https://www.youtube.com/watch?v=K1RvII74zW4) <a id="fidler"></a>
-<table><tr> <td> <b> Sanja Fidler </b> </td><td> Nvidia/UofT </td><td> 26 min </td> </tr></table>
+<table><tr> <td> <b> <a href="https://www.cs.utoronto.ca/~fidler/">Sanja Fidler</a> </b> </td><td> Nvidia/UofT </td><td> 26 min </td> </tr></table>
 
-<details><summary> <b> IN PROGRESS </b> </summary>
+<details><summary> <b> Notes </b> </summary>
 
-- .
+- Open-loop vs. closed-loop AV simulation [1:50](https://www.youtube.com/watch?v=K1RvII74zW4&t=110s)
+- P&C Simulation [5:19](https://www.youtube.com/watch?v=K1RvII74zW4&t=319s)
+    - <img width="600" alt="image" src="https://user-images.githubusercontent.com/90723578/187083584-c7be4eae-5fee-443f-a235-02eaf23860b8.png">
+- Nvidia DriveSim [6:40](https://www.youtube.com/watch?v=K1RvII74zW4&t=400s)
+    - Ground truth from the simulator [7:42](https://www.youtube.com/watch?v=K1RvII74zW4&t=462s)
+    - Synthetic data generation [8:25](https://www.youtube.com/watch?v=K1RvII74zW4&t=505s)
+- AI tooling for graphics-based simulation
+    - *Scenario Reconstruction* [9:24](https://www.youtube.com/watch?v=K1RvII74zW4&t=564s)
+    - *Adversarial Scenario Generation* [11:19](https://www.youtube.com/watch?v=K1RvII74zW4&t=679s)
+    - *Content Synthesis* - let AI create variation in the content [13:17](https://www.youtube.com/watch?v=K1RvII74zW4&t=797s)
+    - *Character Animation* [15:37](https://www.youtube.com/watch?v=K1RvII74zW4&t=937s)
+- Video example - *Towards Perfect Reconstruction* [18:40](https://www.youtube.com/watch?v=K1RvII74zW4&t=1120s)
+    - Final demo, and explanation of how reconstruction works [19:42](https://www.youtube.com/watch?v=K1RvII74zW4&t=1182s)
+- NVIDIA Toronto AI Research Team [26:01](https://www.youtube.com/watch?v=K1RvII74zW4&t=1561s)
+
+#### External Links/Papers
+
+- [Nvidia AI Website](https://nv-tlabs.github.io)
+- [*Generating Useful Accident-Prone Driving Scenarios via a Learned Traffic Prior*, Rempe et al. CVPR'22.](https://nv-tlabs.github.io/STRIVE)
+    - [arXiv](https://arxiv.org/abs/2112.05077)
+    - [PDF](https://nv-tlabs.github.io/STRIVE/docs/strive.pdf)
+    - [Github: nv-tlabs/STRIVE](https://github.com/nv-tlabs/STRIVE)
+- [*AUV-Net: Learning Aligned UV Maps for Texture Transfer and Synthesis*, Chen et al. CVPR'22.](https://nv-tlabs.github.io/AUV-NET/)
+    - [arXiv](https://arxiv.org/abs/2204.03105)
+    - [PDF](https://nv-tlabs.github.io/AUV-NET/assets/auvnet-paper.pdf)
+- [*Extracting Triangular 3D Models, Materials, and Lighting From Images*, Munkberg et al. CVPR'22](https://nvlabs.github.io/nvdiffrec/)
+    - [arXiv](https://arxiv.org/abs/2111.12503)
+    - [PDF](https://nvlabs.github.io/nvdiffrec/assets/paper.pdf)
+    - [Github: NVlabs/nvdiffrec](https://github.com/NVlabs/nvdiffrec)
+- [Other publications](https://nv-tlabs.github.io/publication/)
+
 
 </details>
 
@@ -212,7 +352,7 @@
 ### [Why work on autonomy in academia?](https://www.youtube.com/watch?v=Lk_X08NejX0) <a id="krahenbuhl"></a>
 <table><tr> <td> <b> Philipp Krähenbühl </b> </td><td> UT Austin </td><td> 29 min </td> </tr></table>
 
-<details><summary> <b> . . . </b> </summary>
+<details><summary> <b> Notes </b> </summary>
 
 - Excuses for not working on autonomy in academia [1:25](https://www.youtube.com/watch?v=Lk_X08NejX0&t=85s)
     - a. Autonomy is almost solved, b. I don't own a test vehicle, c. not enough resources
@@ -240,6 +380,27 @@
         - This lets us use a reinforcement learning objective on data that was collected just for imitation
 - Summary and questions [24:54](https://www.youtube.com/watch?v=Lk_X08NejX0&t=1494s)
 
+#### External Links/Papers
+- [nuScenes dataset](https://www.nuscenes.org/)
+- [*Center-based 3D Object Detection and Tracking*, Yin et al. CVPR'20](https://arxiv.org/abs/2006.11275)
+	- [PDF](https://arxiv.org/pdf/2006.11275.pdf)
+	- [Code: tianweiy/CenterPoint](https://github.com/tianweiy/CenterPoint)
+- [*Cross-view Transformers for real-time Map-view Semantic Segmentation*, Zhou & Krähenbühl. CVPR'22](https://arxiv.org/abs/2205.02833)
+	- [PDF](https://arxiv.org/pdf/2205.02833.pdf)
+	- [Code: bradyz/cross_view_transformers](https://github.com/bradyz/cross_view_transformers)
+- [*ALVINN: An autonomous land vehicle in a neural network*, Pomerleau et al. 1989](https://proceedings.neurips.cc/paper/1988/file/812b4ba287f5ee0bc9d43bbf5bbe87fb-Paper.pdf)
+- [*DART: Noise Injection for Robust Imitation Learning*, Laskey et al. 2017](https://arxiv.org/abs/1703.09327)
+	- [PDF](https://arxiv.org/pdf/1703.09327.pdf)
+	- [Code: BerkeleyAutomation/DART](https://github.com/BerkeleyAutomation/DART)
+- [*Learning by Cheating*, Chen et al. CoRL'19](https://arxiv.org/abs/1912.12294)
+	- [PDF](https://arxiv.org/pdf/1912.12294.pdf)
+	- [Code: dotchen/LearningByCheating](https://github.com/dotchen/LearningByCheating)
+- [*Learning from all vehicles*, Chen & Krähenbühl. CVPR'22](https://openaccess.thecvf.com/content/CVPR2022/papers/Chen_Learning_From_All_Vehicles_CVPR_2022_paper.pdf)
+- [*Learning to drive from a world on rails*, Chen et al. ICCV'21](https://arxiv.org/abs/2105.00636)
+	- [PDF](https://arxiv.org/pdf/2105.00636.pdf)
+	- [Code: dotchen/WorldOnRails](https://github.com/dotchen/WorldOnRails)
+
+
 </details>
 
 #
@@ -247,10 +408,10 @@
 ### [Occupancy Networks](https://www.youtube.com/watch?v=jPCV4GKX9Dw) <a id="elluswamy"></a>
 <table><tr> <td> <b> Ashok Elluswamy </b> </td><td> Tesla </td><td> 35 min </td> </tr></table>
 
-<details><summary> <b> . . . </b> </summary>
+<details><summary> <b> Notes </b> </summary>
 
-- Status of Autopilot and FSD Beta as of June, 2022
-- Why classical image space is not sufficient; 3D space is needed [3:20](https://www.youtube.com/watch?v=jPCV4GKX9Dw&t=200s)
+- Full Self-Driving Beta Software [1:53](https://www.youtube.com/watch?v=jPCV4GKX9Dw&t=113s)
+- Why classical image space is not sufficient; 3D space is needed [3:22](https://www.youtube.com/watch?v=jPCV4GKX9Dw&t=202s)
 - **Depth maps** (old design) versus **occupancy networks** (new design)
     - *Old design*: depth maps (depth on a per-pixel basis) [5:10](https://www.youtube.com/watch?v=jPCV4GKX9Dw&t=310s)
         - Predictions are inaccurate at long distances
@@ -258,13 +419,14 @@
         - It's harder to predict around occlusions
         - More memory intensive
     - *New solution*: occupancy networks [6:42](https://www.youtube.com/watch?v=jPCV4GKX9Dw&t=402s)
+        - Occupancy networks: properties [7:20](https://www.youtube.com/watch?v=jPCV4GKX9Dw&t=440s)
         - Volumetric occupancy in 3d space, so it persists through occlusions
         - A single output is produced from the network, so there is no stitching camera feeds together
         - Consistent resolution in relevant driving area
         - Faster, more memory efficient. The entire occupancy network is produced in 10ms, faster than the frame rate of the cameras.
 - **Occupancy Network - Architecture** [9:40](https://www.youtube.com/watch?v=jPCV4GKX9Dw&t=580s)
 - Why it was a bad idea to have separate networks for dealing with moving and stationary objects
-    - *Old design*: separate networks for moving and stationary objects [11:55](https://www.youtube.com/watch?v=jPCV4GKX9Dw&t=715s)
+    - *Old design*: separate networks for moving and stationary objects [11:51](https://www.youtube.com/watch?v=jPCV4GKX9Dw&t=711s)
         - Things can slip through the ontology cracks - incorrect classifications can be very dangerous
     - *New solution*: occupancy network flow. [14:12](https://www.youtube.com/watch?v=jPCV4GKX9Dw&t=852s)
         - There is no such thing as a stationary object. Treat all objects as moving objects.
@@ -275,19 +437,30 @@
 - Dealing with **image artifacts**, such as sun glare, dust, and rain [21:20](https://www.youtube.com/watch?v=jPCV4GKX9Dw&t=1280s)
     - Use higher-level descriptors instead of RGB values.
     - RGB is super noisy, so adding descriptors on top of RGB protects against the noise.
+- Occupancy Networks - NeRFs [22:11](https://www.youtube.com/watch?v=jPCV4GKX9Dw&t=1331s)
 - **Collision avoidance** when NOT using autopilot - intervening to prevent crashes [23:45](https://www.youtube.com/watch?v=jPCV4GKX9Dw&t=1425s)
     - Currently, autopilot prevents 40 crashes per day due to accelerator misapplications
-- **Implicit networks** for collision avoidance [25:17](https://www.youtube.com/watch?v=jPCV4GKX9Dw&t=1517s)
+- **Implicit networks** for collision avoidance [25:16](https://www.youtube.com/watch?v=jPCV4GKX9Dw&t=1516s)
     - Simply making a system "safe" is not enough
     - A good system must be **safe, comfortable, AND reasonably fast**
     - Driving safely is easy if the car can brake hard and drive slow.
-    - The **challenge of smooth driving** while also being safe [27:16](https://www.youtube.com/watch?v=jPCV4GKX9Dw&t=1631s)
+    - The **challenge of smooth driving** while also being safe [27:16](https://www.youtube.com/watch?v=jPCV4GKX9Dw&t=1636s)
         - The problem is, you need to predict a crash many seconds in the future so you can brake early.
         - A naive approach (search-based techniques) is far too slow because the search-space is too large.
     - The solution: approximate them with neural networks: **implicit fields** [27:54](https://www.youtube.com/watch?v=jPCV4GKX9Dw&t=1674s)
         - Produce implicit fields that encode obstacle avoidance
         - Compress the occupancy from previous networks into an MLP that's an implicit representation of whether a collision is avoidable or not from any particular query state
-    - Super cool visualization of **collision field** over time horizon [30:59](https://www.youtube.com/watch?v=jPCV4GKX9Dw&t=1811s)
+    - Super cool visualization of **collision field** over time horizon [30:59](https://www.youtube.com/watch?v=jPCV4GKX9Dw&t=1859s)
+
+
+#### External Links/Papers
+- [*NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis*, Mildenhall et al. ECCV'20](https://arxiv.org/abs/2003.08934)
+    - [PDF](https://arxiv.org/pdf/2003.08934.pdf)
+    - [Code: bmild/nerf](https://github.com/bmild/nerf)
+- [*Plenoxels: Radiance Fields without Neural Networks*, Yu et al. 2021](https://arxiv.org/abs/2112.05131)
+    - [PDF](https://arxiv.org/pdf/2112.05131.pdf)
+    - [Code: sxyu/svox2](https://github.com/sxyu/svox2)
+
 
 </details>
 
@@ -300,7 +473,7 @@
 ### [Argoverse Challenge](https://www.youtube.com/watch?v=Z1q9ijuLLvU) <a id="argoverse3"></a>
 <table><tr> <td> <b> Argo AI </b> </td><td> 44 min </td> </tr> </table>
 
-<details><summary> <b> . . . </b> </summary>
+<details><summary> <b> Notes </b> </summary>
 
 <table><tr>
 <td> <b> Speakers: </b> </td> <td> James Hays </td><td> Benjamin Wilson </td><td> Jhony Pontes </td><td> William Qi </td>
@@ -349,7 +522,7 @@
 ### [nuPlan](https://www.youtube.com/watch?v=R9w_0Fz19pQ) <a id="nuplan"></a>
 <table><tr> <td> <b> Motional </b> </td> <td> Juraj Kabzan </td> <td> 5 min </td> </tr></table>
 
-<details><summary> <b> . . . </b> </summary>
+<details><summary> <b> Notes </b> </summary>
 
 - nuPlan: "The world's first benchmark for autonomous vehicle planning"
 - 1300 hour dataset from 4 cities
@@ -370,7 +543,7 @@
 ### [BDD100K](https://www.youtube.com/watch?v=13PjjBEgEcM) <a id="bdd100k"></a>
 <table><tr> <td> <b> ETH VIS </b> </td><td> 22 min </td> </tr></table>
 
-<details><summary> <b> . . . </b> </summary>
+<details><summary> <b> Notes </b> </summary>
 
 <table>
 <tr> <td> <b> Hosts: </b> </td> <td colspan="2"> Tobias Fischer </td> </tr>
@@ -404,7 +577,7 @@
 ### [Waymo Open Dataset](https://www.youtube.com/watch?v=G01cfxuJ_ro) <a id="opendataset2"></a>
 <table><tr> <td> <b> Waymo </b> </td><td> 40 min </td> </tr></table>
 
-<details><summary> <b> . . . </b> </summary>
+<details><summary> <b> Notes </b> </summary>
 
 <table>
 <tr> <td> <b> Hosts: </b> </td><td> Zoey Yang </td><td> Vincent Casser </td><td> Wei-Chih (Wayne) Hung </td><td> Charles R. Qi </td><td> Scott Ettinger </td><td> Reza Mahjourian </td> </tr>
@@ -463,9 +636,6 @@
 
 <details><summary><h2>2021</h2></summary>
 
-## TABLE OF CONTENTS
----
-
 #### Keynotes
 
 | Title | Speaker | Source | Time |
@@ -495,7 +665,7 @@
 ### [The vision-only approach, NN training, hardware](https://www.youtube.com/watch?v=g6bOwQdCJrc) <a id="karpathy"></a>
 <table><tr> <td> <b> <a href="https://karpathy.ai/">Andrej Karpathy</a> </b> </td><td> Tesla </td><td> 31 min </td> </tr></table>
 
-<details><summary> <b> . . . </b> </summary>
+<details><summary> <b> Notes </b> </summary>
 
 - Value currently provided with **Autopilot**: AEB, PMM, traffic control warning, PMM [2:17](https://www.youtube.com/watch?v=g6bOwQdCJrc&t=137s)
 - **FSD Beta** drive with zero interventions [3:50](https://www.youtube.com/watch?v=g6bOwQdCJrc&t=230s)
@@ -524,6 +694,11 @@
 - Release and Validation: testing, simulation, etc. [27:10](https://www.youtube.com/watch?v=g6bOwQdCJrc&t=1630s)
 - More about auto-labeling [28:49](https://www.youtube.com/watch?v=g6bOwQdCJrc&t=1729s)
 
+#### External Links
+
+- [Join Tesla AI Team](https://www.tesla.com/autopilotAI)
+
+
 </details>
 
 #
@@ -531,7 +706,7 @@
 ### [Bridging Perception to Motion Planning](https://www.youtube.com/watch?v=YQ_yar_5Q98) <a id="wellington"></a>
 <table><tr> <td> <b> <a href="http://www.carlwellington.com/">Carl Wellington</a> </b> </td><td> Aurora </td><td> 27 min </td> </tr></table>
 
-<details><summary> <b> . . . </b> </summary>
+<details><summary> <b> Notes </b> </summary>
 
 - What is Aurora?
     - Self-driving system. First product is **Trucks**
@@ -559,6 +734,22 @@
         - Lane goals, and crossing goals
 - Closing talk [23:56](https://www.youtube.com/watch?v=YQ_yar_5Q98&t=1436s)
 
+#### External Links/Papers
+- [*LiRaNet: End-to-End Trajectory Prediction using Spatio-Temporal Radar Fusion*, Shah et al. PMLR'20](https://proceedings.mlr.press/v155/shah21a.html)
+    - [PDF](https://proceedings.mlr.press/v155/shah21a/shah21a.pdf)
+- [*MultiXNet: Multiclass Multistage Multimodal Motion Prediction*, Djuric et al. IV'21](https://arxiv.org/abs/2006.02000)
+	- [PDF](https://arxiv.org/pdf/2006.02000.pdf)
+- [*LaserFlow: Efficient and Probabilistic Object Detection and Motion Forecasting*, Meyer et al. CVPR'20](https://arxiv.org/abs/2003.05982)
+	- [PDF](https://arxiv.org/pdf/2003.05982.pdf)
+- [*RV-FuseNet: Range View Based Fusion of Time-Series LiDAR Data for Joint 3D Object Detection and Motion Forecasting*, Laddha et al. IROS'21](https://arxiv.org/abs/2005.10863)
+	- [PDF](https://arxiv.org/pdf/2005.10863.pdf)
+- [*Multi-View Fusion of Sensor Data for Improved Perception and Prediction in Autonomous Driving*, Fadadu et al. CVPR'20](https://arxiv.org/abs/2008.11901)
+	- [PDF](https://arxiv.org/pdf/2008.11901.pdf)
+- [*MVFuseNet: Improving End-to-End Object Detection and Motion Forecasting through Multi-View Fusion of LiDAR Data*, Laddha et al. CVPR'21](https://arxiv.org/abs/2104.10772)
+	- [PDF](https://arxiv.org/pdf/2104.10772.pdf)
+- [*Map-Adaptive Goal-Based Trajectory Prediction*, Zhang et al. CoRL'20](https://arxiv.org/abs/2009.04450)
+	- [PDF](https://arxiv.org/pdf/2009.04450.pdf)
+
 
 </details>
 
@@ -567,7 +758,7 @@
 ### [Perception and Action in the Open World](https://www.youtube.com/watch?v=N-A5qnYXw_U) <a id="ramanan"></a>
 <table><tr> <td> <b> <a href="https://www.cs.cmu.edu/~deva/">Deva Ramanan</a> </b> </td><td> Argo/CMU </td><td> 32 min </td> </tr></table>
 
-<details><summary> <b> . . . </b> </summary>
+<details><summary> <b> Notes </b> </summary>
 
 - Critical challenges of autonomy in the open world [1:46](https://www.youtube.com/watch?v=N-A5qnYXw_U&t=106s)
     - AV death: car hits bicyclist. The system changed the person's classification several times, and, by design, excluded tracking history for nonpersisting objects, so it couldn't predict its path
@@ -599,7 +790,30 @@
 - Code and results [29:00](https://www.youtube.com/watch?v=N-A5qnYXw_U&t=1740s)
 - Motion-based detection [29:12](https://www.youtube.com/watch?v=N-A5qnYXw_U&t=1752s)
 
+#### External Links/Papers
 
+- [*Towards Streaming Perception*, Li et al. ECCV'20](https://arxiv.org/abs/2005.10420)
+	- [PDF](https://arxiv.org/pdf/2005.10420.pdf)
+- [*Upgrading Optical Flow to 3D Scene Flow Through Optical Expansion*, Yang & Ramanan. CVPR'20](https://openaccess.thecvf.com/content_CVPR_2020/html/Yang_Upgrading_Optical_Flow_to_3D_Scene_Flow_Through_Optical_Expansion_CVPR_2020_paper.html)
+    - [PDF](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yang_Upgrading_Optical_Flow_to_3D_Scene_Flow_Through_Optical_Expansion_CVPR_2020_paper.pdf)
+- [*Binary TTC: A Temporal Geofence for Autonomous Navigation*, Badki et al. CVPR'21](https://arxiv.org/abs/2101.04777)
+	- [PDF](https://arxiv.org/pdf/2101.04777.pdf)
+	- [Code: NVlabs/BiTTC](https://github.com/NVlabs/BiTTC)
+- [*Learning to Segment Rigid Motions from Two Frames*, Yang & Ramanan. CVPR'21](https://arxiv.org/abs/2101.03694)
+	- [PDF](https://arxiv.org/pdf/2101.03694.pdf)
+	- [Code: gengshan-y/rigidmask](https://github.com/gengshan-y/rigidmask)
+- [*LASR: Learning Articulated Shape Reconstruction from a Monocular Video*, Yang et al. CVPR'21](https://lasr-google.github.io/)
+    - [arXiv](https://arxiv.org/abs/2105.02976)
+        - [PDF](https://arxiv.org/pdf/2105.02976.pdf)
+	- [Code: google/lasr](https://github.com/google/lasr)
+- [*What You See is What You Get: Exploiting Visibility for 3D Object Detection*, Hu et al. CVPR'20](https://arxiv.org/abs/1912.04986)
+	- [PDF](https://arxiv.org/pdf/1912.04986.pdf)
+	- [Code: peiyunh/wysiwyg](https://github.com/peiyunh/wysiwyg)
+- [*Safe Local Motion Planning With Self-Supervised Freespace Forecasting*, Hu et al. CVPR'21](https://openaccess.thecvf.com/content/CVPR2021/html/Hu_Safe_Local_Motion_Planning_With_Self-Supervised_Freespace_Forecasting_CVPR_2021_paper.html)
+    - [PDF](https://openaccess.thecvf.com/content/CVPR2021/papers/Hu_Safe_Local_Motion_Planning_With_Self-Supervised_Freespace_Forecasting_CVPR_2021_paper.pdf)
+- [*Learning by Cheating*, Chen et al. CoRL'19](https://arxiv.org/abs/1912.12294)
+	- [PDF](https://arxiv.org/pdf/1912.12294.pdf)
+	- [Code: dotchen/LearningByCheating](https://github.com/dotchen/LearningByCheating)
 
 
 </details>
@@ -609,7 +823,7 @@
 ### [Interpretable Neural Motion Planner](https://www.youtube.com/watch?v=PSZ2Px9PrHg) <a id="urtasun"></a>
 <table><tr> <td> <b> <a href="http://www.cs.toronto.edu/~urtasun/">Raquel Urtasun</a> </b> </td><td> Waabi/UofT </td><td> 32 min </td> </tr></table>
 
-<details><summary> <b> . . . </b> </summary>
+<details><summary> <b> Notes </b> </summary>
 
 - Why is self-driving not solved yet?
     - Need the ability for real-time, high fidelity closed-loop simulation
@@ -658,40 +872,53 @@
     - Routing [30:07](https://www.youtube.com/watch?v=PSZ2Px9PrHg&t=1807s)
 - Results [30:34](https://www.youtube.com/watch?v=PSZ2Px9PrHg&t=1834s)
 
+#### External Links/Papers
+- [*End-to-end Interpretable Neural Motion Planner*, Zeng et al. CVPR'19](https://arxiv.org/abs/2101.06679)
+	- [PDF](https://arxiv.org/pdf/2101.06679.pdf)
+- [*Jointly Learnable Behavior and Trajectory Planning for Self-Driving Vehicles*, Sadat et al. IROS'19](https://arxiv.org/abs/1910.04586)
+	- [PDF](https://arxiv.org/pdf/1910.04586.pdf)
+- [*Perceive, Predict, and Plan: Safe Motion Planning Through Interpretable Semantic Representations*, Sadat et al. ECCV'20](https://arxiv.org/abs/2008.05930)
+	- [PDF](https://arxiv.org/pdf/2008.05930.pdf)
+- [*LiDARsim: Realistic LiDAR Simulation by Leveraging the Real World*, Manivasagam et al. CVPR'20](https://arxiv.org/abs/2006.09348)
+	- [PDF](https://arxiv.org/pdf/2006.09348.pdf)
+- [*MP3: A Unified Model to Map, Perceive, Predict and Plan*, Casas et al. CVPR'21](https://arxiv.org/abs/2101.06806)
+	- [PDF](https://arxiv.org/pdf/2101.06806.pdf)
+
 
 </details>
 
 #
 
 ### [AV Development at Massive Scale](https://www.youtube.com/watch?v=3WqooCcUpn0) <a id="tariq"></a>
-<table><tr> <td> <b> Sarah Tariq </b> </td><td> Nvidia </td><td> 28 min </td> </tr></table>
+<table><tr> <td> <b> <a href="https://www.linkedin.com/in/sarahtariq/">Sarah Tariq</a> </b> </td><td> Nvidia </td><td> 28 min </td> </tr></table>
 
-<details><summary> <b> IN PROGRESS </b> </summary>
+<details><summary> <b> Notes </b> </summary>
+
+<img width="550" alt="Screen Shot 2022-08-28 at 9 20 06 AM" src="https://user-images.githubusercontent.com/90723578/187081519-7adac87a-1e96-4237-8b4e-78b20ebaa6db.png">
 
 > #### If you are here to learn new, useful information, please skip this talk. It will be uncomfortable to watch. However, if you like entertainment, please continue, as Nvidia's presentation far exceeds any April fools joke I've seen, with its cleverness and attention to detail.
 
 #### Talk given by Sarah Tariq, the VP of Autonomous Driving Software at NVIDIA
 
-- "Nvidia announced a partnership with Mercedes last year to build **the world's leading platform** for AV functionality in consumer cars", starting in 2024 [1:32]
-    - "This functionality includes very basic active safety functionality, but then it also includes driving, um, autonomously, from address to address on *regular routes*..." [1:50]
-    - "We're enabling *large amounts* of AV functionality, from active safety, all the way up to level 4!" [2:17]
-- At [2:35], she talks about levels 1-3 of self-driving. Then, "and then you have complex level 4 driving, where the vehicle not only parks or unparks, but can be summoned from a parking spot. It can have a trailer attached, you need to deal with that as well. And *all* of this functionality needs to be supported with a single stack." [3:06]
-- How much compute is necessary for autonomy? [4:29]
+- "Nvidia announced a partnership with Mercedes last year to build **the world's leading platform** for AV functionality in consumer cars", starting in 2024 [1:32](https://www.youtube.com/watch?v=3WqooCcUpn0&t=92s)
+    - "This functionality includes very basic active safety functionality, but then it also includes driving, um, autonomously, from address to address on *regular routes*..." [1:50](https://www.youtube.com/watch?v=3WqooCcUpn0&t=110s)
+    - "We're enabling *large amounts* of AV functionality, from active safety, all the way up to level 4!" [2:17](https://www.youtube.com/watch?v=3WqooCcUpn0&t=137s)
+- At [2:35](https://www.youtube.com/watch?v=3WqooCcUpn0&t=155s), she talks about levels 1-3 of self-driving. Then, "and then you have complex level 4 driving, where the vehicle not only parks or unparks, but can be summoned from a parking spot. It can have a trailer attached, you need to deal with that as well. And *all* of this functionality needs to be supported with a single stack." [3:06](https://www.youtube.com/watch?v=3WqooCcUpn0&t=186s)
+- How much compute is necessary for autonomy? [4:29](https://www.youtube.com/watch?v=3WqooCcUpn0&t=269s)
     - "Full self-driving ... requires more than 2,000 TOPs". Thanks. Finally, we have an official, confirmed number that everyone can agree on: 2,000 trillion, or 2 quadrillion, operations per second. (Tesla HW3 does 144 trillion ops per second).
     - <img width="600" alt="Screen Shot 2022-08-27 at 9 36 59 PM" src="https://user-images.githubusercontent.com/90723578/187056260-c1d57d3c-5fe4-41bb-83fa-a6d02d700337.png">
     - "The L3 version of the sensor stack has to have some extra capability"
     - <img width="600" alt="Screen Shot 2022-08-27 at 9 41 57 PM" src="https://user-images.githubusercontent.com/90723578/187056353-2bc91c11-3349-4f3f-8ab6-63455ba5cee7.png">
-- "World-class neural networks" [7:31]
-    - While discussing their industry-leading neural networks, she mentions "But then there's more complex stuff. You need to estimate distance to things. You need to estimate your paths, especially if there's no maps." [7:54]
-- "A lot of advanced planning maneuvers requrie HD maps. And that's a vital component for self-driving technology. You can do some things without a map, but much more functionality is enabled once you have a map." [8:34]
-- "It starts with needing to have a really good map. Maps are an important component for realistic generation scenarios for testing." [17:00]
-- FINALLY! Some results [23:02]
+- "World-class neural networks" [7:31](https://www.youtube.com/watch?v=3WqooCcUpn0&t=451s)
+    - While discussing their industry-leading neural networks, she mentions "But then there's more complex stuff. You need to estimate distance to things. You need to estimate your paths, especially if there's no maps." [7:54](https://www.youtube.com/watch?v=3WqooCcUpn0&t=474s)
+- "A lot of advanced planning maneuvers requrie HD maps. And that's a vital component for self-driving technology. You can do some things without a map, but much more functionality is enabled once you have a map." [8:34](https://www.youtube.com/watch?v=3WqooCcUpn0&t=514s)
+- "It starts with needing to have a really good map. Maps are an important component for realistic generation scenarios for testing." [17:00](https://www.youtube.com/watch?v=3WqooCcUpn0&t=1020s)
+- FINALLY! Some results [23:02](https://www.youtube.com/watch?v=3WqooCcUpn0&t=1382s)
 - <img width="600" alt="Screen Shot 2022-08-27 at 10 09 28 PM" src="https://user-images.githubusercontent.com/90723578/187057020-f99bc352-bfdf-4c2d-bcf7-0f187d33e4eb.png">
-- "A network trained on just simulated data is **not** going to do that well in the real world." [23:51]
+- "A network trained on just simulated data is **not** going to do that well in the real world." [23:51](https://www.youtube.com/watch?v=3WqooCcUpn0&t=1431s)
 - ...30 seconds later...
-- "We were able to train and test our parking end-to-end with object detection running on our simulator, and with the object detector trained entirely on synthetic fisheye lens camera data." [24:10]
-    - (Note: so... by this logic your car's ability to PARK is "not going to do that well in the real world")
-- "Here's an example of a network that was having trouble detecting truncated large trucks that were very close to us" [25:00]
+- "We were able to train and test our parking end-to-end with object detection running on our simulator, and with the object detector trained entirely on synthetic fisheye lens camera data." [24:10](https://www.youtube.com/watch?v=3WqooCcUpn0&t=1450s)
+- "Here's an example of a network that was having trouble detecting truncated large trucks that were very close to us" [25:00](https://www.youtube.com/watch?v=3WqooCcUpn0&t=1500s)
     - "One way of solving for this easily:"
         1. "Find the failure event"
         2. "Generate *massive* amounts of similar data in simulation"
@@ -701,16 +928,16 @@
     - <img width="600" alt="Screen Shot 2022-08-27 at 10 15 26 PM" src="https://user-images.githubusercontent.com/90723578/187057134-c7560535-5a33-4f5b-8f37-98248eaf076f.png">
 
 
-### "We basically model the appearance of the world as realistically as possible" ... "the image quality is absolutely unsurpassed". (Except... Nvidia didn't make this - they're using Omniverse's renderer)
+### "We basically model the appearance of the world as realistically as possible" ... "the image quality is absolutely unsurpassed". [15:42](https://www.youtube.com/watch?v=3WqooCcUpn0&t=942s) (Except... Nvidia didn't make this - they're using Omniverse's renderer)
 
 <img width="700" alt="Screen Shot 2022-08-27 at 8 47 49 PM" src="https://user-images.githubusercontent.com/90723578/187055277-8f897b8f-4023-49cc-9786-2f44182a8c26.png">
 
-### Meanwhile, this is **Waabi's** simulator, from this same conference. They are a startup, *founded exactly 12 days prior*.
+### Meanwhile, [this is **Waabi's** simulator](https://youtu.be/PSZ2Px9PrHg?t=1509), from this same conference. They are a startup, *founded exactly 12 days prior*.
 
 <img width="700" alt="Screen Shot 2022-08-27 at 8 17 40 PM" src="https://user-images.githubusercontent.com/90723578/187054841-3daeb141-0c1d-4a9d-b89c-80490ca4b924.png">
 <img width="700" alt="Screen Shot 2022-08-27 at 8 15 46 PM" src="https://user-images.githubusercontent.com/90723578/187054849-45f27402-1e26-41a2-8a2e-8aec7133e093.png">
 
-### Again, here's **Nvidia's** masterpiece. GTA 5 vibes?
+### Again, here's **Nvidia's** masterpiece. GTA 5 vibes? [25:24](https://www.youtube.com/watch?v=3WqooCcUpn0&t=1524s)
 
 <img width="700" alt="Screen Shot 2022-08-27 at 8 23 09 PM" src="https://user-images.githubusercontent.com/90723578/187054831-ed527800-ac59-46fa-9889-0799a5d7398d.png">
 <img width="700" alt="Screen Shot 2022-08-27 at 8 20 04 PM" src="https://user-images.githubusercontent.com/90723578/187054834-cb19ac93-1200-4c4a-93f4-93864cf2414d.png">
@@ -724,7 +951,7 @@
 ### [Self-Supervised 3D Vision](https://www.youtube.com/watch?v=YO5fnaRm5L0) <a id="gaidon"></a>
 <table><tr> <td> <b> <a href="https://adriengaidon.com/">Adrien Gaidon</a> </b> </td><td> TTI </td><td> 22 min </td> </tr></table>
 
-<details><summary> <b> . . . </b> </summary>
+<details><summary> <b> Notes </b> </summary>
 
 
 - Machine learning Research at TRI [0:33](https://www.youtube.com/watch?v=YO5fnaRm5L0&t=33s)
@@ -760,30 +987,55 @@
 
 - [Github: TRI-ML/DDAD](https://github.com/TRI-ML/DDAD)
 - [Website: Frontiers of Monocular 3D Perception @ CVPR'21](https://sites.google.com/view/mono3d-workshop)
-- [*SuperDepth: Self-supervised, Super-resolved monocular depth estimation*, S. Pillai et al, ICRA'19](https://arxiv.org/pdf/1810.01849.pdf)
-- [*Two stream networks for self-supervised ego-motion estimation*, R. Ambrus et al, CoRL'19](https://arxiv.org/pdf/1910.01764.pdf)
-- [*3D Packing for self-supervised monocular depth estimation*, V. Guizilini et al, CVPR'20](https://arxiv.org/pdf/1905.02693.pdf)
-    - [Github: TRI-ML/packnet-sfm](https://github.com/TRI-ML/packnet-sfm)
-- [*Neural ray surfaces for self-supervised learning of depth and ego-motion*, I. Vasiljevic et al, 3DV](https://arxiv.org/pdf/2008.06630.pdf)
-- [*Full surround monodepth from multiple cameras*, Vitor Guizilini et al](https://arxiv.org/pdf/2104.00152.pdf)
+- [*SuperDepth: Self-Supervised, Super-Resolved Monocular Depth Estimation*, Pillai et al. CVPR'18](https://arxiv.org/abs/1810.01849)
+	- [PDF](https://arxiv.org/pdf/1810.01849.pdf)
+- [*Two Stream Networks for Self-Supervised Ego-Motion Estimation*, Ambrus et al. CoRL'19](https://arxiv.org/abs/1910.01764)
+	- [PDF](https://arxiv.org/pdf/1910.01764.pdf)
+- [*3D Packing for Self-Supervised Monocular Depth Estimation*, Guizilini et al. CVPR'19](https://arxiv.org/abs/1905.02693)
+	- [PDF](https://arxiv.org/pdf/1905.02693.pdf)
+	- [Code: ToyotaResearchInstitute/packnet-sfm](https://github.com/ToyotaResearchInstitute/packnet-sfm)
+	- [Code: TRI-ML/DDAD](https://github.com/TRI-ML/DDAD)
+	- [Code: TRI-ML/packnet-sfm](https://github.com/TRI-ML/packnet-sfm)
+- [*Neural Ray Surfaces for Self-Supervised Learning of Depth and Ego-motion*, Vasiljevic et al. CVPR'20](https://arxiv.org/abs/2008.06630)
+	- [PDF](https://arxiv.org/pdf/2008.06630.pdf)
+	- [Code: TRI-ML/packnet-sfm](https://github.com/TRI-ML/packnet-sfm)
+- [*Full Surround Monodepth from Multiple Cameras*, Guizilini et al. CVPR'21](https://arxiv.org/abs/2104.00152)
+	- [PDF](https://arxiv.org/pdf/2104.00152.pdf)
 - **Semi-supervised Learning**
-    - [Robust semi-supervised monocular depth estimation with reprojected distances, CoRL'19](https://arxiv.org/pdf/1910.01765.pdf)
-    - [Semantically-guided representation learning for self-supervised monocular depth, ICLR'20](https://arxiv.org/pdf/2002.12319.pdf)
-    - [Sparse auxiliary networks for unified monocular depth prediction and completion, CVPR'21](https://arxiv.org/pdf/2103.16690.pdf)
+    - [*Robust Semi-Supervised Monocular Depth Estimation with Reprojected Distances*, Guizilini et al. CoRL'19](https://arxiv.org/abs/1910.01765)
+        - [PDF](https://arxiv.org/pdf/1910.01765.pdf)
+    - [*Semantically-Guided Representation Learning for Self-Supervised Monocular Depth*, Guizilini et al. ICLR'20](https://arxiv.org/abs/2002.12319)
+        - [PDF](https://arxiv.org/pdf/2002.12319.pdf)
+        - [Code: TRI-ML/packnet-sfm](https://github.com/TRI-ML/packnet-sfm)
+    - [*Sparse Auxiliary Networks for Unified Monocular Depth Prediction and Completion*, Guizilini et al. CVPR'21](https://arxiv.org/abs/2103.16690)
+        - [PDF](https://arxiv.org/pdf/2103.16690.pdf)
+        - [Code: TRI-ML/packnet-sfm](https://github.com/TRI-ML/packnet-sfm)
 - **Auto-labeling** via Differentiable Rendering
-    - [ROI-10D. Monocular lifting of 2D detection to 6D pose and metric shape, CVPR'19](https://arxiv.org/pdf/1812.02781.pdf)
-    - [Autolabeling 3D objects with differentiable rendering of SDF shape priors, CVPR'20](https://arxiv.org/pdf/1911.11288.pdf)
-    - [Monocular differentiable rendering for self-supervised 3D object detection, ECCV'20](https://arxiv.org/pdf/2009.14524.pdf)
-    - [Differentiable rendering: a survey, 2020](https://arxiv.org/pdf/2006.12057.pdf)
+    - [*ROI-10D: Monocular Lifting of 2D Detection to 6D Pose and Metric Shape*, Manhardt et al. CVPR'19](https://arxiv.org/abs/1812.02781)
+        - [PDF](https://arxiv.org/pdf/1812.02781.pdf)
+    - [*Autolabeling 3D Objects with Differentiable Rendering of SDF Shape Priors*, Zakharov et al. CVPR'20](https://arxiv.org/abs/1911.11288)
+        - [PDF](https://arxiv.org/pdf/1911.11288.pdf)
+        - [Code: TRI-ML/sdflabel](https://github.com/TRI-ML/sdflabel)
+    - [*Monocular Differentiable Rendering for Self-Supervised 3D Object Detection*, Beker et al. ECCV'20](https://arxiv.org/abs/2009.14524)
+        - [PDF](https://arxiv.org/pdf/2009.14524.pdf)
+    - [*Differentiable Rendering: A Survey*, Kato et al. CVPR'20](https://arxiv.org/abs/2006.12057)
+        - [PDF](https://arxiv.org/pdf/2006.12057.pdf)
 - **Sim2Real Transfer**
-    - [SPIGAN: Privileged adversarial learning from simulation, ICLR'19](https://openreview.net/pdf?id=rkxoNnC5FQ)
-    - [Geometric unsupervised domain adaptation for semantic segmentation, arxiv'21](https://arxiv.org/pdf/2103.16694.pdf)
-    - [Learning to track with object permanence, arxiv'21](https://arxiv.org/pdf/2103.14258.pdf)
+    - [*SPIGAN: Privileged Adversarial Learning from Simulation*, Lee et al. ICLR'19](https://arxiv.org/abs/1810.03756)
+        - [PDF](https://arxiv.org/pdf/1810.03756.pdf)
+    - [*Geometric Unsupervised Domain Adaptation for Semantic Segmentation*, Guizilini et al. ICCV'21](https://arxiv.org/abs/2103.16694)
+        - [PDF](https://arxiv.org/pdf/2103.16694.pdf)
+    - [*Learning to Track with Object Permanence*, Tokmakov et al. CVPR'21](https://arxiv.org/abs/2103.14258)
+        - [PDF](https://arxiv.org/pdf/2103.14258.pdf)
+        - [Code: TRI-ML/permatrack](https://github.com/TRI-ML/permatrack)
 - **Scene Understanding**: Multi-task learning for real-time perception
-    - [Real-time panoptic segmentation from dense detections, CVPR'20](https://arxiv.org/pdf/1912.01202.pdf)
-        - [Github: TRI-ML/realtime_panoptic](https://github.com/tri-ml/realtime_panoptic)
-    - [Hierarchical Lovasz embeddings for proposal-free panoptic segmentation, CVPR'21](https://arxiv.org/pdf/2106.04555.pdf)
-    - [Is pseudo-lidar needed for monocular 3D object detection? arxiv'21](https://arxiv.org/pdf/2108.06417.pdf)
+    - [*Real-Time Panoptic Segmentation from Dense Detections*, Hou et al. CVPR'19](https://arxiv.org/abs/1912.01202)
+        - [PDF](https://arxiv.org/pdf/1912.01202.pdf)
+    - [*Hierarchical Lovasz Embeddings for Proposal-free Panoptic Segmentation*, Kerola et al. CVPR'21](https://arxiv.org/abs/2106.04555)
+        - [PDF](https://arxiv.org/pdf/2106.04555.pdf)
+    - [*Is Pseudo-Lidar needed for Monocular 3D Object detection?*, Park et al. ICCV'21](https://arxiv.org/abs/2108.06417)
+        - [PDF](https://arxiv.org/pdf/2108.06417.pdf)
+        - [Code: TRI-ML/dd3d](https://github.com/TRI-ML/dd3d)
 
 
 </details>
@@ -793,7 +1045,7 @@
 ### [AV2.0: Reimagining autonomous mobility with embodied intelligence](https://www.youtube.com/watch?v=Va-F4qtTQ6g) <a id="kendall"></a>
 <table><tr> <td> <b> <a href="https://alexgkendall.com/">Alex Kendall</a> </b> </td><td> Wayve </td><td> 29 min </td> </tr></table>
 
-<details><summary> <b> . . . </b> </summary>
+<details><summary> <b> Notes </b> </summary>
 
 - **Generalization**: London training data, autonomous driving UK-wide [5:25](https://www.youtube.com/watch?v=Va-F4qtTQ6g&t=325s)
 - Intro to **Wayve** [6:09](https://www.youtube.com/watch?v=Va-F4qtTQ6g&t=369s)
@@ -838,13 +1090,20 @@
     - **Reward**: Optimize objective for society's changing needs without supervision
 
 #### External Links/Papers
-- Action conditioned world models towards model-based reinforcement learning for driving
-    - [World Models, NeurIPS 2018. David Ha et al.](https://arxiv.org/pdf/1803.10122.pdf)
-    - [Dreaming about Driving, Wayve Blog 2018](https://wayve.ai/blog/dreaming-about-driving-imagination-rl)
-    - [Learning to drive in a day, ICRA 2019. Kendall et al.](https://arxiv.org/pdf/1807.00412.pdf)
-    - [Probabilistic future prediction for video scene understanding, ECCV 2020. Hu et al.](https://arxiv.org/pdf/2003.06409.pdf)
-    - [Mastering Atari with discrete world models, ICLR 2021. Hafner et al.](https://arxiv.org/pdf/2010.02193.pdf)
-    - [**FIERY**: Future instance prediction in bird's-eye view from surround monocular cameras. Anthony hu et al, 2021](https://arxiv.org/pdf/2104.10490.pdf)
+
+- [Dreaming about Driving, Wayve Blog 2018](https://wayve.ai/blog/dreaming-about-driving-imagination-rl)
+- [*World Models*, Ha et al. 2018](https://arxiv.org/abs/1803.10122)
+	- [PDF](https://arxiv.org/pdf/1803.10122.pdf)
+- [*Learning to Drive in a Day*, Kendall et al. 2018](https://arxiv.org/abs/1807.00412)
+	- [PDF](https://arxiv.org/pdf/1807.00412.pdf)
+- [*Probabilistic Future Prediction for Video Scene Understanding*, Hu et al. ECCV'20](https://arxiv.org/abs/2003.06409)
+	- [PDF](https://arxiv.org/pdf/2003.06409.pdf)
+- [*Mastering Atari with Discrete World Models*, Hafner et al. ICLR'21](https://arxiv.org/abs/2010.02193)
+	- [PDF](https://arxiv.org/pdf/2010.02193.pdf)
+	- [Code: danijar/dreamerv2](https://github.com/danijar/dreamerv2)
+- [*FIERY: Future Instance Prediction in Bird’s-Eye View from Surround Monocular Cameras*, Hu et al. 2021](https://arxiv.org/abs/2104.10490)
+    - [PDF](https://arxiv.org/pdf/2104.10490.pdf)
+    - [Code: wayveai/fiery](https://github.com/wayveai/fiery)
 
 </details>
 
@@ -853,7 +1112,7 @@
 ### [Secure Learning for Autonomous Driving in Adversarial Environments](https://www.youtube.com/watch?v=X1a4rbddz-s) <a id="li2"></a>
 <table><tr> <td> <b> <a href="https://aisecure.github.io/">Bo Li</a> </b> </td><td> UIUC </td><td> 28 min </td> </tr></table>
 
-<details><summary> <b> . . . </b> </summary>
+<details><summary> <b> Notes </b> </summary>
 
 > Note: This is an updated version of Bo's presentation from last year, covering the same topic.
 
@@ -885,6 +1144,16 @@
 - Knowledge enhanced ML pipeline against *diverse* adversarial attacks [25:53](https://www.youtube.com/watch?v=X1a4rbddz-s&t=1553s)
 - Experimental results [27:00](https://www.youtube.com/watch?v=X1a4rbddz-s&t=1620s)
 
+#### External Links/Papers
+- [Electrek: *Video of Tesla Model 3 crashing into a truck on Autopilot goes viral*](https://electrek.co/2020/06/01/tesla-model-3-crashing-truck-autopilot-video-viral/)
+- [Taiwan English News: *Tesla on autopilot crashes into overturned truck*](https://taiwanenglishnews.com/tesla-on-autopilot-crashes-into-overturned-truck/)
+- [*Invisible for both Camera and LiDAR: Security of Multi-Sensor Fusion based Perception in Autonomous Driving Under Physical-World Attacks*, Cao et al. IEEE S&P'21](https://arxiv.org/abs/2106.09249)
+	- [PDF](https://arxiv.org/pdf/2106.09249.pdf)
+- [MSF-ADV: *3D Adversarial Object against MSF-based Perception in Autonomous Driving*](https://aisecure.github.io/BLOG/MRF/Home.html)
+- [*Semantically Controllable Generation of Physical Scenes with Explicit Knowledge*, Ding et al. ICLR'22](https://openreview.net/forum?id=K3bGe_-aMV)
+    - [PDF](https://openreview.net/pdf?id=K3bGe_-aMV)
+- [Code: AI-secure/Provable-Training-and-Verification-Approaches-Towards-Robust-Neural-Networks](https://github.com/AI-secure/Provable-Training-and-Verification-Approaches-Towards-Robust-Neural-Networks)
+
 
 </details>
 
@@ -897,7 +1166,7 @@
 ### [Argoverse Challenge](https://www.youtube.com/watch?v=DM8jWfi69zM) <a id="argoverse2"></a>
 <table><tr> <td> <b> Argo AI </b> </td><td> 55 min </td> </tr></table>
 
-<details><summary> <b> . . . </b> </summary>
+<details><summary> <b> Notes </b> </summary>
 
 <table>
 <tr> <td> <b> Hosts: </b> </td><td> James Hays </td><td> Jhony Kaesemodel Pontes </td><td> Jagjeet Singh </td><td> Martin Li </td> </tr>
@@ -959,7 +1228,7 @@
 ### [Waymo Open Dataset](https://www.youtube.com/watch?v=sjXI_FKYw4Y) <a id="opendataset"></a>
 <table><tr> <td> <b> Waymo </b> </td><td> 61 min </td> </tr></table>
 
-<details><summary> <b> . . . </b> </summary>
+<details><summary> <b> Notes </b> </summary>
 
 <table>
 <tr> <td> <b> Hosts: </b> </td><td colspan="5"> Zoey Yang </td> </tr>
@@ -1026,16 +1295,12 @@
 
 <details><summary><h2>2020</h2></summary>
 
-<!-- # 2020 -->
-
----
-
 ### _Keynotes_
 
 ### [Secure Learning in Adversarial Autonomous Driving Environments](https://www.youtube.com/watch?v=0VfBGWnFNuw) <a id="li"></a>
 <table><tr> <td> <b> <a href="https://aisecure.github.io/">Bo Li</a> </b> </td><td> UIUC </td><td> 27 min </td> </tr></table>
 
-<details><summary> <b> . . . </b> </summary>
+<details><summary> <b> Notes </b> </summary>
 
 > Note: Bo gives a similar, updated presentation in 2021, with the same title, and about the same topic. Scroll up to see her latest work.
 
@@ -1055,6 +1320,7 @@
 - Defensing adversarial behaviors in videos - Temporal dependency [24:01](https://www.youtube.com/watch?v=0VfBGWnFNuw&t=1441s)
 - Video examples [25:51](https://www.youtube.com/watch?v=0VfBGWnFNuw&t=1551s)
 
+
 </details>
 
 #
@@ -1062,7 +1328,7 @@
 ### [Machine Learning for Autonomous Driving at Scale](https://www.youtube.com/watch?v=BV4EXwlb3yo) <a id="anguelov"></a>
 <table><tr> <td> <b> Drago Anguelov </b> </td><td> Waymo </td><td> 35 min </td> </tr></table>
 
-<details><summary> <b> . . . </b> </summary>
+<details><summary> <b> Notes </b> </summary>
 
 - In-car video examples [2:30](https://www.youtube.com/watch?v=BV4EXwlb3yo&t=150s)
 - Explanation of self-driving problem [3:58](https://www.youtube.com/watch?v=BV4EXwlb3yo&t=238s)
@@ -1101,6 +1367,25 @@
     - Novel View Rendering [33:46](https://www.youtube.com/watch?v=BV4EXwlb3yo&t=2026s)
     - Novel Scene Configuration [34:15](https://www.youtube.com/watch?v=BV4EXwlb3yo&t=2055s)
 
+#### External Links/Papers
+
+- [*STINet: Spatio-Temporal-Interactive Network for Pedestrian Detection and Trajectory Prediction*, Zhang et al. CVPR'20](https://arxiv.org/abs/2005.04255)
+	- [PDF](https://arxiv.org/pdf/2005.04255.pdf)
+- [*PointPillars: Fast Encoders for Object Detection from Point Clouds*, Lang et al. CVPR'19](https://arxiv.org/abs/1812.05784)
+	- [PDF](https://arxiv.org/pdf/1812.05784.pdf)
+	- [Code: nutonomy/second.pytorch](https://github.com/nutonomy/second.pytorch)
+- [*End-to-End Multi-View Fusion for 3D Object Detection in LiDAR Point Clouds*, Zhou et al. CoRL'19](https://arxiv.org/abs/1910.06528)
+	- [PDF](https://arxiv.org/pdf/1910.06528.pdf)
+- [*IntentNet: Learning to Predict Intention from Raw Sensor Data*, Casas et al. CoRL'18](https://arxiv.org/abs/2101.07907)
+	- [PDF](https://arxiv.org/pdf/2101.07907.pdf)
+- [*VectorNet: Encoding HD Maps and Agent Dynamics from Vectorized Representation*, Gao et al. CVPR'20](https://arxiv.org/abs/2005.04259)
+	- [PDF](https://arxiv.org/pdf/2005.04259.pdf)
+- [*Taskology: Utilizing Task Relations at Scale*, Lu et al. CVPR'20](https://arxiv.org/abs/2005.07289)
+	- [PDF](https://arxiv.org/pdf/2005.07289.pdf)
+- [*SurfelGAN: Synthesizing Realistic Sensor Data for Autonomous Driving*, Yang et al. CVPR'20](https://arxiv.org/abs/2005.03844)
+	- [PDF](https://arxiv.org/pdf/2005.03844.pdf)
+
+
 </details>
 
 <br>
@@ -1112,7 +1397,7 @@
 ### [Argoverse Challenge](https://www.youtube.com/watch?v=Vcbj_peZT4Q) <a id="argoverse"></a>
 <table><tr> <td> <b> Argo AI </b> </td><td> James Hays </td><td> 28 min </td> </tr></table>
 
-<details><summary> <b> . . . </b> </summary>
+<details><summary> <b> Notes </b> </summary>
 
 - **3D Tracking Challenge** [0:19](https://www.youtube.com/watch?v=Vcbj_peZT4Q&t=19s)
     - Winners summary [1:21](https://www.youtube.com/watch?v=Vcbj_peZT4Q&t=81s)
@@ -1151,7 +1436,7 @@
 ### [Tesla AI Day 2021 Cut](https://www.youtube.com/watch?v=keWEE9FwS9o) <a id="aiday2021"></a>
 <table><tr> <td> <b> <a href="https://karpathy.ai/">Andrei Karpathy</a>, Ashok Elluswamy, Ganesh V. </b> </td><td> Tesla Daily </td><td> 20 <b>Aug 2021</b> </td><td> 19 min </td> </tr></table>
 
-<details><summary> <b> . . . </b> </summary>
+<details><summary> <b> Notes </b> </summary>
 
 - Full Self-Driving [1:01](https://www.youtube.com/watch?v=keWEE9FwS9o&t=61s) - Andrei Karpathy (Sr. Dir. of AI)
 - 4D vector labeling [3:24](https://www.youtube.com/watch?v=keWEE9FwS9o&t=204s) - Andrei Karpathy
