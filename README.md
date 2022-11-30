@@ -68,7 +68,7 @@ ct.superheat(df.corr(), thresh_mask=0.10, grid=False, marker='o');
 
 ### <a href="https://github.com/ryayoung/py-excel-solver"><img src="https://github.com/ryayoung/icons/blob/main/svg/code.file.blue.svg" height="22"/> &nbsp; Docs</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://pypi.org/project/excel-solver/"><img src="https://github.com/ryayoung/icons/blob/main/svg/folder.blue.svg" height="22"/> &nbsp; PyPI</a>
 
-> Simple python package to mimic the interface of Excel's Solver for linear optimization problems. Designed solely for ease of use, requires almost zero python experience to implement, but lacks the flexibility of more developer-oriented optimization tools like [`tsopt`](https://github.com/ryayoung/py-excel-solver), a network flow optimization tool I built.
+> Simple python package to mimic the interface of Excel's Solver for linear optimization problems. Designed solely for ease of use, requires almost zero python experience to implement, but lacks the flexibility of more developer-oriented optimization tools like [`tsopt`](https://github.com/ryayoung/tsopt), a network flow optimization tool I built.
 > 
 > Problems are solved in a single line of code: Call `solver()`, passing arguments in a similar format to how you would lay out the problem in Excel. See the example below...
 
