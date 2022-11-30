@@ -56,7 +56,77 @@
 ct.set_style(18)
 ct.superheat(df.corr(), thresh_mask=0.10, grid=False, marker='o');
 ```
-<img width="750" alt="image" src="https://user-images.githubusercontent.com/90723578/167240845-828ddec2-6323-4208-a4de-9e585c27b72e.png">
+<img width="650" alt="image" src="https://user-images.githubusercontent.com/90723578/167240845-828ddec2-6323-4208-a4de-9e585c27b72e.png">
+
+<br>
+
+---
+
+<br>
+
+# ```py-excel-solver``` &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://pypi.org/project/excel-solver/"><img src="https://img.shields.io/pypi/v/excel-solver.svg" height="21"/></a>
+
+### <a href="https://github.com/ryayoung/py-excel-solver"><img src="https://github.com/ryayoung/icons/blob/main/svg/code.file.blue.svg" height="22"/> &nbsp; Docs</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://pypi.org/project/excel-solver/"><img src="https://github.com/ryayoung/icons/blob/main/svg/folder.blue.svg" height="22"/> &nbsp; PyPI</a>
+
+> Simple python package to mimic the interface of Excel's Solver for linear optimization problems. Designed solely for ease of use, requires almost zero python experience to implement, but lacks the flexibility of more developer-oriented optimization tools like [`tsopt`](), a network flow optimization tool I built.
+> 
+> Problems are solved in a single line of code: Call `solver()`, passing arguments in a similar format to how you would lay out the problem in Excel. See the example below...
+
+<details>
+  <summary><i><b>Example:</b></i></summary>
+  
+**Problem:** Create a trail mix recipe with the minimum possible cost while meeting nutrition requirements. Each ingredient has a cost and a different arrangement of nutrients. The model is subject to a constraint on the minimum total nutrients of the combined ingredients, and a minimum quantity of each ingredient.
+
+**Excel solution:** (objective value is under "Total" in row 8. Decision quantities are highlighted in row 5.)
+![image](https://user-images.githubusercontent.com/90723578/148739017-b8ee6e72-5684-44d3-aaa0-9dc4d0f905eb.png)
+  
+**Python solution with `excel-solver`:**
+```py
+import solver
+solver.solve(
+    problem_type = "min",
+    objective_function = [
+        4, 5, 3, 7, 6
+    ],
+    constraints_left = [
+        [10,  20,  10,  30,  20],
+        [5,   7,   4,   9,   2],
+        [1,   4,   10,  2,   1],
+        [500, 450, 160, 300, 500],
+    ],
+    constraints_right = [
+        16,
+        10,
+        15,
+        600,
+    ],
+    constraints_signs = [
+        ">=",
+        ">=",
+        ">=",
+        ">=",
+    ],
+    minimum_for_all=0.1, # replaces lines 15-19 in the excel image above
+)
+```
+**Output:**
+```
+------------------------------------------------------
+MINIMIZE: z = 4a + 5b + 3c + 7d + 6e
+------------------------------------------------------
+OPTIMAL VALUE:  8.04
+------------------------------------------------------
+QUANTITIES:
+a:  0.44415
+b:  0.18091
+c:  1.35322
+d:  0.1
+e:  0.1
+------------------------------------------------------
+Optimization terminated successfully. (HiGHS Status 7: Optimal)
+```
+
+</details>
 
 <br>
 
