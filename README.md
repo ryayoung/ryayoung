@@ -41,11 +41,28 @@
 
 <br>
 
+# ```tsopt``` &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://pypi.org/project/tsopt/"><img src="https://img.shields.io/pypi/v/tsopt.svg" height="21"/></a>
+
+### <a href="https://github.com/ryayoung/tsopt"><img src="https://github.com/ryayoung/icons/blob/main/svg/code.file.blue.svg" height="22"/> &nbsp; Docs</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://pypi.org/project/tsopt/"><img src="https://github.com/ryayoung/icons/blob/main/svg/folder.blue.svg" height="22"/> &nbsp; PyPI</a>
+
+> A python package/API for building network flow optimization models in a notebook environment.
+
+- The network's shape and constraint stack is dynamic in every aspect, making experimentation effortless; The user's code will follow the same structure regardless of how the model looks.
+- Unlike other implementations, the user can easily constrain upper/lower bounds at _any_ level of granularity (and any location) within the network, to support real-world, complex, edge-case situations, and make quick modification/experimentation easy.
+  - Set flow bounds on entire layers, nodes within each layer, or individual edges between nodes.
+- Excellent cell outputs when displaying model features in a notebook (Custom display methods are implemented for all model features)
+
+<br>
+
+---
+
+<br>
+
 # ```chart-tools``` &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://pypi.org/project/chart-tools/"><img src="https://img.shields.io/pypi/v/chart-tools.svg" height="21"/></a>
 
 ### <a href="https://github.com/ryayoung/chart-tools"><img src="https://github.com/ryayoung/icons/blob/main/svg/code.file.blue.svg" height="22"/> &nbsp; Docs</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://pypi.org/project/chart-tools/"><img src="https://github.com/ryayoung/icons/blob/main/svg/folder.blue.svg" height="22"/> &nbsp; PyPI</a>
 
-> Python library with powerful pre-configured visualizations, useful functions to help you build charts faster, and an api for exploring, managing, loading, and generating documentation for online tabular datasets.
+> Python library with pre-configured visualizations, functions building charts rapidly, and an api for exploring, managing, loading, and generating documentation for online tabular datasets.
 
 #### Example: the `superheat()` function
 > A much better correlation matrix/heatmap. Marks are sized based on the strength of the correlation, and it offers advanced options such as masking marks below a threshold, excluding variables that correlate on average below a threshold, and, by default, masking duplicate correlations and self-on-self correlations.
