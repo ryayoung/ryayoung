@@ -2,15 +2,6 @@
 
 # A few things I made
 
-
-<!-- [<img src="Buttons/SVG/graphic design.svg" height="35"/>](#graphicdesign) -->
-<!-- [<img src="Buttons/SVG/sql database.svg" height="35"/>](#database) -->
-<!-- [<img src="Buttons/SVG/java projects.svg" height="35"/>](#java) -->
-<!-- [<img src="Buttons/SVG/python projects.svg" height="35"/>](#python) -->
-<!-- [<img src="Buttons/SVG/vb.net.svg" height="35"/>](#vb) -->
-<!-- [<img src="Buttons/SVG/vim.svg" height="35"/>]( s#vim) -->
-<!-- [<img src="Buttons/SVG/github markdown.svg" height="35"/>](#markdown) -->
-<!-- [<img src="Buttons/SVG/bottom of page.svg" height="35"/>](#bottom) -->
 <br>
 
 <!-- VB.NET APPLICATION SCREENSHOT -->
@@ -41,24 +32,7 @@
 
 <br>
 
-# ```tsopt``` &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://pypi.org/project/tsopt/"><img src="https://img.shields.io/pypi/v/tsopt.svg" height="21"/></a>
-
-### <a href="https://github.com/ryayoung/tsopt"><img src="https://github.com/ryayoung/icons/blob/main/svg/code.file.blue.svg" height="22"/> &nbsp; Docs</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://pypi.org/project/tsopt/"><img src="https://github.com/ryayoung/icons/blob/main/svg/folder.blue.svg" height="22"/> &nbsp; PyPI</a>
-
-> A python package/API for building network flow optimization models in a notebook environment.
-
-- The network's shape and constraint stack is dynamic in every aspect, making experimentation effortless; The user's code will follow the same structure regardless of how the model looks.
-- Unlike other implementations, the user can easily constrain upper/lower bounds at _any_ level of granularity (and any location) within the network, to support real-world, complex, edge-case situations, and make quick modification/experimentation easy.
-  - Set flow bounds on entire layers, nodes within each layer, or individual edges between nodes.
-- Excellent cell outputs when displaying model features in a notebook (Custom display methods are implemented for all model features)
-
-<br>
-
----
-
-<br>
-
-# ```extend-inplace``` &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://pypi.org/project/extend-inplace/"><img src="https://img.shields.io/pypi/v/extend-inplace.svg" height="21"/></a> &nbsp;&nbsp;&nbsp; <a href="https://github.com/ryayoung/extend-inplace/actions"> <img src="https://github.com/ryayoung/extend-inplace/actions/workflows/tests.yaml/badge.svg"/> </a>
+# [```extend-inplace```](https://github.com/ryayoung/extend-inplace) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://pypi.org/project/extend-inplace/"><img src="https://img.shields.io/pypi/v/extend-inplace.svg" height="21"/></a> &nbsp;&nbsp;&nbsp; <a href="https://github.com/ryayoung/extend-inplace/actions"> <img src="https://github.com/ryayoung/extend-inplace/actions/workflows/tests.yaml/badge.svg"/> </a>
 
 ### <a href="https://github.com/ryayoung/extend-inplace"><img src="https://github.com/ryayoung/icons/blob/main/svg/code.file.blue.svg" height="22"/> &nbsp; Docs</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://pypi.org/project/extend-inplace/"><img src="https://github.com/ryayoung/icons/blob/main/svg/folder.blue.svg" height="22"/> &nbsp; PyPI</a>
 
@@ -83,8 +57,24 @@
 
 <br>
 
+# [```tsopt```](https://github.com/ryayoung/tsopt) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://pypi.org/project/tsopt/"><img src="https://img.shields.io/pypi/v/tsopt.svg" height="21"/></a>
 
-# ```chart-tools``` &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://pypi.org/project/chart-tools/"><img src="https://img.shields.io/pypi/v/chart-tools.svg" height="21"/></a>
+### <a href="https://github.com/ryayoung/tsopt"><img src="https://github.com/ryayoung/icons/blob/main/svg/code.file.blue.svg" height="22"/> &nbsp; Docs</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://pypi.org/project/tsopt/"><img src="https://github.com/ryayoung/icons/blob/main/svg/folder.blue.svg" height="22"/> &nbsp; PyPI</a>
+
+> A python package/API for building network flow optimization models in a notebook environment.
+
+- The network's shape and constraint stack is dynamic in every aspect, making experimentation effortless; The user's code will follow the same structure regardless of how the model looks.
+- Unlike other implementations, the user can easily constrain upper/lower bounds at _any_ level of granularity (and any location) within the network, to support real-world, complex, edge-case situations, and make quick modification/experimentation easy.
+  - Set flow bounds on entire layers, nodes within each layer, or individual edges between nodes.
+- Excellent cell outputs when displaying model features in a notebook (Custom display methods are implemented for all model features)
+
+<br>
+
+---
+
+<br>
+
+# [```chart-tools```](https://github.com/ryayoung/chart-tools) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://pypi.org/project/chart-tools/"><img src="https://img.shields.io/pypi/v/chart-tools.svg" height="21"/></a>
 
 ### <a href="https://github.com/ryayoung/chart-tools"><img src="https://github.com/ryayoung/icons/blob/main/svg/code.file.blue.svg" height="22"/> &nbsp; Docs</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://pypi.org/project/chart-tools/"><img src="https://github.com/ryayoung/icons/blob/main/svg/folder.blue.svg" height="22"/> &nbsp; PyPI</a>
 
@@ -107,7 +97,7 @@ ct.superheat(df.corr(), thresh_mask=0.10, grid=False, marker='o');
 
 <br>
 
-# ```py-excel-solver``` &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://pypi.org/project/excel-solver/"><img src="https://img.shields.io/pypi/v/excel-solver.svg" height="21"/></a>
+# [```py-excel-solver```](https://github.com/ryayoung/py-excel-solver) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://pypi.org/project/excel-solver/"><img src="https://img.shields.io/pypi/v/excel-solver.svg" height="21"/></a>
 
 ### <a href="https://github.com/ryayoung/py-excel-solver"><img src="https://github.com/ryayoung/icons/blob/main/svg/code.file.blue.svg" height="22"/> &nbsp; Docs</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://pypi.org/project/excel-solver/"><img src="https://github.com/ryayoung/icons/blob/main/svg/folder.blue.svg" height="22"/> &nbsp; PyPI</a>
 
