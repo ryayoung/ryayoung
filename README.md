@@ -58,6 +58,32 @@
 
 <br>
 
+# ```extend-inplace``` &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://pypi.org/project/extend-inplace/"><img src="https://img.shields.io/pypi/v/extend-inplace.svg" height="21"/></a> &nbsp;&nbsp;&nbsp; <a href="https://github.com/ryayoung/extend-inplace/actions"> <img src="https://github.com/ryayoung/extend-inplace/actions/workflows/tests.yaml/badge.svg"/> </a>
+
+### <a href="https://github.com/ryayoung/extend-inplace"><img src="https://github.com/ryayoung/icons/blob/main/svg/code.file.blue.svg" height="22"/> &nbsp; Docs</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://pypi.org/project/extend-inplace/"><img src="https://github.com/ryayoung/icons/blob/main/svg/folder.blue.svg" height="22"/> &nbsp; PyPI</a>
+
+> A simple tool to enable an unconventional but sometimes useful coding style. In simple terms, it's a framework for modifying existing classes in an easy, organized, and readable way. See the below examples.
+
+<table>
+<tr>
+<td colspan="3">On the left is your code. On the right is how it's interpreted at runtime</td>
+<tr>
+<tr>
+<td><img width="350" alt="example3" src="https://user-images.githubusercontent.com/90723578/205125281-4168cbe4-43d0-45e6-9bc7-9d900f22b611.png"></td>
+<td><img width="350" alt="example1" src="https://user-images.githubusercontent.com/90723578/205125276-aac7b2bc-5474-4278-be51-9f5640957197.png"></td>
+<td><img width="350" alt="example2" src="https://user-images.githubusercontent.com/90723578/205125280-ab887b5f-774b-433c-a227-df37710b51b1.png"></td>
+</tr>
+</table>
+
+> Elements under `@Extend` and `class _(Extend` get 'moved' to `Something` (they become `None` in global scope and set as attributes on `Something`).
+
+<br>
+
+---
+
+<br>
+
+
 # ```chart-tools``` &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://pypi.org/project/chart-tools/"><img src="https://img.shields.io/pypi/v/chart-tools.svg" height="21"/></a>
 
 ### <a href="https://github.com/ryayoung/chart-tools"><img src="https://github.com/ryayoung/icons/blob/main/svg/code.file.blue.svg" height="22"/> &nbsp; Docs</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://pypi.org/project/chart-tools/"><img src="https://github.com/ryayoung/icons/blob/main/svg/folder.blue.svg" height="22"/> &nbsp; PyPI</a>
