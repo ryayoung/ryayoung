@@ -74,6 +74,18 @@
 
 <br>
 
+# [crime-data-engineering](https://github.com/ryayoung/crime-data-engineering)
+
+### <a href="https://github.com/ryayoung/crime-data-engineering"><img src="https://github.com/ryayoung/icons/blob/main/svg/code.file.blue.svg" height="22"/> &nbsp; Code</a>
+
+> An extensive data wrangling, cleaning, and geocoding pipeline to prepare data for the [geo-visualization web app](https://github.com/ryayoung/coloradoplot) highlighted above. Data is extracted from more than a dozen public data sources, cleaned/engineered for analysis and visualization, geocoded, and joined on custom keys. Resulting dataset has ~350 geocoded metrics for each county in Colorado over 8 consecutive years, and ~140 geocoded metrics for each school district.
+
+<br>
+
+---
+
+<br>
+
 # [```chart-tools```](https://github.com/ryayoung/chart-tools) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://pypi.org/project/chart-tools/"><img src="https://img.shields.io/pypi/v/chart-tools.svg" height="21"/></a>
 
 ### <a href="https://github.com/ryayoung/chart-tools"><img src="https://github.com/ryayoung/icons/blob/main/svg/code.file.blue.svg" height="22"/> &nbsp; Docs</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://pypi.org/project/chart-tools/"><img src="https://github.com/ryayoung/icons/blob/main/svg/folder.blue.svg" height="22"/> &nbsp; PyPI</a>
