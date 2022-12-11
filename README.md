@@ -322,38 +322,6 @@ https://user-images.githubusercontent.com/90723578/136681997-f5c74bb6-6f57-4d3c-
 
 <br>
 
-# ```vim-quick-marks```
-
-### <a href="https://github.com/ryayoung/vim-quick-marks"><img src="https://github.com/ryayoung/icons/blob/main/svg/code.file.blue.svg" height="22"/> &nbsp; Docs & Install</a>
-
-> Vim plugin to quickly create and auto-toggle global marks. A more simple and easier alternative to traditional Vim marks, which can be cumbersome for new users, or difficult to keep track of.
-
-This script streamlines the most common use case for marks, making your workflow more efficient:
-
-```vim
-nnoremap mm mM:echo "GLOBAL MARK 1 SET"<CR>
-nnoremap mM mK:echo "GLOBAL MARK 2 SET"<CR>
-nnoremap <Leader>m 'M:call ToggleSmartMarkA()<CR>
-let g:smart_mark_global = 1
-function! ToggleSmartMarkA()
-  if g:smart_mark_global > 0
-    nnoremap <Leader>m 'K:call ToggleSmartMarkA()<CR>
-    echo "GLOBAL MARK 1"
-  else
-    nnoremap <Leader>m 'M:call ToggleSmartMarkA()<CR>
-    echo "GLOBAL MARK 2"
-  endif
-  let g:smart_mark_global = -g:smart_mark_global
-endfunction
-```
-
-How do you use it? First, "mm" sets global mark 1, and "mM" sets global mark 2. This simplifies the process of creating global marks and makes it intuitive to remember which one is which. Now for the fun part. Once you've set the two marks, ```<Leader>m``` will **toggle** between them. If you have your spacebar set as your leader key, this is an extremely fast command to press. Better yet, this eliminates the need for you to remember which mark is which. You can simply move to the "other" one.
-
-<br>
-
----
-
-<br>
 
 # Github Markdown Advanced Tutorial
 
