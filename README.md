@@ -19,7 +19,7 @@
 
 **With excelbird:**
 1. Layout and styling is as easy as building an HTML page. You don't have to tell cells where to go.
-2. A dataframe library where all calculations/transformations are lazily evaluated as formulas and cell references at write time.
+2. A dataframe library where all calculations are lazily evaluated as formulas and cell references at write time.
 
 <br>
 
