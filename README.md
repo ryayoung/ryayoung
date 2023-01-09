@@ -7,8 +7,27 @@
 <!-- VB.NET APPLICATION SCREENSHOT -->
 <!-- https://user-images.githubusercontent.com/90723578/136726037-5e793725-719e-4475-a341-eea0211097c1.png -->
 
+# [`excelbird`](https://github.com/ryayoung/excelbird) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://pypi.org/project/excelbird/"><img src="https://img.shields.io/pypi/v/excelbird.svg" height="21"/></a> &nbsp;&nbsp;&nbsp; <a href="https://github.com/ryayoung/excelbird/actions"> <img src="https://github.com/ryayoung/excelbird/actions/workflows/tests.yaml/badge.svg"/> </a>
 
-## Geo-Visualization App
+### <a href="https://github.com/ryayoung/excelbird"><img src="https://github.com/ryayoung/icons/blob/main/svg/code.file.blue.svg" height="22"/> &nbsp; Docs</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://pypi.org/project/excelbird/"><img src="https://github.com/ryayoung/icons/blob/main/svg/folder.blue.svg" height="22"/> &nbsp; PyPI</a>
+
+> **A front-end framework for Excel that can do magical things.**
+
+**The problem:** With traditional tools, scripting Excel is tedious for two reasons:
+1. **Layout**: You must refer to actual cell locations in your code, and tell them each what to do.
+2. **Cell References**: The most important feature of a spreadsheet - the ability to see how calculations were made - is not available to you when scripting.
+
+**With excelbird:**
+1. Layout and styling is as easy as building an HTML page. You don't have to tell cells where to go.
+2. A dataframe library where all calculations/transformations are lazily evaluated as formulas and cell references at write time.
+
+<br>
+
+---
+
+<br>
+
+# Geo-Visualization App
 
 ### <a href="https://github.com/ryayoung/coloradoplot"><img src="https://github.com/ryayoung/icons/blob/main/svg/code.slash.blue.svg" height="20"/> &nbsp; Code</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://colorado-crime.herokuapp.com/"><img src="https://github.com/ryayoung/icons/blob/main/svg/house.blue.svg" height="21"/> &nbsp; Website</a>
 
