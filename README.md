@@ -9,7 +9,7 @@
 
 # [`excelbird`](https://github.com/ryayoung/excelbird) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://pypi.org/project/excelbird/"><img src="https://img.shields.io/pypi/v/excelbird.svg" height="21"/></a> &nbsp;&nbsp;&nbsp; <a href="https://github.com/ryayoung/excelbird/actions"> <img src="https://github.com/ryayoung/excelbird/actions/workflows/tests.yaml/badge.svg"/> </a>
 
-### <a href="https://github.com/ryayoung/excelbird"><img src="https://github.com/ryayoung/icons/blob/main/svg/code.file.blue.svg" height="22"/> &nbsp; Docs</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://pypi.org/project/excelbird/"><img src="https://github.com/ryayoung/icons/blob/main/svg/folder.blue.svg" height="22"/> &nbsp; PyPI</a>
+### <a href="https://excelbird.readthedocs.io/en/latest/"><img src="https://github.com/ryayoung/icons/blob/main/svg/code.file.blue.svg" height="22"/> &nbsp; Docs</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://github.com/ryayoung/excelbird"><img src="https://github.com/ryayoung/icons/blob/main/svg/code.slash.blue.svg" height="20"/> &nbsp; Code</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://pypi.org/project/excelbird/"><img src="https://github.com/ryayoung/icons/blob/main/svg/folder.blue.svg" height="22"/> &nbsp; PyPI</a>
 
 > **A front-end framework for Excel that can do magical things.**
 
