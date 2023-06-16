@@ -357,11 +357,3 @@ Amazing documentation [like this](https://spacy.io/usage/linguistic-features/) i
 print("I'm colored with python syntax highlighting, AND I'm encased inside a text folding element :)")
 ```
 </details>
-
-<br>
-
----
-
-<br>
-
-[<img src="Buttons/SVG/top of page.svg" height="35" width="auto"/>](#top)
