@@ -25,7 +25,7 @@ def greet_user(name: str, age: int = 10):
 
 # [`debuggpt`](https://github.com/ryayoung/debuggpt) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://pypi.org/project/debuggpt/"><img src="https://img.shields.io/pypi/v/debuggpt.svg" height="21"/></a>
 
-#### When your code breaks, `debuggpt` has a clearer picture of what happened than you do, _before_ it even communicates with an LLM.
+When your code breaks, `debuggpt` has a clearer picture of what happened than you do, _before_ it even communicates with an LLM.
 
 When placed over a function that fails, `@debug_gpt` sends GPT-4 a comprehensive report on the state of your program at the moment an error occurs. The LLM will see an in-depth walkthrough of the call stack, with annotated blocks of source code, the types and values of objects at key moments, a history of your printed outputs, the original traceback, and more.
 
@@ -38,7 +38,7 @@ When placed over a function that fails, `@debug_gpt` sends GPT-4 a comprehensive
 
 # [`dictkit`](https://github.com/ryayoung/dictkit) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://pypi.org/project/dictkit/"><img src="https://img.shields.io/pypi/v/dictkit.svg" height="21"/></a>
 
-#### Greatly enhanced dictionaries, with a Pandas-like API, pretty representation, and algorithms for complex transformations and aggregations.
+Greatly enhanced dictionaries, with a Pandas-like API, pretty representation, and algorithms for complex transformations and aggregations.
 
 <br>
 
@@ -63,7 +63,7 @@ Lazytables puts all the power and control in your hands. It has no authority ove
 
 # [`scopespace`](https://github.com/ryayoung/scopespace) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://pypi.org/project/scopespace/"><img src="https://img.shields.io/pypi/v/scopespace.svg" height="21"/></a>
 
-> ### An experimental new design pattern for working with data in a notebook environment.
+An experimental new design pattern for working with data in a notebook environment.
 
 `ScopeSpace` is a context manager who's inner block has its own local scope. And when that block ends, the name you assigned to the context manager becomes a namespace, storing all new declarations made within the scoped block.
 
