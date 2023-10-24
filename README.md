@@ -4,6 +4,92 @@
 
 <br>
 
+# [`templatify`](https://github.com/ryayoung/templatify) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://pypi.org/project/templatify/"><img src="https://img.shields.io/pypi/v/templatify.svg" height="21"/></a>
+
+An essential tool for every prompt engineer, `templatify` is a string templating tool that brings Jinja2 **into your python code**.
+- **Easy to use**: No need to manually configure an environment manually. But you still have full control over the environment if needed.
+- **Declarative**: It's irrefutably clear that the string you've written is a template
+- **Dynamic Code Generation**: The `@template` decorator will dynamically create a function whose signature is identical to the one you've written, and that passes arguments to your template. This achieves both **runtime** safety, (since your parameter names are *already* validated against all dependencies of the template) and **static** type safety, since your type checker will respect the function you've written, as-is.
+
+```py
+@template
+def greet_user(name: str, age: int = 10):
+    "Hello, {{ name|upper }}! You are {{ [1,2,3,4]|random }} years old."
+```
+
+<br>
+
+---
+
+<br>
+
+# [`debuggpt`](https://github.com/ryayoung/debuggpt) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://pypi.org/project/debuggpt/"><img src="https://img.shields.io/pypi/v/debuggpt.svg" height="21"/></a>
+
+#### When your code breaks, `debuggpt` has a clearer picture of what happened than you do, _before_ it even communicates with an LLM.
+
+When placed over a function that fails, `@debug_gpt` sends GPT-4 a comprehensive report on the state of your program at the moment an error occurs. The LLM will see an in-depth walkthrough of the call stack, with annotated blocks of source code, the types and values of objects at key moments, a history of your printed outputs, the original traceback, and more.
+
+
+<br>
+
+---
+
+<br>
+
+# [`dictkit`](https://github.com/ryayoung/dictkit) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://pypi.org/project/dictkit/"><img src="https://img.shields.io/pypi/v/dictkit.svg" height="21"/></a>
+
+#### Greatly enhanced dictionaries, with a Pandas-like API, pretty representation, and algorithms for complex transformations and aggregations.
+
+<br>
+
+---
+
+<br>
+
+# [`lazytables`](https://github.com/ryayoung/lazytables) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://pypi.org/project/lazytables/"><img src="https://img.shields.io/pypi/v/lazytables.svg" height="21"/></a>
+
+Lazytables make it easy to manage a large number of data sources in your code. `@lazytables` makes your class act like a database, where your
+instance is the namespace, and each attribute is a table.
+
+With a SQL-like syntax for accessing data, you can freely access data sources at your leisure, with peace of mind that the data will only be read on-demand as you need it, and the same data will never be read twice.
+
+Lazytables puts all the power and control in your hands. It has no authority over how data is read or written. In fact, it doesn't even know how your data is read or written.
+
+<br>
+
+---
+
+<br>
+
+# [`scopespace`](https://github.com/ryayoung/scopespace) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://pypi.org/project/scopespace/"><img src="https://img.shields.io/pypi/v/scopespace.svg" height="21"/></a>
+
+> ### An experimental new design pattern for working with data in a notebook environment.
+
+`ScopeSpace` is a context manager who's inner block has its own local scope. And when that block ends, the name you assigned to the context manager becomes a namespace, storing all new declarations made within the scoped block.
+
+```py
+with ScopeSpace() as bar:
+    stuff = 10
+    
+print(stuff)  # NameError: name 'stuff' is not defined
+print(bar.stuff)  # 10
+```
+
+```py
+x = 5
+with ScopeSpace() as foo:
+    x = x + 1
+    
+print(x)  # 5
+print(foo.x) # 6
+```
+
+<br>
+
+---
+
+<br>
+
 <!-- VB.NET APPLICATION SCREENSHOT -->
 <!-- https://user-images.githubusercontent.com/90723578/136726037-5e793725-719e-4475-a341-eea0211097c1.png -->
 
