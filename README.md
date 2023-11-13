@@ -4,6 +4,64 @@
 
 <br>
 
+# [`funcmodels`](https://github.com/ryayoung/funcmodels) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://pypi.org/project/funcmodels/"><img src="https://img.shields.io/pypi/v/funcmodels.svg" height="21"/></a>
+
+### <a href="https://github.com/ryayoung/funcmodels"><img src="https://github.com/ryayoung/icons/blob/main/svg/code.slash.blue.svg" height="20"/> &nbsp; Code</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://pypi.org/project/funcmodels/"><img src="https://github.com/ryayoung/icons/blob/main/svg/folder.blue.svg" height="22"/> &nbsp; PyPI</a>
+
+### `@openai_function`
+The most intuitive, robust and "pure" way to implement functions for OpenAI function calling.
+
+Designed as a more straightforward and ergonomic alternative to [jxnl/instructor](https://github.com/jxnl/instructor).
+
+```py
+@openai_function
+def get_stock_price(ticker: str, currency: Literal["USD", "EUR"] = "USD"):
+    """
+    Get the stock price of a company, by ticker symbol
+
+    Parameters
+    ----------
+    ticker
+        The ticker symbol of the company
+    """
+    return f"182.41 USD, -0.48 (0.26%) today"
+
+
+get_stock_price
+```
+```
+OpenaiFunction({
+    "name": "get_stock_price",
+    "description": "Get the stock price of a company, by ticker symbol",
+    "parameters": {
+        "properties": {
+            "ticker": {
+                "type": "string",
+                "description": "The ticker symbol of the company"
+            },
+            "currency": {
+                "default": "USD",
+                "enum": [
+                    "USD",
+                    "EUR"
+                ],
+                "type": "string"
+            }
+        },
+        "required": [
+            "ticker"
+        ],
+        "type": "object"
+    }
+})
+```
+
+<br>
+
+---
+
+<br>
+
 # [`templatify`](https://github.com/ryayoung/templatify) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://pypi.org/project/templatify/"><img src="https://img.shields.io/pypi/v/templatify.svg" height="21"/></a>
 
 An essential tool for every prompt engineer, `templatify` is a string templating tool that brings Jinja2 **into your python code**.
