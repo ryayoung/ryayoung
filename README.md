@@ -46,22 +46,6 @@ dynamically dispatching calls across a large group of tools at a time.
 
 <br>
 
-# [`pydantic-flagged`](https://github.com/ryayoung/pydantic-flagged)
-
-[![PyPI](https://img.shields.io/pypi/v/pydantic-flagged)](https://pypi.org/project/pydantic-flagged/)
-[![Tests](https://github.com/ryayoung/pydantic-flagged/actions/workflows/tests.yml/badge.svg)](https://github.com/ryayoung/pydantic-flagged/actions/workflows/tests.yml)
-[![License](https://img.shields.io/github/license/ryayoung/pydantic-flagged)](https://github.com/ryayoung/pydantic-flagged/blob/main/LICENSE)
-[![Black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
-[![Pyright](https://img.shields.io/badge/type%20checker-pyright-blue)](https://github.com/microsoft/pyright)
-
-**pydantic-flagged** is a small extension of [Pydantic V2](https://docs.pydantic.dev/latest/) that introduces the concept of _flagged fields_. A flagged field is defined by its name matching a condition––for example, ending with an underscore (`_`). Once flagged fields are identified, you can `include` or `exclude` them from serialization with a simple API.
-
-<br>
-
----
-
-<br>
-
 # [`azure-functions-parser`](https://github.com/ryayoung/azure-functions-parser)
 
 ![PyPI](https://img.shields.io/pypi/v/azure-functions-parser)
@@ -78,6 +62,22 @@ A lightweight decorator that adds FastAPI-like request parsing and validation to
 - Automatic response serialization for different return types (dict, Pydantic models, strings, etc.)
 - Zero configuration required - just add the decorator
 - Full type hints and async support
+
+<br>
+
+---
+
+<br>
+
+# [`pydantic-flagged`](https://github.com/ryayoung/pydantic-flagged)
+
+[![PyPI](https://img.shields.io/pypi/v/pydantic-flagged)](https://pypi.org/project/pydantic-flagged/)
+[![Tests](https://github.com/ryayoung/pydantic-flagged/actions/workflows/tests.yml/badge.svg)](https://github.com/ryayoung/pydantic-flagged/actions/workflows/tests.yml)
+[![License](https://img.shields.io/github/license/ryayoung/pydantic-flagged)](https://github.com/ryayoung/pydantic-flagged/blob/main/LICENSE)
+[![Black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![Pyright](https://img.shields.io/badge/type%20checker-pyright-blue)](https://github.com/microsoft/pyright)
+
+**pydantic-flagged** is a small extension of [Pydantic V2](https://docs.pydantic.dev/latest/) that introduces the concept of _flagged fields_. A flagged field is defined by its name matching a condition––for example, ending with an underscore (`_`). Once flagged fields are identified, you can `include` or `exclude` them from serialization with a simple API.
 
 <br>
 
