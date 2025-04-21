@@ -1,75 +1,101 @@
 <a name="top"></a>
 
-# A few things I made
 
-<br>
+# [`toolcall`](https://github.com/ryayoung/toolcall)
 
-# [`toolcall`](https://github.com/ryayoung/toolcall) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://pypi.org/project/toolcall/"><img src="https://img.shields.io/pypi/v/toolcall.svg" height="21"/></a>
+[![PyPI](https://img.shields.io/pypi/v/toolcall)](https://pypi.org/project/toolcall/)
+[![Tests](https://github.com/ryayoung/toolcall/actions/workflows/tests.yml/badge.svg)](https://github.com/ryayoung/toolcall/actions/workflows/tests.yml)
+[![codecov](https://codecov.io/gh/ryayoung/toolcall/branch/main/graph/badge.svg)](https://codecov.io/gh/ryayoung/toolcall)
+[![License](https://img.shields.io/github/license/ryayoung/toolcall)](https://github.com/ryayoung/toolcall/blob/main/LICENSE)
+[![Black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![Pyright](https://img.shields.io/badge/type%20checker-pyright-blue)](https://github.com/microsoft/pyright)
 
-### <a href="https://github.com/ryayoung/toolcall"><img src="https://github.com/ryayoung/icons/blob/main/svg/code.slash.blue.svg" height="20"/> &nbsp; Code</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://pypi.org/project/toolcall/"><img src="https://github.com/ryayoung/icons/blob/main/svg/folder.blue.svg" height="22"/> &nbsp; PyPI</a>
+*The agentic framework for building without an agentic framework.*
 
-### OpenAI tool/function calling, made easy
-
-- **Argument validation for complex types**
-- **Automatic JSON Schema creation**
-- **Utility methods for end-to-end tool call processing**
-
-```py
-@openai_function
-def get_stock_price(ticker: str, currency: Literal["USD", "EUR"] = "USD"):
-    """
-    Get the stock price of a company, by ticker symbol
-
-    Parameters
-    ----------
-    ticker
-        The ticker symbol of the company
-    currency
-        The currency to use
-    """
-    return f"182.41 {currency}, -0.48 (0.26%) today"
-
-
-schema = get_stock_price.schema
-json.dumps(schema, indent=4)
-```
-```json
-{
-    "type": "function",
-    "function": {
-        "name": "get_stock_price",
-        "description": "Get the stock price of a company, by ticker symbol",
-        "parameters": {
-            "type": "object",
-            "properties": {
-                "ticker": {
-                    "type": "string",
-                    "description": "The ticker symbol of the company"
-                },
-                "currency": {
-                    "type": "string",
-                    "description": "The currency to use",
-                    "enum": [
-                        "USD",
-                        "EUR"
-                    ],
-                    "default": "USD"
-                }
-            },
-            "required": [
-                "ticker"
-            ]
-        }
-    }
-}
-```
-
+For working with LLMs, `toolcall` is a boring, unopinionated, but extremely useful library
+with a function-tool primitive that provides a scalable, statically-type-safe, and readable
+interface and pattern for **manually** defining your own function tools, handling calls to them, and
+dynamically dispatching calls across a large group of tools at a time.
 
 <br>
 
 ---
 
 <br>
+
+# [`pydantic-identity`](https://github.com/ryayoung/pydantic-identity)
+
+[![PyPI](https://img.shields.io/pypi/v/pydantic-identity)](https://pypi.org/project/pydantic-identity/)
+[![Tests](https://github.com/ryayoung/pydantic-identity/actions/workflows/tests.yml/badge.svg)](https://github.com/ryayoung/pydantic-identity/actions/workflows/tests.yml)
+[![License](https://img.shields.io/github/license/ryayoung/pydantic-identity)](https://github.com/ryayoung/pydantic-identity/blob/main/LICENSE)
+[![Black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![Pyright](https://img.shields.io/badge/type%20checker-pyright-blue)](https://github.com/microsoft/pyright)
+
+**pydantic-identity** provides a way to track the full recursive identity (schema “fingerprint”) of your Pydantic models, in 12 character hash. By storing this identifier along with your data, you can later tell whether two records (even deeply nested) were created under the same conditions: model structure, validation rules, documentation, etc.
+
+## Features
+
+- **Schema Hashing**: Generate a stable hash of a model’s entire schema, recursively (includes nested models).
+- **Configurable Tracking**: Choose whether to include things like model/field descriptions, field ordering, default values, union type ordering, relative file path, or custom data in the hash.
+- **Full Pydantic Compatibility**: `BaseIdentityModel` inherits directly from `pydantic.BaseModel`, and does **not** alter its behavior, or manipulate its `model_config`. You can safely swap `pydantic.BaseModel` for `BaseIdentityModel` anywhere you want.
+- **Caching**: Automatically caches computed hashes for performance. A hash is only computed once per *class definition*, and the hash is lazily computed only when it's first accessed.
+
+<br>
+
+---
+
+<br>
+
+# [`pydantic-flagged`](https://github.com/ryayoung/pydantic-flagged)
+
+[![PyPI](https://img.shields.io/pypi/v/pydantic-flagged)](https://pypi.org/project/pydantic-flagged/)
+[![Tests](https://github.com/ryayoung/pydantic-flagged/actions/workflows/tests.yml/badge.svg)](https://github.com/ryayoung/pydantic-flagged/actions/workflows/tests.yml)
+[![License](https://img.shields.io/github/license/ryayoung/pydantic-flagged)](https://github.com/ryayoung/pydantic-flagged/blob/main/LICENSE)
+[![Black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![Pyright](https://img.shields.io/badge/type%20checker-pyright-blue)](https://github.com/microsoft/pyright)
+
+**pydantic-flagged** is a small extension of [Pydantic V2](https://docs.pydantic.dev/latest/) that introduces the concept of _flagged fields_. A flagged field is defined by its name matching a condition––for example, ending with an underscore (`_`). Once flagged fields are identified, you can `include` or `exclude` them from serialization with a simple API.
+
+<br>
+
+---
+
+<br>
+
+# [`azure-functions-parser`](https://github.com/ryayoung/azure-functions-parser)
+
+![PyPI](https://img.shields.io/pypi/v/azure-functions-parser)
+![Tests](https://github.com/ryayoung/azure-functions-parser/actions/workflows/tests.yml/badge.svg)
+![License](https://img.shields.io/github/license/ryayoung/azure-functions-parser)
+
+
+A lightweight decorator that adds FastAPI-like request parsing and validation to Azure Functions HTTP triggers.
+
+## Features
+
+- Automatic parsing and validation of query parameters
+- Automatic parsing and validation of JSON request bodies using Pydantic models
+- Automatic response serialization for different return types (dict, Pydantic models, strings, etc.)
+- Zero configuration required - just add the decorator
+- Full type hints and async support
+
+<br>
+
+---
+
+<br>
+
+# [`firedis`](https://github.com/ryayoung/firedis)
+
+A faster, type-safe Python client for your **local** Redis server. Optimized for high
+frequency, synchronous transactions over a **Unix socket, or localhost**
+
+<br>
+
+---
+
+<br>
+
 
 # [`templatify`](https://github.com/ryayoung/templatify) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://pypi.org/project/templatify/"><img src="https://img.shields.io/pypi/v/templatify.svg" height="21"/></a>
 
